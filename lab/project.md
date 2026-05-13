@@ -2,7 +2,7 @@
 title: project
 desc: "Legacy Code Project instructions"
 assigned: 2026-05-13 17:00
-due: 2026-15-27 19:00
+due: 2026-05-27 19:00
 github_org: ucsb-cs156-s26
 layout: lab
 layout: default
