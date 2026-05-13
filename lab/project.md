@@ -408,8 +408,8 @@ update_from_starter() {
     git fetch starter
     git fetch origin
     git checkout main
-    git pull origin main
-    git pull starter main
+    git merge --no-edit -m "Merge starter/main into main" starter/main
+    git merge --no-edit -m "Merge origin/main into main" origin/main
     git push origin main
     popd
   done
