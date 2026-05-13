@@ -91,29 +91,29 @@ teams:
     dokku: "01"
     team01_project: "4"
     team02_project: "20"
-    legacy_project: "tbd"
-    legacy_kanban: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "39"
     slack: https://ucsb-cs156-s26.slack.com/archives/C0AQ16HHTLN
   - team: s26-02
     dokku: "02"
     team01_project: "5"
     team02_project: "21"
-    legacy_project: "tbd"
-    legacy_kanban: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "40"
     slack: https://ucsb-cs156-s26.slack.com/archives/C0AQ6RWK51S
   - team: s26-03
     dokku: "03"
     team01_project: "6"
     team02_project: "22"
-    legacy_project: "tbd"
-    legacy_kanban: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "41"
     slack: https://ucsb-cs156-s26.slack.com/archives/C0AQ6RSHJ76
   - team: s26-04
     dokku: "04"
     team01_project: "7"
     team02_project: "23"
-    legacy_project: "tbd"
-    legacy_kanban: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "42"
     slack: https://ucsb-cs156-s26.slack.com/archives/C0APMQJ07EK
   - team: s26-05
     dokku: "05"
