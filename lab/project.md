@@ -10,10 +10,10 @@ parent: lab
 num: project
 nav_order: 700
 jpa_create_dev: jpa05
-proj_courses_slack_url: https://ucsb-cs156-s26.slack.com/archives/C09PNAX7ABD
-proj_dining_slack_url: https://ucsb-cs156-s26.slack.com/archives/C09PY9S5WJY
-proj_frontiers_slack_url: https://ucsb-cs156-s26.slack.com/archives/C09PSMK6MHC
-proj_happycows_slack_url: https://ucsb-cs156-s26.slack.com/archives/C09PD9FFZUP
+proj_courses_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B4HRZEZ2L
+proj_dining_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3RCSPWDP
+proj_frontiers_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3T69BMEG
+proj_happycows_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3H6SBM8T
 qxx: s26
 githubOrgUrl: https://github.com/ucsb-cs156-s26
 githubProjectsUrl: https://github.com/orgs/ucsb-cs156-s26/projects
