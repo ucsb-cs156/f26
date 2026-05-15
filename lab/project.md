@@ -454,5 +454,69 @@ The students are then encouraged to set up personal deployments using the projec
 
 Students may create additional deployments if needed.
 
+## dokku cleanup
+
+It's a good idea to clean up the dokku deployments.
+
+This command checks the disk space on the root disks of all of the dokkus (when run on CSIL):
+
+```
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16; do echo "====== dokku-$i =======" ; ssh dokku-$i.cs.ucsb.edu "(df | head -2)"; done
+``
+
+Example output.  This shows a show-stopper problem on dokku-02, and cause for concern on dokkus 1, 3 and 4.
+
+```
+====== dokku-01 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3228-disk-0              8388608    7867520     521088  94% /
+====== dokku-02 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3229-disk-0             16777216    8395520    8381696  51% /
+====== dokku-03 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3230-disk-0              8388608    8151296     237312  98% /
+====== dokku-04 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3231-disk-0              8388608    7254272    1134336  87% /
+====== dokku-05 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3232-disk-0              8388608    5822464    2566144  70% /
+====== dokku-06 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3233-disk-0              8388608    2889856    5498752  35% /
+====== dokku-07 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3234-disk-0              8388608    3029248    5359360  37% /
+====== dokku-08 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3235-disk-0              8388608    3838208    4550400  46% /
+====== dokku-09 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3236-disk-0              8388608    3132800    5255808  38% /
+====== dokku-10 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3237-disk-0              8388608    2884352    5504256  35% /
+====== dokku-11 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3238-disk-0              8388608    3000192    5388416  36% /
+====== dokku-12 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3239-disk-0              8388608    3187840    5200768  39% /
+====== dokku-13 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3240-disk-0              8388608    3319936    5068672  40% /
+====== dokku-14 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3241-disk-0              8388608    3156224    5232384  38% /
+====== dokku-15 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3242-disk-0              8388608    3641600    4747008  44% /
+====== dokku-16 =======
+Filesystem                               1K-blocks       Used  Available Use% Mounted on
+ripve3-zfs/subvol-3243-disk-0              8388608    3295488    5093120  40% /
+pconrad@csilvm-01:~/github/ucsb-cs156-m23/dokku-scripts$ 
+```
+
 
 </details>
