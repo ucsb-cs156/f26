@@ -1,5 +1,5 @@
 ---
-title: "Week 11a - Wed 06/10"
+title: "Week 11a - DATE TBD"
 lecture_date: 2026-06-10
 description: "Final Exam Slot (7:30pm-10:30pm): Demos"
 ready: true
@@ -8,8 +8,7 @@ parent: lectures
 ---
 
 ```
-CMPSC 156 - ADV APP PROGRAM - Spring 2026 (Enrollment Code - 07831)
-Final Examination: Wednesday, June 10, 2026 7:30 PM - 10:30 PM
+INSERT FINAL EXAM DATE TIME HERE
 ```
 
 # Final Project Evaluation (7:30pm-10pm)
@@ -24,98 +23,10 @@ Also note that in cases where the issues were not linked to the PR, or the issue
 even though the features were implemented.
 
 
-**NOTE: The tables below will be updated with tables for S26 between the Friday of week 10, and the Wednesday of finals week.   These are just place holders.**
+**NOTE: The tables below will be updated with tables for F26 between the Friday of week 10, and the Wednesday of finals week.   These are just place holders.**
 
 
-## F26 Legacy repository: proj-courses
-
-| issue | s26-01 | s26-02 | s26-03 | s26-04 |
-|---| ---|---|---|---|
-| [179](https://github.com/ucsb-cs156/proj-courses/issues/179) EPIC:  Build enrollment history page | - | - | - | - |
-| [184](https://github.com/ucsb-cs156/proj-courses/issues/184) FEATURE: Paginate the Job Log Table | - | [PR38](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/38) | [PR24](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/24) | - |
-| [186](https://github.com/ucsb-cs156/proj-courses/issues/186) UX: Increase Visibility of the Course Details Page | [PR28](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/28)  [PR29](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/29) | [PR28](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/28) | [PR31](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/31) | [PR41](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/41) |
-| [189](https://github.com/ucsb-cs156/proj-courses/issues/189) FEATURE: Fix the GE Area Search Form (it's currently broken) | - | - | - | - |
-| [191](https://github.com/ucsb-cs156/proj-courses/issues/191) FEATURE: Implement the GeneralEducationSearchPage | - | - | - | - |
-| [193](https://github.com/ucsb-cs156/proj-courses/issues/193) REFACTOR/UX improvements: Lookup Course by Building Classroom Number | - | [PR33](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/33)  [PR34](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/34) | [PR28](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/28) | - |
-| [203](https://github.com/ucsb-cs156/proj-courses/issues/203) Fix to H2 properties to allow multiple connections. | [PR22](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/22) | - | [PR21](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/21) | [PR25](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/25) |
-| [211](https://github.com/ucsb-cs156/proj-courses/issues/211) REFACTOR: OurPagination has multiple levels of useState that may be unnecessary | [PR43](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/43) | - | - | - |
-| [213](https://github.com/ucsb-cs156/proj-courses/issues/213) CHALLENGING REFACTOR: Refactor app.js and add ProtectedPage.js to better handle unknown routes and routes needing authentication | - | - | - | - |
-| [215](https://github.com/ucsb-cs156/proj-courses/issues/215) EPIC: UX improvements to adding course to schedules | - | - | - | - |
-| [217](https://github.com/ucsb-cs156/proj-courses/issues/217) FEATURE: Add feedback on UCSB Courses Description Search when no courses meet the selection criteria | [PR35](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/35) | [PR23](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/23) | [PR41](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/41) | [PR48](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/48) |
-| [219](https://github.com/ucsb-cs156/proj-courses/issues/219) FEATURE: Add Pagination to the Users Table | - | [PR36](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/36) | - | - |
-| [220](https://github.com/ucsb-cs156/proj-courses/issues/220) FEATURE: ERROR HANDLING: Replace white label error page with something more user friendly | [PR40](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/40) | - | - | - |
-| [230](https://github.com/ucsb-cs156/proj-courses/issues/230) TASK: Remove GradeHistory Eslint Exception | [PR34](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/34) | [PR43](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/43) | [PR34](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/34) | [PR24](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/24) |
-| [231](https://github.com/ucsb-cs156/proj-courses/issues/231) TASK: Remove SectionsTable Eslint Exception | [PR24](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/24)  [PR25](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/25) | [PR41](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/41) | [PR35](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/35) | [PR29](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/29) |
-| [233](https://github.com/ucsb-cs156/proj-courses/issues/233) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
-| [234](https://github.com/ucsb-cs156/proj-courses/issues/234) Restore title "UCSB Courses" (not "Vite + React") and if possible, favicon. | - | - | - | - |
-| [235](https://github.com/ucsb-cs156/proj-courses/issues/235) EPIC: Downloads menu / pages | - | - | - | - |
-| [236](https://github.com/ucsb-cs156/proj-courses/issues/236) Refactor CSV Download for `API for enrollment data` | [PR27](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/27) | [PR40](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/40) | [PR39](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/39)  [PR42](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/42) | [PR31](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/31) |
-| [237](https://github.com/ucsb-cs156/proj-courses/issues/237) Refactor Personal Schedule Details Page | - | [PR25](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/25) | [PR29](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/29) | - |
-| [239](https://github.com/ucsb-cs156/proj-courses/issues/239) Fix incorrect hard coded backup link that is specific to F22. | [PR26](https://github.com/ucsb-cs156-s26/proj-courses-s26-01/pull/26) | [PR27](https://github.com/ucsb-cs156-s26/proj-courses-s26-02/pull/27) | [PR25](https://github.com/ucsb-cs156-s26/proj-courses-s26-03/pull/25) | [PR36](https://github.com/ucsb-cs156-s26/proj-courses-s26-04/pull/36) |
-
-
-## Legacy repository: proj-dining
-
-| issue | s26-05 | s26-06 | s26-07 | s26-08 |
-|---| ---|---|---|---|
-| [44](https://github.com/ucsb-cs156/proj-dining/issues/44) SMALL FEATURE: Add an Endpoint for an Individual Review | [PR29](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/29) | [PR26](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/26) | [PR20](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/20) | [PR22](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/22) |
-| [63](https://github.com/ucsb-cs156/proj-dining/issues/63) FEATURE: Fix link in Footer | [PR27](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/27) | [PR19](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/19) | [PR17](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/17) | [PR33](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/33) |
-| [64](https://github.com/ucsb-cs156/proj-dining/issues/64) BUG: Bad UX on days where UCSB Dining isn't serving meals | [PR21](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/21) | [PR18](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/18)  [PR17](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/17) | [PR33](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/33) | [PR37](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/37) |
-| [65](https://github.com/ucsb-cs156/proj-dining/issues/65) FEATURE: Show meals on page where you can select a dining commons. | [PR35](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/35) | [PR18](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/18) | - | [PR40](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/40) |
-| [66](https://github.com/ucsb-cs156/proj-dining/issues/66) FEATURE: Select day other than today | [PR43](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/43) | [PR22](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/22) | [PR22](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/22) | [PR43](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/43) |
-| [67](https://github.com/ucsb-cs156/proj-dining/issues/67) REFACTOR: replace relative paths in imports with absolute paths. | [PR22](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/22) | [PR16](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/16) | [PR18](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/18) | [PR24](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/24) |
-| [69](https://github.com/ucsb-cs156/proj-dining/issues/69) FEATURE: Replace "Example" Brand with "Dining". | [PR26](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/26) | [PR27](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/27) | [PR16](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/16) | [PR31](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/31) |
-| [70](https://github.com/ucsb-cs156/proj-dining/issues/70) FEATURE: Remove "Placeholder" from menu bar, and code base. | [PR23](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/23) | [PR23](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/23) | [PR19](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/19) | [PR23](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/23) |
-| [71](https://github.com/ucsb-cs156/proj-dining/issues/71) EPIC: Refactor Moderate menu/page | - | - | - | [PR48](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/48) |
-| [72](https://github.com/ucsb-cs156/proj-dining/issues/72) Add Moderator menu with one item: Moderate Reviews | [PR25](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/25) | [PR30](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/30) | [PR23](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/23)  [PR35](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/35) | [PR30](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/30) |
-| [73](https://github.com/ucsb-cs156/proj-dining/issues/73) Add Moderate Aliases page, and link to it from Moderator menu. | [PR48](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/48) | - | - | [PR48](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/48) |
-| [79](https://github.com/ucsb-cs156/proj-dining/issues/79) EPIC: Re-implement the Roles to match implementation in proj-frontiers | - | - | - | - |
-| [80](https://github.com/ucsb-cs156/proj-dining/issues/80) MyReviews page should show the moderator status | [PR28](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/28) | [PR31](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/31) | [PR25](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/25)  [PR26](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/26) | [PR36](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/36) |
-| [92](https://github.com/ucsb-cs156/proj-dining/issues/92) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
-| [93](https://github.com/ucsb-cs156/proj-dining/issues/93) Allow Multiple H2 connections | [PR20](https://github.com/ucsb-cs156-s26/proj-dining-s26-05/pull/20) | [PR28](https://github.com/ucsb-cs156-s26/proj-dining-s26-06/pull/28) | [PR27](https://github.com/ucsb-cs156-s26/proj-dining-s26-07/pull/27) | [PR21](https://github.com/ucsb-cs156-s26/proj-dining-s26-08/pull/21) |
-
-
-## Legacy repository: proj-frontiers
-
-| issue | s26-09 | s26-10 | s26-11 | s26-12 |
-|---| ---|---|---|---|
-| [304](https://github.com/ucsb-cs156/proj-frontiers/issues/304) REFACTOR: Dry up the SigninPage and PromptSigninPage | [PR49](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/49) | [PR21](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/21)  [PR54](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/54) | [PR28](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/28) | [PR27](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-12/pull/27) |
-| [340](https://github.com/ucsb-cs156/proj-frontiers/issues/340) On the page where you can upload roster students, add a link to the Help Page for CSV formats | [PR22](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/22) | [PR27](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/27) | [PR27](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/27) | - |
-| [406](https://github.com/ucsb-cs156/proj-frontiers/issues/406) FEATURE: Add update of "section" to POST and PUT for roster student. | [PR41](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/41) | [PR28](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/28) | [PR60](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/60) | - |
-| [437](https://github.com/ucsb-cs156/proj-frontiers/issues/437) FEATURE: Add course deletion (for admins only) | - | - | - | - |
-| [442](https://github.com/ucsb-cs156/proj-frontiers/issues/442) Rename the "Management" tab on the InstructorCourseShowPage component to a Settings tab (preferably, flush right) | - | - | - | - |
-| [460](https://github.com/ucsb-cs156/proj-frontiers/issues/460) EPIC: Assignments | - | - | - | - |
-| [468](https://github.com/ucsb-cs156/proj-frontiers/issues/468) Add an optional remove from organization to course staff delete | [PR38](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/38)  [PR39](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/39)  [PR50](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/50) | [PR23](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/23) | [PR24](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/24) | [PR17](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-12/pull/17) |
-| [474](https://github.com/ucsb-cs156/proj-frontiers/issues/474) Update Documentation for Frontiers CSV Download and Upload formats | - | [PR42](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/42) | [PR58](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/58) | - |
-| [480](https://github.com/ucsb-cs156/proj-frontiers/issues/480) EPIC: When creating individual assignment repos, give option to create for staff (or not) | - | - | - | - |
-| [481](https://github.com/ucsb-cs156/proj-frontiers/issues/481) UX IMPROVEMENT: Sort by last name or first name, or better yet, allow selection by typing part of the name | [PR17](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/17) | [PR24](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/24)  [PR31](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/31) | [PR56](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/56) | [PR16](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-12/pull/16)  [PR21](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-12/pull/21) |
-| [484](https://github.com/ucsb-cs156/proj-frontiers/issues/484) Sanitize email addresses in backend endpoints that take email addresses | [PR20](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-09/pull/20) | [PR39](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-10/pull/39) | [PR26](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-11/pull/26) | [PR14](https://github.com/ucsb-cs156-s26/proj-frontiers-s26-12/pull/14) |
-| [485](https://github.com/ucsb-cs156/proj-frontiers/issues/485) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
-| [487](https://github.com/ucsb-cs156/proj-frontiers/issues/487) Change title of site from Vite + React to Frontiers | - | - | - | - |
-
-
-
-## Legacy repository: proj-happycows
-
-| issue | s26-13 | s26-14 | s26-15 | s26-16 |
-|---| ---|---|---|---|
-| [149](https://github.com/ucsb-cs156/proj-happycows/issues/149) Add Admin/Developer Info page. | [PR21](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/21) | [PR8](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/8) | [PR9](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/9) | [PR10](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/10) |
-| [150](https://github.com/ucsb-cs156/proj-happycows/issues/150) Add launcher for `/api/jobs/launch/recordcommonstats` to Admin Jobs page | [PR23](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/23)  [PR30](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/30) | [PR18](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/18) | [PR16](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/16) | - |
-| [154](https://github.com/ucsb-cs156/proj-happycows/issues/154) UX REDESIGN: Redesign the Admin List Commons Page | - | [PR11](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/11) | [PR13](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/13) | [PR11](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/11) |
-| [179](https://github.com/ucsb-cs156/proj-happycows/issues/179) UX Refactor: Pagination of chat messages | - | [PR19](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/19) | [PR31](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/31) | [PR9](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/9) |
-| [183](https://github.com/ucsb-cs156/proj-happycows/issues/183) [DIFFICULT] WireMock dependency upgrade | - | - | - | - |
-| [184](https://github.com/ucsb-cs156/proj-happycows/issues/184) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
-| [186](https://github.com/ucsb-cs156/proj-happycows/issues/186) Restore title HappyCows (not Vite + React) and if possible, favicon | - | - | - | - |
-| [187](https://github.com/ucsb-cs156/proj-happycows/issues/187) Navigation and default Home page redesign | [PR28](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/28) | [PR13](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/13) | [PR17](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/17) | - |
-| [189](https://github.com/ucsb-cs156/proj-happycows/issues/189) CRUD operations for courses (admin only) | - | - | - | - |
-| [190](https://github.com/ucsb-cs156/proj-happycows/issues/190) FRONTEND:  Form for Course | [PR48](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/48) | - | - | - |
-| [191](https://github.com/ucsb-cs156/proj-happycows/issues/191) FRONTEND: Course Table | [PR47](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/47) | - | - | [PR36](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/36) |
-| [192](https://github.com/ucsb-cs156/proj-happycows/issues/192) Full CRUD (frontend + backend) for Courses | - | - | - | - |
-| [193](https://github.com/ucsb-cs156/proj-happycows/issues/193) Commons Features Enumeration | [PR43](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/43) | [PR29](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/29)  [PR30](https://github.com/ucsb-cs156-s26/proj-happycows-s26-14/pull/30) | [PR30](https://github.com/ucsb-cs156-s26/proj-happycows-s26-15/pull/30) | [PR37](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/37)  [PR40](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/40) |
-| [194](https://github.com/ucsb-cs156/proj-happycows/issues/194) Commons Features API endpoint | [PR43](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/43)  [PR46](https://github.com/ucsb-cs156-s26/proj-happycows-s26-13/pull/46) | - | - | [PR40](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/40) |
-| [195](https://github.com/ucsb-cs156/proj-happycows/issues/195) React component for toggling CommonsFeatures | - | - | - | [PR41](https://github.com/ucsb-cs156-s26/proj-happycows-s26-16/pull/41) |
-| [196](https://github.com/ucsb-cs156/proj-happycows/issues/196) EPIC: Tax Features | - | - | - | - |
-
+TODO: Insert tables for F26 here
 
 
 ## Staff Notes

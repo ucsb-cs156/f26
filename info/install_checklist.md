@@ -15,7 +15,7 @@ java_version: 21
 
 **{{page.description}}**
 
-After you complete the [software installation steps here](https://ucsb-cs156.github.io/s26/info/software.html), you can use this checklist to make sure that you've done everything properly.
+After you complete the [software installation steps here](https://ucsb-cs156.github.io/f26/info/software.html), you can use this checklist to make sure that you've done everything properly.
 
 There are separate checklists for Mac and Windows/WSL.  For Linux, use the WSL checklist and adapt as needed.
 

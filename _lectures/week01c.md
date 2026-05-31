@@ -1,6 +1,6 @@
 ---
-title: "Week 01c - 04.02 Thu"
-lecture_date: 2026-04-02
+title: "Week 01c - 10.01 Thu"
+lecture_date: 2026-10.01
 description: "Start jpa02. Continue work on install, jpa00, jpa01"
 ready: true
 layout: default
@@ -10,7 +10,7 @@ parent: lectures
 
 # {{page.title}} - {{page.description}}
 
-Today, we introduce [jpa02](https://ucsb-cs156.github.io/s26/lab/jpa02.html), which is an introduction to Spring Boot, junit, jacoco, and pitest.
+Today, we introduce [jpa02](https://ucsb-cs156.github.io/f26/lab/jpa02.html), which is an introduction to Spring Boot, junit, jacoco, and pitest.
 
 It's a bit more challenging that jpa00 and jpa01, and may take you longer to finish.
 

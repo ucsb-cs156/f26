@@ -24,10 +24,9 @@ Submit on Canvas here:
 You have a choice when to schedule the Final Retro.
 
 Your choices are:
-* During class on 05/30 (Week 9 Thursday)
-* During class on 06/04 (Week 10 Tuesday)
-* During class on 06/05 (Week 10 Wednesday)
-* During class on 06/06 (Week 10 Thursday)
+* During class on 06/01/26 (Week 10 Tuesday)
+* During class on 06/02/26 (Week 10 Wednesday)
+* During class on 06/03/26 (Week 10 Thursday)
 * Or outside of class on zoom any time between {{site.retro4_ooc_window_opens}} and {{site.retro4_ooc_window_closes}}
 
 If you choose the "outside of class option", then the same conditions apply as for the previous out of class retro:

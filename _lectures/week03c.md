@@ -1,6 +1,6 @@
 ---
-title: "Week 03c - 04/16 Thu"
-lecture_date: 2026-04-16
+title: "Week 03c - 10/15 Thu"
+lecture_date: 2026-10-15
 description: "Team Agreements, then jpa03/jpa04/jpa05"
 ready: true
 layout: default

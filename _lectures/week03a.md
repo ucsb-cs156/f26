@@ -1,6 +1,6 @@
 ---
-title: "Week 03a - 04/14 Tue"
-lecture_date: 2026-04-14
+title: "Week 03a - 10/13 Tue"
+lecture_date: 2026-10-13
 description: "LTD Jigsaw Discussion (p06)"
 ready: true
 layout: default
@@ -12,7 +12,7 @@ parent: lectures
 
 Today, our entire class period is devoted to this activity:
 
-* <https://ucsb-cs156.github.io/s26/hwk/p06>
+* <https://ucsb-cs156.github.io/f26/hwk/p06>
 
 We will not be taking programming questions until after your group has submitted this activity on Canvas, and certainly not before 6pm.
 

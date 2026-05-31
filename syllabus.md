@@ -24,10 +24,10 @@ nav_order: 1
   * {{site.discussion_section_day}} {{site.discussion_section_times}}
   * Attendance/Participation is expected/required.
   * You must participate the section for which you are registered, since teams are assigned by section.
-* Office Hours: See: [https://ucsb-cs156.github.io/s26/office-hours.html](https://ucsb-cs156.github.io/s26/office-hours.html)
+* Office Hours: See: [https://ucsb-cs156.github.io/f26/office-hours.html](https://ucsb-cs156.github.io/f26/office-hours.html)
 
 
-Course website: <https://ucsb-cs156.github.io/s26/>
+Course website: <https://ucsb-cs156.github.io/f26/>
 
 ## Synchronous Participation Requirement
 
@@ -258,7 +258,7 @@ need your own computing platform (i.e. your own laptop).
 
 You should try to pivot from working on CSIL to working on your own machine as soon as possible.  The software you will need
 to install is listed here:
-* <https://ucsb-cs156.github.io/s26/info/software.html>
+* <https://ucsb-cs156.github.io/f26/info/software.html>
 
 
 ## Accommodations for disabilities

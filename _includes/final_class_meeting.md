@@ -1,13 +1,13 @@
 <details markdown="1">
 <summary>
-Notes about the final class meeting (Wednesday, December 10, 2025 7:30 PM - 10:30 PM)
+Notes about the final class meeting (During Assigned Final Exam Slot)
 </summary>
 
 # Final Class Meeting
 
 The final class meeting will take place during the scheduled final exam slot for the course, which is:
 
-* Wednesday, December 10, 2025 7:30 PM - 10:30 PM
+* TODO: Insert date/time of final exam here
 
 Synchronous participation is required, however partcipation over zoom is fine.
 

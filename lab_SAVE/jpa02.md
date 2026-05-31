@@ -6,14 +6,14 @@ layout: default
 title: jpa02
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-jpa02
-software: https://ucsb-cs156.github.io/s26/info/software.html
-install_check: https://ucsb-cs156.github.io/s26/info/install_check.html
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa02
+software: https://ucsb-cs156.github.io/f26/info/software.html
+install_check: https://ucsb-cs156.github.io/f26/info/install_check.html
 ---
 
 <style>
@@ -194,7 +194,7 @@ Here's the JSON content from the web app, formatted with indentation:
 
 ```text
 {
- name: "s26-xx",
+ name: "f26-xx",
  members: [
    "Alice",
    "Bob",
@@ -208,7 +208,7 @@ Here's the JSON content from the web app, formatted with indentation:
 
 Without indentation, it might look like this; it's harder to read, but equivalent in terms of what it represents.
 ```
-{name: "s26-xx",members: ["Alice","Bob","Chris G.","Danny","Eve","Frances"]}
+{name: "f26-xx",members: ["Alice","Bob","Chris G.","Danny","Eve","Frances"]}
 ```
 
 JSON is usually pronounced like this: "Jay Son", rhyming with the phrase "play on".
@@ -384,7 +384,7 @@ When you do, it will run the test suite, and then generate a jacoco line coverag
 
 ```
 [INFO] --- jacoco:0.8.12:report (default-cli) @ hello ---
-[INFO] Loading execution data file /Users/pconrad/github/ucsb-cs156-s26/jpa02-pconrad/target/jacoco.exec
+[INFO] Loading execution data file /Users/pconrad/github/ucsb-cs156-f26/jpa02-pconrad/target/jacoco.exec
 [INFO] Analyzed bundle 'hello' with 4 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
@@ -579,7 +579,7 @@ In the file `DeveloperTests.java`, locate the test `getName_returns_correct_name
     @Test
     public void getName_returns_correct_name() {
         // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-s26-teams>
+        // <https://bit.ly/cs156-f26-teams>
         assertEquals("Chris G.", Developer.getName());
     }
 ```
@@ -677,7 +677,7 @@ Next, change the names in this method to match those of the members of your team
     
     public static Team getTeam() {
         // TODO: Change this to your team name
-        Team team = new Team("s26-xx");
+        Team team = new Team("f26-xx");
         team.addMember("Alice");
         team.addMember("Bob");
         team.addMember("Chris G.");
@@ -692,13 +692,13 @@ Then, run the test suite (`mvn test`); everything should still pass.
 
 Then, run `mvn test pitest:mutationCoverage` and you'll see we still have a testing gap here.
 
-To address that, let's write a test in `DeveloperTest.java` that the team that `getTeam` returns has the correct name. For example, if your teamname is `s26-00`, the test might look like this:
+To address that, let's write a test in `DeveloperTest.java` that the team that `getTeam` returns has the correct name. For example, if your teamname is `f26-00`, the test might look like this:
 
 ```
     @Test
     public void getTeam_returns_team_with_correct_name() {
         Team  t = Developer.getTeam();
-        assertEquals("s26-00", t.getName());
+        assertEquals("f26-00", t.getName());
     }
 ```
 
@@ -838,7 +838,7 @@ $3 ==> "Team(name=, members=[])"
 jshell> 
 ```
 
-Now, try `t.setName("s26-xx")` then put in `t.toString()` again.  You should get the result: `"Team(name=s26-xx, members=[])"`
+Now, try `t.setName("f26-xx")` then put in `t.toString()` again.  You should get the result: `"Team(name=f26-xx, members=[])"`
 
 You can also try invoking other methods such as `addMember` on the `t` object to see the result.
 

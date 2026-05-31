@@ -18,6 +18,12 @@ parent: lectures
 
 # This week:
 
+
+# team04 and final summary PR
+
+{% include final_summary_pr.md %}
+
+
 ## Release Notes
 
 {% include release_notes.md %}

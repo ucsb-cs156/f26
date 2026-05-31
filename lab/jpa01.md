@@ -1,19 +1,19 @@
 ---
 description: Spring Boot Hello World
-assigned: 2026-04-02
-due: 2024-04-09 23:59
+assigned: 2026-10-02
+due: 2026-10-09 23:59
 layout: default
 title: jpa01
 nav_order: 100
 ready: false
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-jpa01
-software: https://ucsb-cs156.github.io/s26/info/software.html
-install_check: https://ucsb-cs156.github.io/s26/info/install_check.html
-teams_link: "<https://bit.ly/cs156-s26-teams>"
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa01
+software: https://ucsb-cs156.github.io/f26/info/software.html
+install_check: https://ucsb-cs156.github.io/f26/info/install_check.html
+teams_link: "<https://bit.ly/cs156-f26-teams>"
 gradescope_link: https://www.gradescope.com/courses/1223827/assignments/7926213
 ---
 
@@ -161,7 +161,7 @@ Clone that repo somewhere and cd into it.
 
 Then add this remote:
 
-<tt>`git remote add starter git@github.com:ucsb-cs156-s26/STARTER-jpa01.git`</tt>
+<tt>`git remote add starter git@github.com:ucsb-cs156-f26/STARTER-jpa01.git`</tt>
 
 Then do:
 

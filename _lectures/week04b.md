@@ -1,6 +1,6 @@
 ---
-title: "Week 04b - 04/22 Wed"
-lecture_date: 2026-04-22
+title: "Week 04b - 10/21 Wed"
+lecture_date: 2026-10-21
 description: "First Standup (p10)"
 ready: true
 layout: default

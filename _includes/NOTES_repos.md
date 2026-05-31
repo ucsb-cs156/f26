@@ -12,4 +12,4 @@ table * td,th {
 
 | Team |  NOTES repo | Slack |
 |------|-------------|-------|{% for t in site.teams %}
-| {{ t.team }} | [NOTES-{{t.team}}](https://github.com/ucsb-cs156-s26/NOTES-{{t.team}}) | [Slack]({{t.slack}}) |{% endfor %}
+| {{ t.team }} | [NOTES-{{t.team}}](https://github.com/ucsb-cs156-{{site.qxx}}/NOTES-{{t.team}}) | [Slack](site.channels[t.team].url }}) |{% endfor %}

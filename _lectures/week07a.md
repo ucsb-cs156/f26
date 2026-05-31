@@ -1,6 +1,6 @@
 ---
-title: "Week 07a - 05/12 Tue"
-lecture_date: 2026-05-12
+title: "Week 07a - 11/10 Tue"
+lecture_date: 2026-11-10
 description: "Legacy Project Launch (latest possible date)"
 ready: true
 layout: default
@@ -12,4 +12,4 @@ parent: lectures
 
 For details of the legacy project launch, see: 
 
-* <https://ucsb-cs156.github.io/s26/lab/project.html>
+* <https://ucsb-cs156.github.io/f26/lab/project.html>

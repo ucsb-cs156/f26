@@ -1,23 +1,19 @@
 ---
 title: project
 desc: "Legacy Code Project instructions"
-assigned: 2026-05-13 17:00
-due: 2026-05-27 19:00
-github_org: ucsb-cs156-s26
+assigned: 2026-11-06 17:00
+due: 2026-11-19 19:15
+github_org: ucsb-cs156-f26
 layout: lab
 layout: default
 parent: lab
 num: project
 nav_order: 700
 jpa_create_dev: jpa05
-proj_courses_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B4HRZEZ2L
-proj_dining_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3RCSPWDP
-proj_frontiers_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3T69BMEG
-proj_happycows_slack_url: https://ucsb-cs156-s26.slack.com/archives/C0B3H6SBM8T
-qxx: s26
-githubOrgUrl: https://github.com/ucsb-cs156-s26
-githubProjectsUrl: https://github.com/orgs/ucsb-cs156-s26/projects
-githubPagesUrl: https://ucsb-cs156-s26.github.io
+qxx: f26
+githubOrgUrl: https://github.com/ucsb-cs156-f26
+githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f26/projects
+githubPagesUrl: https://ucsb-cs156-f26.github.io
 ---
 
 <style>
@@ -25,7 +21,7 @@ githubPagesUrl: https://ucsb-cs156-s26.github.io
 </style>
 
 
-# s26 Legacy Project Launch
+# f26 Legacy Project Launch
 
 On {{ page.assigned | date: '%A %B %d %Y at %l:%M%p' }}, in discussion, we'll launch the legacy code projects.
 
@@ -46,7 +42,7 @@ Taking on new work after that point is not permitted, since we need time for the
 
 | Team <br ><span style="font-size:80%">Links to Slack</span>| Project <br ><span style="font-size:80%">Links to Legacy Repo</span> | Team Repo | PRs | Github Pages | Kanban | Dokku Prod | Dokku qa |
 |------|----|------|-----|--------------|--------|------------|----------|{% for team in site.teams %}{% capture repoName %}proj-{{team.legacy_project}}-{{team.team}}{% endcapture %}
-|  [{{team.team}}]({{team.slack}}) | [{{team.legacy_project}}](https://github.com/ucsb-cs156/proj-{{team.legacy_project}}) | [ team repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ PRs ]({{page.githubOrgUrl}}/{{repoName}}/pulls) |  [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.legacy_kanban}}) | [ dokku prod ](https://{{team.legacy_project}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{team.legacy_project}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) |{% endfor %}
+|  [{{team.team}}]({{site.channels[t.team].url }}) | [{{team.legacy_project}}](https://github.com/ucsb-cs156/proj-{{team.legacy_project}}) | [ team repo ]({{page.githubOrgUrl}}/{{repoName}}) |   [ PRs ]({{page.githubOrgUrl}}/{{repoName}}/pulls) |  [ github pages ]({{page.githubPagesUrl}}/{{repoName}}) | [ kanban ]({{page.githubProjectsUrl}}/{{team.legacy_kanban}}) | [ dokku prod ](https://{{team.legacy_project}}.dokku-{{team.dokku}}.cs.ucsb.edu) | [ dokku qa ](https://{{team.legacy_project}}-qa.dokku-{{team.dokku}}.cs.ucsb.edu) |{% endfor %}
 
 
 # The Assignment, Briefly.
@@ -236,13 +232,13 @@ Staff information for legacy code phase
 
 ## Creating the team repos
 
-Use the scripts in <https://github.com/ucsb-cs156-s26/membership-scripts> to create the repos and set them up with branch protections, etc.
+Use the scripts in <https://github.com/ucsb-cs156-f26/membership-scripts> to create the repos and set them up with branch protections, etc.
 
 Initially, just create team repos the same way you did for STARTER-team01, STARTER-team02, etc., but with a regex for the teams.
 
 This workflow will do it:
 
-* <https://github.com/ucsb-cs156-s26/membership-scripts/actions/workflows/37-create-team-repos-with-regex.yml>
+* <https://github.com/ucsb-cs156-f26/membership-scripts/actions/workflows/37-create-team-repos-with-regex.yml>
 
 Be careful with the regex:
 
@@ -279,7 +275,7 @@ Next, put these numbers in `_config.yml` file of the repo for the course website
 
 ## Link the kanban board to the repos
 
-Use the script: <https://github.com/ucsb-cs156-s26/membership-scripts/actions/workflows/45-link-team-projects.yml>
+Use the script: <https://github.com/ucsb-cs156-f26/membership-scripts/actions/workflows/45-link-team-projects.yml>
 
 NOTE: This must be done separately for each project, e.g.
 * Run once for proj-courses
@@ -307,18 +303,18 @@ This workflow sets up branch protections for legacy code repos, as well as popul
 
 However, you should not run it until the repos are populated with the starter code.
 
-* <https://github.com/ucsb-cs156-s26/membership-scripts/blob/main/.github/workflows/70-setup-project-repo.yml>
+* <https://github.com/ucsb-cs156-f26/membership-scripts/blob/main/.github/workflows/70-setup-project-repo.yml>
 
 ### Be sure issues you want students to work on are tagged
 
-Check the issues list. Make a tag (e.g. `s26`) for the issues you want the students to work on.
+Check the issues list. Make a tag (e.g. `f26`) for the issues you want the students to work on.
 
 ### Set variable to used used by workflow 99
 
-In workflow 99, the tag gets its value from the organization variable QXX which should be set to match the tag (e.g. `s26`) that's 
+In workflow 99, the tag gets its value from the organization variable QXX which should be set to match the tag (e.g. `f26`) that's 
 applied to the issues you want to bulk copy over.
 
-* Visit: <https://github.com/organizations/ucsb-cs156-s26/settings/variables/actions> to set that value, e.g. to `s26`
+* Visit: <https://github.com/organizations/ucsb-cs156-f26/settings/variables/actions> to set that value, e.g. to `f26`
 
 It should look like this:
 
@@ -344,31 +340,17 @@ In the Slack workspace, set up channels for each project:
 
 You can click "Skip for Now" and add folks to the channels later, or invite the students and staff to add themselves to the channels.
 
-Then, update the links at the top of this page to the project slack channels (in the front matter):
-
-Copy the link to the channel:
-
-<img width="708" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/aa9a8129-336b-4932-a995-cefb34f093bf">
-
-And then configure in the front matter of this page:
-
-```
-proj_courses_slack_url: https://ucsb-cs156-f23.slack.com/archives/C066057BBHA
-```
-
-Repeat for every project.
-
 
 ## Populate repos
 
 
 ### Initial setup of directory
 
-First, `cd` into an appropriate directory.  I use `~/github/ucsb-cs156-s26`, like this:
+First, `cd` into an appropriate directory.  I use `~/github/ucsb-cs156-f26`, like this:
 
 ```
-mkdir -p ~/github/ucsb-cs156-s26
-cd ~/github/ucsb-cs156-s26
+mkdir -p ~/github/ucsb-cs156-f26
+cd ~/github/ucsb-cs156-f26
 ```
 
 ### Clone all repos; set up starter remotes
@@ -379,11 +361,11 @@ add a remote for the starter code.
 ```
 clone_and_setup_starter() {
   local proj="$1"; shift; local teams=("$@")
-  mkdir -p ~/github/ucsb-cs156-s26
+  mkdir -p ~/github/ucsb-cs156-f26
   for t in "${teams[@]}"; do
-    pushd ~/github/ucsb-cs156-s26
-    git clone git@github.com:ucsb-cs156-s26/proj-$proj-s26-$t.git
-    pushd proj-$proj-s26-$t
+    pushd ~/github/ucsb-cs156-f26
+    git clone git@github.com:ucsb-cs156-f26/proj-$proj-f26-$t.git
+    pushd proj-$proj-f26-$t
     git remote add starter git@github.com:ucsb-cs156/proj-$proj.git
     popd
     popd
@@ -404,7 +386,7 @@ updates to the starter code as needed:
 update_from_starter() {
   local proj="$1"; shift; local teams=("$@")
   for t in "${teams[@]}"; do
-    pushd ~/github/ucsb-cs156-s26/proj-$proj-s26-$t
+    pushd ~/github/ucsb-cs156-f26/proj-$proj-f26-$t
     git fetch starter
     git fetch origin
     git checkout main
@@ -422,7 +404,7 @@ update_from_starter happycows 13 14 15 16
 
 ## Configure repos
 
-Use this script: <https://github.com/ucsb-cs156-s26/membership-scripts/actions/workflows/70-setup-project-repo.yml>
+Use this script: <https://github.com/ucsb-cs156-f26/membership-scripts/actions/workflows/70-setup-project-repo.yml>
 
 ## Populate the issues
 

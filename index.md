@@ -1,5 +1,5 @@
 ---
-title: CS156 s26
+title: CS156 f26
 permalink: "/"
 layout: default
 nav_order: 0
@@ -7,19 +7,19 @@ nav_order: 0
 
 # {{site.title}}, {{site.quarter}}
 
-Seating chart and teams: <https://bit.ly/cs156-s26-teams> 
+Seating chart and teams: <https://bit.ly/cs156-f26-teams> 
 
 Or, this QR code:
 
-<img width="400" height="400" alt="bit ly cs156-s26-teams" src="https://github.com/user-attachments/assets/de908f8c-365b-4bc8-8de0-e8cc4108aa7c" />
+<img width="400" height="400" alt="bit ly cs156-f26-teams" src="https://github.com/user-attachments/assets/de908f8c-365b-4bc8-8de0-e8cc4108aa7c" />
 
 
 
 On Canvas: <{{site.aux_links["Canvas"]}}>
 
-Course Github Org: <https://github.com/ucsb-cs156-s26>
+Course Github Org: <https://github.com/ucsb-cs156-f26>
 
-<!-- Legacy Code Project: <https://ucsb-cs156.github.io/s26/lab/project.html> -->
+<!-- Legacy Code Project: <https://ucsb-cs156.github.io/f26/lab/project.html> -->
 
 ## Thanks
 

@@ -7,12 +7,12 @@ title: jpa05
 prev_lab: jpa00
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-jpa05
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa05
 ---
 
 <style>
@@ -225,7 +225,7 @@ Once the key is uploaded, you're all set to be able to sign your commits!
 
 ## Step 3: Make a test commit and push to GitHub
 
-Just like in [{{page.prev_lab}}](/s26/labs/{{page.prev_lab}}.html), change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
+Just like in [{{page.prev_lab}}](/f26/labs/{{page.prev_lab}}.html), change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
 
 ```
         System.out.println("Hello, World!");
@@ -241,9 +241,9 @@ git push origin main
 
 Ensure when you push to GitHub, your output does not look like this:
 ```bash
-To github.com:ucsb-cs156-s26/jpa05-yourGithubId.git
+To github.com:ucsb-cs156-f26/jpa05-yourGithubId.git
  ! [remote rejected]   main -> main (push declined due to repository rule violations)
-error: failed to push some refs to 'github.com:ucsb-cs156-s26/jpa05-yourGithubId.git'
+error: failed to push some refs to 'github.com:ucsb-cs156-f26/jpa05-yourGithubId.git'
 ```
 
 If so, please ask for help in the slack channel.
@@ -287,5 +287,5 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Create {{page.title}} repos 
 * Set up starter code in the course organization, and update links
 * Create a Gradescope assignment for {{page.title}}
-* Run a script to set up the restrictions for signed commits for all repos with the prefix {{page.title}}.  The script here should do it: <https://github.com/ucsb-cs156-s26/membership-scripts/blob/main/.github/workflows/34-create-public-repos-with-commit-verification.yml>
+* Run a script to set up the restrictions for signed commits for all repos with the prefix {{page.title}}.  The script here should do it: <https://github.com/ucsb-cs156-f26/membership-scripts/blob/main/.github/workflows/34-create-public-repos-with-commit-verification.yml>
 </details>

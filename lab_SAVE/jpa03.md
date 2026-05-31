@@ -6,17 +6,17 @@ layout: default
 title: jpa03
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-jpa03
-slack_help_channel: "[#help-jpa03](https://ucsb-cs156-s26.slack.com/archives/C08LVULHME1)"
-teams_url: https://bit.ly/cs156-s26-teams
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa03
+slack_help_channel: "[#help-jpa03](https://ucsb-cs156-f26.slack.com/archives/C08LVULHME1)"
+teams_url: https://bit.ly/cs156-f26-teams
 example_running_app: https://jpa03-staff.dokku-00.cs.ucsb.edu/
-office_hours_page: https://ucsb-cs156.github.io/s26/office-hours
-software_install_url: https://ucsb-cs156.github.io/s26/info/software.html
+office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
+software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "djensen@ucsb.edu,benjaminconte@ucsb.edu,samuelzhu@ucsb.edu,divyanipunj@ucsb.edu,sangitakunapuli@ucsb.edu,amey@ucsb.edu,phtcon@ucsb.edu"
 canvas_link: https://ucsb.instructure.com/courses/25659/assignments/348159
 ---
@@ -360,7 +360,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   ```
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
-* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-s26/settings/actions>
+* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-f26/settings/actions>
 
   This is needed so that the github actions scripts have write access to the directory.
 

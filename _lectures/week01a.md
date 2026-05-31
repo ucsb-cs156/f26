@@ -1,200 +1,51 @@
 ---
-title: "Week 01a - 03/31 Tue"
-lecture_date: 2026-03-31
-description: "Introduction, Meeting your team, Team agreements"
+title: "Week 01a - 09/29 Tue"
+lecture_date: 2026-09-29
+description: "Install software, start jpa00, jpa01"
 ready: true
 layout: default
 parent: lectures
-self_introduction_on_canvas: "[Participation Activity P01 on Canvas](https://ucsb.instructure.com/courses/32781/assignments/455921)"
-group_activity_on_canvas: "[Participation Activity P04 on Canvas](https://ucsb.instructure.com/courses/32781/assignments/455923)"
 ---
 
+# {{page.title}} - {{page.description}}
 
-Link to [Slides]({{page.slides}})
+Today's activity is {{page.on_canvas}}.
 
-# Please sit with your team:
+Also note that you can get started on some of this *before* class and you are encouaged to do so.  If you get it all done before class, then all you need to do is come to class to check in briefly, and possibly help some of your teammates.
 
-Team list: <https://bit.ly/cs156-s26-teams>
+## Outline for Today
 
+1. Dokku is the platform where we'll be deploying web apps in this course, so let's test your dokku access.  Here's how:
+   * First, ssh into your CSIL account at `csil.cs.ucsb.edu` (if you are unfamiliar with this, ask your teammates first before asking the staff.)
+   * Then, *from* your session on `csil.cs.ucsb.edu`, try this command:
+     
+     <tt>ssh <i>username</i>@dokku-<i>xx</i>.cs.ucsb.edu</tt>
+ 
+     where <tt><i>username</i></tt> is your CSIL username, and <tt><i>username</i></tt> is your two digit team number (e.g. `04` or `13`).
 
-# My special passion: Teaching real world software practice
+     If it doesn't work, check the steps in H00 again where you set up your private key and authorized key files.
 
-Why is this course different from all other courses?
+     If it *still* doesn't work, ask for help on [#help-lecture-discussion]({{site.channels.help-lecture-discussion.url}}).
 
-Because as a young software developer I saw a gap between what I learned in school, and what i needed in industry.
+     Once it works, make a post to your team slack channel that says: "I can login to dokku".
 
-# What's this course about?
+     But if you are unable to resolve the dokku issue in a reasonable amount of time, make a post on your team channel that says: "I cannot log into dokku", as well as making a post on `#help-dokku` describing what's happening (along with screenshots.)
 
-Helping prepare you for transition from "Computer Science Student" to "Professional Software Dev"
+   
+2. Next, check in on your Slack with your name, and what platform you use, e.g. `I use MacOS`, or `I use Windows/WSL` or `My laptop runs Ubuntu Linux` or whatever.
+   * Optional: You may want to rearrange yourself at the table so that Mac folks are sitting with Mac folks, and Windows folks with Windows folks, etc.  This will make it easier if you run into problems later, since you can check in with your neighbor.
+3. Follow the instructions at this link: <https://ucsb-cs156.github.io/f26/info/software.html>
+   * If you get stuck, check your slack channel to see which team members have the same platform as you.  Try to get help from them first.
+   * If the folks are your team don't know, then try the [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) channels. Before posting your question, see if it's already been answered by someone else.
+   * If you post a question that has no answer, then copy a link to your Slack post, and post that *again* on [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}}).  Include your table number along with the link to your question on either [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}})
 
-# What's different?
+4. When you are all finished, go through the checklist at:  <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to ensure that each item works as expected.  If it doesn't, then ask for help (using the same order as in step 2: (1) team slack channel and live people (2) [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) (3) [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}}) with table/team number and link to your post on [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}).
 
-| Dimension | CS Student | Professional SW Dev  |
-|---------|-------|----------|
-| What: Differences in Scope | well-defined, fixed scope | vague, open-ended, evolving scope |
-| When: Short vs. Long Time Spans | short time spans (days, weeks)  | long time spans (months, years) |
-| Who: Individual vs. Large Team | individuals, pairs, small groups  | larger teams |
-| Why: Learning vs. User Needs | to learn something  | to address a user need |
-| How: Ad-Hoc vs. Professional | ad-hoc tools and practices |  professional tools and formal practices |
-| How Big: Small vs. Large Codebases | small programs | large complex systems |
-{:.table .table-sm .table-striped .table-bordered}
-
-# How the course runs
-
-- First half: Traditional hwk and coding assignments (more like the CS student column)
-- Second half: Legacy Code projects (more like the Professional SW dev column)
-
-# Format: Not so much lecture
-
-* "Lectures" (75 minute classes on TR)
-  - Typically try to keep the lecture material to between 15-30 minutes, max 45
-  - Usually between 30-60 minutes of group, hands on work in your teams
-* "Discussion" (50 minute classes on Wednesday)
-  - Typically try to keep instructions to 5-15 minutes
-  - 35-45 minutes with your teams
-
-# [`#help-lecture-discussion`]({{site.help_lecture_discussion}})
-
-The #help-lecture-discussion channel on the Slack is special.
-
-* <{{site.slack_help_lecture_discsussion}}>
-* Use it when we are in "work mode" during lecture or discussion and you need help.
-
-Please use #help-lecture-discussion
-- Instead of Raising your hand
-- Instead of Walking up to TA/instructor/LA (they may be in the middle of helping someone else)
-- Instead of Using the "ask for help" button on Zoom
-
-Note that the zoom "ask for help" button doesn't work well:
-- It doesn't maintain a queue
-- Only the "zoom host" sees it
-- It immediately disappears without a trace.
-
-# The course website
-
-Here: <https://ucsb-cs156.github.io>
-
-Note the two parts:
-* Permanent part for CS156
-* The part for `/s26/` specifically
-
-
-# Where is the syllabus?
-
-Here:
-
-* <https://ucsb-cs156.github.io/s26/syllabus>
-
-# Online access to the textbooks
-
-* Reading in the textbooks: Use <https://bit.ly/ucsb-or> to get online access
-* Then use:
-  - <https://bit.ly/or-hfj3> Head First Java, 3rd Edition
-  - <https://bit.ly/or-jn8> Java in a Nutshell, 8th Edition
-
-# Homework
-
-## For next Tuesday
-
-* Before next Tuesday's lecture, read this article: <https://pconrad.github.io/files/paper028.pdf>
-  - During an upcoming class, you'll be dividing up the six parts of section 4 among the team members,
-    and then doing a more detailed read for a homework assignment due in a few days.
-
-* As you read, be prepared to discuss the ways in which developers felt unprepared,
-  and what experiences they wish they had during their courses at University.
-
-  The point of reading this paper is to try to understand *why* this course is structured the way it is.
-
-# Other Homework will be on Canvas/Gradescope
-
-* You can access Gradescope through Canvas
-* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/s26>
-* There may be reading assignments that go along with each homework assignment.
-
-# What will we learn in this class:
-
-* How real world sofware is put together
-  - Coding to build applications, not just to learn a data structure, algorithm or language feature
-* Working with legacy code
-* Full stack web applications
-  - Java backend
-  - JavaScript/React front end
-  - Databases and APIs
-
-Legacy Applications: They existed before this course started, and will continue to exist in the future.
-
-# Logistics
-
-* Check website for software to install <https://ucsb-cs156.github.io/s26/info/software.html>
-
-# Now we meet our first team
-
-We'll now separate into teams, (and/or go into breakout rooms if online) and you'll meet the first team you'll be working with during the course.
-
-Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
-
-Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://bit.ly/cs156-s26-teams>
-
-Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own  breakout room discussion.
-
-
-# What to do in your breakout room
-
-1. If you haven't yet made a post to your team channel introducing yourself,
-   i.e. {{self_introduction_on_canvas}}, please do that now, following the instructions at {{page.self_introduction_on_canvas}}.
-
-   The deadline for full credit for this activity is at the end of today's
-   lecture, and it will only take a moment.
-
-2. Once everyone on your team has done that, you are going to work as a team on
-   the activity at this link on canvas:
-
-   * <{{page.group_activity_on_canvas}}>
-
-
-# If time remains, here's what to do with it
-
-If you complete the activities above, with the time remaining, you are invited to discuss with one another your prior experience with these technologies, and record some of that discussion in your Slack channel.
-
-*It's totally fine if you have no experience with any of these things.*  Success in this course is defined by *learning*, which is the change between where you start and where you end up at the end of the course.   So, don't worry about comparing yourself to others and feeling like you don't belong.
-
-We ask  because the staff can construct a better learning experience for everyone if we know where people are starting.
-
-Which of these areas are ones where you have some prior experience, and which are areas where you are a complete beginner?
-
-What are you most interested to learn in this course?
-
-* Java
-* JavaScript
-* Basic HTML/CSS
-* Working with RESTFul APIs
-* Web app programming in any framework (the idea of a Web backend vs. frontend)
-* Spring or Spring Boot, specifically
-* React, specifically
-* Testing with a test framework such a JUnit, Jest, Mocha, Cypress, etc.
-* Test Coverage
-* basic git (`git add`, `git commit`, `git push`)
-* advanced GitHub (multiple branches, pull requests, rebasing branches)
-* Kanban boards (e.g. Trello, or Projects inside GitHub)
-* User Stories ("As an X i can Y so that Z")
-
-Record as much of your conversation as you are able in the Slack channel
-
-# For Wednesday (tomorrow)
-
-Complete H00, and P01 on Canvas (should take less than 30 minutes combined. ).
-
-You may also like to start looking at tomorrow's discussion section activity and get a headstart on it; it involved downloading and installing software.   
-
-Some parts of it may involve long download times, so getting a headstart before discussion tomorrow is a good idea.
-
-# For Thursday
-
-If you are new to Java, you are encouraged to start reading the chapters in Head First Java; as many as you can get through before Thursday, but at a minimum, Chapters 1,2,3 (they are short and have lots of pictures, so don't panic.)
-
-# For next Tuesday
-
-Read the Listening to Developers Paper:
-* <https://pconrad.github.io/files/paper028.pdf>
+5. When all items work as expected, make a post on your slack channel that says: "Installation steps for P04: installation check complete", and post that link to Canvas.
+6. **IF YOU RUN OUT OF TIME**, i.e. class is almost over and it doesn't look like you'll finish:
+   * Make a post on Canvas that says: P04: installation check incomplete" and then lists the things you still need to do.
+   * Submit that post as your answer to P04 on Canvas.  As long as you make a post that reports your current status, and as long as you made a valid attempt to do as much as you could today during classtime, **you get full credit**.
+   * You will *still* need to finish these installation steps eventually, preferably outside of class, and make a post that says: "Install check complete!" at some point, preferably before your discussion section on Wednesday, but at the latest by next Tuesday.  However, the minimum requirement for full credit for the participation grade today is just to get as far as you can with it, and then document what still needs to be done.  If you get it all done, that's even better, but not required for full credit.
+6. Then work on jpa00, and then jpa01 (find them under "labs" on the course website.)
+7. If you've done *all* of the items above, then check in with your teammates on the Slack channel and/or in person to see if any of them need any help.  If so, please help them as best you can. If not, you are *free to go early*, but only if you've finished jpa00 and jpa01 and no one else on your team needs your help.
 

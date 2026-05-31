@@ -1,19 +1,19 @@
 ---
 layout: default
-assigned: 2025-10-30
+assigned: 2026-10-30
 description: 'Integration and E2E Testing'
-due: 2025-11-06
+due: 2026-11-06
 title: team03
 repo_to_work_in: team02
 layout: default
-qxx: s26
-canvas: https://ucsb.instructure.com/courses/27687/assignments/381965
-starter: https://github.com/ucsb-cs156-s26/STARTER-team02
-sample_team: s26-04
+qxx: f26
+canvas: https://ucsb.instructure.com/courses/TBD
+starter: https://github.com/ucsb-cs156-f26/STARTER-team02
+sample_team: f26-04
 layout: default
 parent: lab
-github_org: ucsb-cs156-s26
-github_org_url: https://github.com/ucsb-cs156-s26/
+github_org: ucsb-cs156-f26
+github_org_url: https://github.com/ucsb-cs156-f26/
 video_testing_pyramid: "[team03 01 - Testing Pyramid (10 min)](https://youtu.be/zvLlO8EUh0c)"
 video_integration_tests: "[team03 02 - Integration Tests (24 min)](https://youtu.be/ohPxfE0hbZI)"
 video_e2e_tests: "[team03 03 - End-to-end Tests (32 min)](https://youtu.be/SGhXLNJrA8I)"
@@ -77,7 +77,7 @@ Click triangle for links to the repos:
 
 | Repo | Kanban Board | GH Pages | Dokku | Dokku QA | Slack |
 |-----|-----|------|{% for t in site.teams %}
-|[{{page.repo_to_work_in}}-{{t.team}}]({{page.github_org_url}}/{{page.repo_to_work_in}}-{{t.team}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.repo_to_work_in}}-{{t.team}}) | [dokku](https://{{page.repo_to_work_in}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.repo_to_work_in}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack]({{t.slack}}) | {% endfor %}
+|[{{page.repo_to_work_in}}-{{t.team}}]({{page.github_org_url}}/{{page.repo_to_work_in}}-{{t.team}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.repo_to_work_in}}-{{t.team}}) | [dokku](https://{{page.repo_to_work_in}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.repo_to_work_in}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack](site.channels[t.team].url }}) | {% endfor %}
 
 </details>
 

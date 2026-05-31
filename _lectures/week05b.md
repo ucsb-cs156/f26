@@ -1,6 +1,6 @@
 ---
-title: "Week 05b - 04/28 Tue"
-lecture_date: 2026-04-28
+title: "Week 05b - 10/28 Wed"
+lecture_date: 2026-10-28
 description: "Continue work on team01/team02/team03"
 ready: true
 layout: default

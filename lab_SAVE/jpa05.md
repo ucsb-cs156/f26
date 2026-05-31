@@ -7,16 +7,16 @@ title: jpa05
 prev_lab: jpa03
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-jpa05
-slack_help_channel: "[#help-jpa05](https://ucsb-cs156-s26.slack.com/archives/C09K987DZ08)"
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa05
+slack_help_channel: "[#help-jpa05](https://ucsb-cs156-f26.slack.com/archives/C09K987DZ08)"
 example_running_app: https://jpa05-staff.dokku-00.cs.ucsb.edu/
-office_hours_page: https://ucsb-cs156.github.io/s26/office-hours
-software_install_url: https://ucsb-cs156.github.io/s26/info/software.html
+office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
+software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
 starter_storybook: "https://67f864a308dbcc23529c76e8-hpbxoidyyg.chromatic.com/"
 ---

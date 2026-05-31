@@ -1,11 +1,11 @@
 ---
 layout: default
 assigned: 2025-05-15 17:00
-description: 'CATME PeerEval2'
+description: 'CATME PeerEval1'
 due: 2025-05-16 23:59
 title: peerEval1
 layout: default
-qxx: s26
+qxx: f26
 ---
 
 This homework grade is to complete your CATME peer evaluation by the published deadline.  

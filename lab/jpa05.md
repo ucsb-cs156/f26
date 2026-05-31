@@ -1,17 +1,17 @@
 ---
 description: "Configuring dev deployment of legacy app"
-assigned: 2025-10-15
-due: 2025-10-30 23:59
+assigned: 2026-10-15
+due: 2026-10-30 23:59
 layout: default
 title: jpa05
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s26
-course_org_name: ucsb-cs156-s26
-slack_help_channel: "[#help-jpa05](https://ucsb-cs156-s26.slack.com/archives/C09K987DZ08)"
+course_org: https://github.com/ucsb-cs156-f26
+course_org_name: ucsb-cs156-f26
+slack_help_channel: "[#help-jpa05](https://ucsb-cs156-f26.slack.com/archives/C09K987DZ08)"
 staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
 previous_deploy_backend_lab: jpa03
 ---
@@ -104,10 +104,10 @@ This step may differ in subtle ways across the four repos, so we have created se
 
 | Teams | Repo |
 |-|-|
-| `01,02,03,04` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-happycows.html> |
+| `01,02,03,04` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-courses.html> |
+| `05,06,07,08` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-happycows.html> |
 
 
 
@@ -119,10 +119,10 @@ This step may differ in subtle ways across the four repos, so we have created se
 
 | Teams | Repo |
 |-|-|
-| `01,02,03,04` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://ucsb-cs156.github.io/s26/lab/jpa05/proj-happycows.html> |
+| `01,02,03,04` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-courses.html> |
+| `05,06,07,08` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://ucsb-cs156.github.io/f26/lab/jpa05/proj-happycows.html> |
 
 
 ### What if it doesn't work?

@@ -19,7 +19,7 @@ Instructions on installing these follow below.
 * Java {{page.java_version}} (`bellsoft-liberica-jdk` distribution recommended).
 * Maven {{page.maven_version}}
 
-When you are finished, check <https://ucsb-cs156.github.io/s26/info/install_checklist.html> to double check that you completed every step successfully.
+When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to double check that you completed every step successfully.
 
 # Software to Install in week 3 (for frontend development)
 
@@ -134,7 +134,7 @@ It turns out that almost everything in terms of installing software (Java, Maven
 Therefore we strongly suggest that if you have a Windows environment, you install the Windows Subsystem for Linux (WSL) and then follow the 
 instructions under Linux/WSL.
    
-If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [#help-windows-linux-wsl]({{site.help_windows_link}}) channel on Slack. In that case, we will try to find an alternative for you.
+If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [#help-windows-linux-wsl]({{site.channels.help-wsl-linux.url}}) channel on Slack. In that case, we will try to find an alternative for you.
  
 ## Recommended for Ubuntu Linux / WSL Users
  
@@ -154,7 +154,7 @@ If you're using a Linux distribution that is not Ubuntu (or a similar Debian-bas
 
 ## Recommmended for MacOS Users
 
-If you have questions about this section, please ask on the [[`#help-macos`]({{site.help_macos_link}})]({{site.help_macos_link}}) channel on the Slack
+If you have questions about this section, please ask on the [[`#help-macos`]({{site.channels.help-macos.url}})]({{site.channels.help-macos.url}}) channel on the Slack
 
 1. MacOS version: If you have a MacOS version that is really old (e.g. 12.x), you should consider upgrading to a later version.
 
@@ -267,7 +267,7 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
 
    That shows the wrong Java version (23).
 
-   If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.help_macos_link}}) channel on the course slack.
+   If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
    
 4. nvm, Node, and npm
 

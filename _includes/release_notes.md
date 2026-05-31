@@ -10,7 +10,7 @@ You are required to prepare a set of release notes as a team.
 
 Please prepare these as a Google Drive document in the same folder where you do your retros.
 
-Please call the file `s26-xx-release-notes`.
+Please call the file <tt>{{site.qxx}}-xx-release-notes</tt>.
 
 Please include the name of your team and a link to your repo at the top of the page,
 along with the names of the members of your team.

@@ -1,26 +1,26 @@
 ---
 description: "Intro to Kanban, PRs, Code Review, Spring Boot CRUD"
-assigned: 2025-10-21
-due: 2025-10-28 23:59
+assigned: 2026-10-21
+due: 2026-10-28 23:59
 layout: default
 title: team01
 nav_order: 100
 ready: false
-qxx: s26
+qxx: f26
 layout: default
 parent: lab
-sample_team: s26-03
-github_org_url: https://github.com/ucsb-cs156-s26
-github_org: ucsb-cs156-s26
-starter_repo: https://github.com/ucsb-cs156-s26/STARTER-team01
-starter_repo_url: git@github.com:ucsb-cs156-s26/STARTER-team01.git
-slack_help_channel: "[#help-team01](https://ucsb-cs156-s26.slack.com/archives/C09M40206CC)" 
-teams_url: https://bit.ly/cs156-s26-teams
-office_hours_page: https://ucsb-cs156.github.io/s26/office-hours
-software_install_url: https://ucsb-cs156.github.io/s26/info/software.html
+sample_team: f26-03
+github_org_url: https://github.com/ucsb-cs156-f26
+github_org: ucsb-cs156-f26
+starter_repo: https://github.com/ucsb-cs156-f26/STARTER-team01
+starter_repo_url: git@github.com:ucsb-cs156-f26/STARTER-team01.git
+slack_help_channel: "[#help-team01](https://ucsb-cs156-f26.slack.com/archives/C09M40206CC)" 
+teams_url: https://bit.ly/cs156-f26-teams
+office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
+software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
-starter_storybook: "https://ucsb-cs156-s26.github.io/STARTER-team01/chromatic"
-canvas_link: "[team01 on Canvas, S26](https://ucsb.instructure.com/courses/32781/assignments/455943)"
+starter_storybook: "https://ucsb-cs156-f26.github.io/STARTER-team01/chromatic"
+canvas_link: "[team01 on Canvas, F26](https://ucsb.instructure.com/courses/32781/assignments/455943)"
 example_full_running_app: "[team01](https://team01.dokku-00.cs.ucsb.edu)"
 num_issues: 42
 num_top_level_issues: 6
@@ -92,7 +92,7 @@ There may be more columns or fewer, though typically at a minimum, there is:
 
 Here's how that will play out in detail:
 
-1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-s26-01`, `team01-s26-02`,etc.
+1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-f26-01`, `team01-f26-02`,etc.
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
 4. Now navigate to your repo for {{page.title}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.title}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
@@ -1040,7 +1040,7 @@ Total running time: 3 hours, 38 minutes.
 Click the triangle for a list of tasks the instructor should do prior releasing this lab.
 </summary>
 
-* Create team01 repos using the github actions in <https://github.com/ucsb-cs156-s26/membership-scripts>
+* Create team01 repos using the github actions in <https://github.com/ucsb-cs156-f26/membership-scripts>
   * public
   * team access admin
   * signed commits
@@ -1053,7 +1053,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   configuration of columns, etc. so this is still the easiest way.  Make sure the projects
   are named with the same exact names as the repos; this makes a later step easier.
 * Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
-* Then, in <https://github.com/ucsb-cs156-s26/membership-scripts>, there is a Github Action that will 
+* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action that will 
   * Link the project to the repo
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
@@ -1091,7 +1091,7 @@ The next step was probably already done in team01, but just in case:
 for team in {01..16}
 do
   echo "Setting up code for $team"
-  git clone git@github.com:ucsb-cs156-s26/team01-s26-${team}.git
+  git clone git@github.com:ucsb-cs156-f26/team01-f26-${team}.git
 done
 ```
 
@@ -1100,8 +1100,8 @@ done
 for team in {01..16}
 do
   echo "Adding starter remote for $team"
-  cd team01-s26-${team}
-  git remote add starter https://github.com/ucsb-cs156-s26/STARTER-team01
+  cd team01-f26-${team}
+  git remote add starter https://github.com/ucsb-cs156-f26/STARTER-team01
   cd ..
 done
 ```
@@ -1112,7 +1112,7 @@ done
 for team in {01..16}
 do
   echo "pull from starter for $team"
-  cd team01-s26-${team}
+  cd team01-f26-${team}
   git pull starter main
   git push origin main
   cd ..
@@ -1125,7 +1125,7 @@ done
 for team in {01..16}
 do
   echo "pull from starter for $team"
-  cd team01-s26-${team}
+  cd team01-f26-${team}
   git checkout main
   git pull origin main
   git pull starter main
@@ -1135,7 +1135,7 @@ done
 ```
 
 
-## For s26
+## For f26
 
 * Consider updating the issues in 99-team01.yml to guide the students through branch hygeine.  Otherwise, they are likely to make one big branch and one big PR for the entire project.
 

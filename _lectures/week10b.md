@@ -22,6 +22,11 @@ parent: lectures
   * Look for an email from WSU with a Qualtrics survey; this is a homework grade.
   * Please complete it sometime during finals week.
 
+
+# team04 and final summary PR
+
+{% include final_summary_pr.md %}
+
 ## Release Notes
 
 {% include release_notes.md %}

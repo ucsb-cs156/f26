@@ -1,22 +1,22 @@
 ---
 title: team02
 description: "Team Project: React CRUD frontend"
-assigned: 2025-10-28
-due: 2025-11-04 23:59
-github_org: ucsb-cs156-s26
-github_org_url: https://github.com/ucsb-cs156-s26
-sample_team: s26-01
+assigned: 2026-10-28
+due: 2026-11-04 23:59
+github_org: ucsb-cs156-f26
+github_org_url: https://github.com/ucsb-cs156-f26
+sample_team: f26-01
 layout: lab
 layout: default
 parent: lab
 prev_assignment: team01
 nav_order: 203
 ready: true
-starter: https://github.com/ucsb-cs156-s26/STARTER-team02
+starter: https://github.com/ucsb-cs156-f26/STARTER-team02
 deployment: https://team02.dokku-00.cs.ucsb.edu/
-storybook: https://ucsb-cs156-s26.github.io/STARTER-team02/chromatic
+storybook: https://ucsb-cs156-f26.github.io/STARTER-team02/chromatic
 canvas: https://ucsb.instructure.com/courses/32781/assignments/455944
-help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-s26.slack.com/archives/C09MDAMH27K)"
+help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f26.slack.com/archives/C09MDAMH27K)"
 nvm_use: "<tt>nvm use 22.18.0</tt>"
 ---
 
@@ -59,7 +59,7 @@ Here are the links to the artifacts for {{page.title}}:
 
 | Repo | Kanban Board | GH Pages | Dokku | Dokku QA | Slack |
 |-----|-----|------|{% for t in site.teams %}
-|[{{page.title}}-{{t.team}}]({{page.github_org_url}}/{{page.title}}-{{t.team}}) | [{{page.title}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.title}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.title}}-{{t.team}}) | [dokku](https://{{page.title}}-{{t.team}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.title}}-{{t.team}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack]({{t.slack}}) | {% endfor %}
+|[{{page.title}}-{{t.team}}]({{page.github_org_url}}/{{page.title}}-{{t.team}}) | [{{page.title}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.title}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.title}}-{{t.team}}) | [dokku](https://{{page.title}}-{{t.team}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.title}}-{{t.team}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack](site.channels[t.team].url }}) | {% endfor %}
 
 
 For {{page.title}}, the Kanban board is populated by the staff before you start using the Github Actions workflow [<tt>99-{{page.title}}.yml</tt>](
@@ -551,7 +551,7 @@ Before releasing this lab to students, be sure the following tasks are done:
 
 
 * Finalize starter code repo <{{page.starter}}>
-* Create {{page.title}} repos using the github actions in <https://github.com/ucsb-cs156-s26/membership-scripts>
+* Create {{page.title}} repos using the github actions in <https://github.com/ucsb-cs156-f26/membership-scripts>
   * public
   * team access admin
   * signed commits
@@ -562,7 +562,7 @@ Before releasing this lab to students, be sure the following tasks are done:
   configuration of columns, etc. so this is still the easiest way.  Make sure the projects
   are named with the same exact names as the repos; this makes a later step easier.
 * Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
-* Then, in <https://github.com/ucsb-cs156-s26/membership-scripts>, there is a Github Action that will 
+* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action that will 
   * Link the project to the repo
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
@@ -615,7 +615,7 @@ The next step was probably already done earlier, but just in case:
 for team in {01..16}
 do
   echo "Setting up code for $team"
-  git clone git@github.com:ucsb-cs156-s26/team02-s26-${team}.git
+  git clone git@github.com:ucsb-cs156-f26/team02-f26-${team}.git
 done
 ```
 **Add starter remotes**: use a loop like this to add the starter remotes:
@@ -623,8 +623,8 @@ done
 for team in {01..16}
 do
   echo "Adding starter remote for $team"
-  cd team02-s26-${team}
-  git remote add starter https://github.com/ucsb-cs156-s26/STARTER-team02
+  cd team02-f26-${team}
+  git remote add starter https://github.com/ucsb-cs156-f26/STARTER-team02
   cd ..
 done
 ```
@@ -635,7 +635,7 @@ done
 for team in {01..16}
 do
   echo "pull from starter for $team"
-  cd team02-s26-${team}
+  cd team02-f26-${team}
   git pull starter main
   git push origin main
   cd ..
@@ -648,7 +648,7 @@ done
 for team in {01..16}
 do
   echo "pull from starter for $team"
-  cd team02-s26-${team}
+  cd team02-f26-${team}
   git checkout main
   git pull origin main
   git pull starter main
