@@ -32,7 +32,7 @@ You can read more about those below.
 
 ## But first
 
-{% pr_end_game.md %}
+{% include pr_end_game.md %}
 
 # team04 and final summary PR
 
