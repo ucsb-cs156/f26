@@ -21,7 +21,7 @@ You can read more about those below.
 
 ## But first
 
-{% include pr_end_game.md }
+{% include pr_end_game.md %}
 
 
 
