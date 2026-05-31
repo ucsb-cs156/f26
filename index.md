@@ -11,9 +11,7 @@ Seating chart and teams: <https://bit.ly/cs156-f26-teams>
 
 Or, this QR code:
 
-<img width="400" height="400" alt="bit ly cs156-f26-teams" src="https://github.com/user-attachments/assets/de908f8c-365b-4bc8-8de0-e8cc4108aa7c" />
-
-
+<img width="2000" height="2000" alt="cs156-f26-teams-QR-code" src="https://github.com/user-attachments/assets/0eb1e9e3-0b9a-444e-9e9a-47e246f8516e" />
 
 On Canvas: <{{site.aux_links["Canvas"]}}>
 
