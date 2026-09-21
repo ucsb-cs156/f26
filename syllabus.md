@@ -86,11 +86,9 @@ Your grade will be made up of activities from the following categories:
 * PAs (Auto-Graded Programming assignments) (20 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
-* Exams (25 %) - If conditions permit, we will have two in-person written exams; a midterm and an final. There are two contingencies in case conditions change:
-  * The instructor may substitute a "take-home" exam on an online assessment
-    for either of the in-person exams.
-  * If only one exam is offered, it will be worth 25% of your grade.
-  * If is not possible to hold any exams, these points will be distributed instead among the other course components.
+* Exams (25 %) - There will be only one exam, a final exam.  Part of this will be a take-home exam, and part will be an in-person demo
+  component held during the scheduled final exam slot for the course.   More information will be shared during weeks 8-10 so that you can
+  prepare.
 
 * Project Grade:  (25%) - Your project grade will be based on your contributions during the Project phase of the course.
 
