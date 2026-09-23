@@ -8,6 +8,7 @@ node_lts: v22.22.2
 npm_lts: v10.9.7
 zoom_version: 6.3.11
 java_version: 21
+java_distribution: bellsoft-liberica-jdk
 ---
 
 # Software to Install or Configure at start of course (and/or update as needed)
@@ -16,7 +17,7 @@ Instructions on installing these follow below.
 
 * The latest version of git
 * SDKMAN (tool for installing and switching between Java versions)
-* Java {{page.java_version}} (`bellsoft-liberica-jdk` distribution recommended).
+* Java {{page.java_version}} (<tt>{{page.java_distribution}}</tt> distribution recommended).
 * Maven {{page.maven_version}}
 
 When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to double check that you completed every step successfully.
@@ -110,7 +111,14 @@ When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_chec
 
    If you just type `sdk use java ` and press the tab key it may autocomplete for you if you have only one version of java installed with `sdk`.
 
-   **You really do need Java {{page.java_version}}, specifically**, and NOT Java 8, Java 11, Java 17, or a preview version of 22, 23, or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+   **You really do need Java {{page.java_version}}, specifically**, and NOT some other version of Java, even if it is a *later* version of Java than {page.java_version}}.  It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it can definitely matter.
+
+   In this course we work with Spring Boot, as well as many other complex third party libraries.  They may have specific dependencies on specific Java
+   versions.  In this course we work only with the "Long Term Support" (LTS) versions of Java, avoiding the ones in between, and working with only one at a time (or in some cases, transitioning between LTS versions).  That helps us limit the number of
+   different incompatibility issues we have to deal with.
+
+   Many real-world software organizations do the same. New graduates are often surprised to see how slowly organizations adopt new versions of languages
+   and frameworks.
 
 8. Install Maven on your local system.
 
