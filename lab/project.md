@@ -9,7 +9,7 @@ layout: default
 parent: lab
 num: project
 nav_order: 700
-jpa_create_dev: jpa05
+jpa_create_dev: jpa04
 qxx: f26
 githubOrgUrl: https://github.com/ucsb-cs156-f26
 githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f26/projects
@@ -208,8 +208,8 @@ don't overload the servers too much.
 
 # What should we do to get started?
 
-* If you haven't yet, complete jpa05, which is to get a dev instance of this app running.  You'll need a dev instance to be able to do any dev work, so if you didn't do jpa05 yet, that's now your higher priority.
-* If you *did* do jpa05 already, resync your dev instance with the main branch, which may have changed since you completed jpa05.
+* If you haven't yet, complete jpa04, which is to get a dev instance of this app running.  You'll need a dev instance to be able to do any dev work, so if you didn't do jpa04 yet, that's now your higher priority.
+* If you *did* do jpa04 already, resync your dev instance with the main branch, which may have changed since you completed jpa04.
 * Start reading through the issues
 * Assign yourself a first issue on the Kanban board in the In Progress column.
 * Mostly: *try out the app*.  Before you can make changes to an app, you need to understand how it works.  So once you've chosen an issue, explore the functionality of related parts of the app, using either your dev instance, the prod instance, or the qa instance.

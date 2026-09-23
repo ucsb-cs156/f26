@@ -278,7 +278,141 @@ You should see that instead of an empty repo, you now have a copy of the starter
 
 The starter code should compile and run, and can even be submitted to Gradescope for a grade.   Of course, it won't be for full credit, but we can at least make sure that the mechanisms are working.  So let's give it a try.
 
-## Step 9: Compile and run the Starter code
+
+## Step 9: Enable Verified Commits
+
+In this step, we set up verified/signed commits.  
+
+This only has to be done
+once per machine that you work on, but if you work on multiple machines it has to
+be done on *each of them*.  
+
+If you complete this lab on one machine, but later switch to another for working on other projects that require signed commits, you'll need to repeat this entire "Step 9" on that other machine as well.
+
+What we are doing in this step applies to all of your Github work on that machine, so it isn't necessary to do it on individual repos or for different courses.
+
+### Step 9a: Configure `user.name` and `user.email`
+
+To set your name and email for your whole git installation, run the following commands. The email will need to be one associated with your GitHub Account.
+
+* Replace `"Your Name"` use the name you want to be called in class (e.g. `"Chris Gaucho"`
+* Replace `"email@ucsb.edu"` with an email associated with your GitHub account. This is usually your UCSB email. If you are unsure, please check [here](https://github.com/settings/emails) 
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "email@ucsb.edu"
+```
+
+### Step 9b: Create an ssh key
+
+Next, you'll need an ssh public key/private key pair. 
+
+If you have one already, you should be able to find it by doing:
+
+```
+ls -al ~/.ssh
+```
+
+* The key file ending in `.pub` is the public key.
+* The key file that doesn't end in `.pub` is the private key.
+
+If you don't have one on this machine, follow these instructions to create one:
+
+* <https://ucsb-cs156.github.io/topics/GitHub/github_ssh_keys.html>.  
+
+
+### Step 9c: Configure Github for signing keys
+
+
+Once you've made an ssh key, you have to tell github it exists. For most students, the commands will be below. 
+
+* If you set a custom location for your public/private key pair, replace `~/.ssh/id_rsa.pub` with your public key location. 
+* **If you have an id_ed25519 key, replace `id_rsa.pub` with `id_ed25519.pub`**. 
+
+Run the following commmands:
+
+```bash
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_rsa.pub
+```
+
+So that you don't have to remember to sign each commit as you make it, you can run the following command:
+```bash
+git config --global commit.gpgsign true
+```
+
+### Step 9c: Configure local git for signing keys
+
+Now run these commands:
+
+```
+mkdir -p ~/.config/git
+touch ~/.config/git/allowed_signers
+```
+
+Followed by this one (changing `~/.ssh/id_rsa.pub to the name of your public key file if needed).
+
+```
+echo "myemail@ucsb.edu" `cat ~/.ssh/id_rsa.pub` >> ~/.config/git/allowed_signers
+```
+
+Then, tell git where the allowed signers are:
+```bash
+git config --global gpg.ssh.allowedSignersFile ~/.config/git/allowed_signers
+```
+
+This is mainly needed so that the `git log --show-signature` command works properly.
+
+### Step 9d: Configure Github for signing keys
+
+
+Next, you need to upload your *public* key to Github as a *signing key*.  This is different from uploading it to Github for accessing repos, which you probably have already done previously. 
+
+VERY IMPORTANT: you want to upload your `id_rsa.pub` file to `github.com`
+
+You do NOT upload your `id_rsa` file to github.com. That file is your private key, and needs to stay private and protected.
+
+You don't actually "upload" your `id_rsa.pub` to github.com.   You actually just copy and paste the value. `cd` into the `~/.ssh` directory and use the command `cat id_rsa.pub` to have the file be printed in the terminal like this
+
+```
+    (~/.ssh)$ cat ~/.ssh/id_rsa.pub
+    ssh-rsa 
+    AAAAB3NzaC1yc2EAAAADAQABAAABAQDYySoh7b1uGpI7saLozpgXz184YYgC9k22zLH8TqKiSLAcNCO5hEzgC0kZoytCMtw/hUx3kto8
+    apPS4ORL6HebWXuGfzQ3nQslPpBNmto0hdo446wBu/Hl5a7pC3SZUzti4YbUjRDOBgM5zQMaopTXhtqNY/tRB8/lSSYaEtIxLN5twk29
+    IQUoA2wdPTmU/fRPc3PUdD9/KHJfBIL/ROsOb73tGOxqZoMnzV0ElmLhjq6WEqNWypaFrI0YU8OmIvxmlDXn0gkr3oYHqrbz5qznSust
+    ucWBEFZ3lekvZiXrqizFplYZF+LiG9TOGjhxujOJ+sIcCy0BCN4msb1/lguN hamstra@csil.cs.ucsb.edu
+    (~/.ssh)$
+```
+
+Then you want to copy the text contents of the file, starting with 'ssh-rsa AAAAA...' and ending with '...@csil.cs.ucsb.edu or the name of your computer'.
+
+* Keep in mind that uploading a public SSH key gives access to your github account to whoever has access to the matching private SSH key on his/her computer.
+* So make sure that you are using YOUR OWN public ssh key—and not the key shown in the example above.
+
+To do this, login to the page <http://github.com>
+
+Look for the gear icon in upper right to take you to the settings screen.
+
+Click on the tool icon, and it should take you to a screen like this—you are looking for the SSH Keys menu item on the left:
+
+<div style='border:1px solid black;' markdown="1">
+<img src="http://i.imgur.com/xXESmRI.png" alt="ssh" />
+</div>
+
+Click on that, and you'll be taken to this screen, where you can upload a new public key:
+
+<div style='border:1px solid black;' markdown="1">
+<img src="http://i.imgur.com/z8blAzI.png" alt="ssh" />
+</div>
+
+Select "Signing Key"
+![image](https://github.com/user-attachments/assets/0dad096a-d717-41fb-ad7b-54b4ef31eaa8)
+
+Paste the key you copied into the key field.
+
+Once the key is uploaded, you're all set to be able to sign your commits!
+
+## Step 10: Compile and run the Starter code
 
 To compile the starter code, return to a shell prompt in the directory where your cloned your repo.  You should see, when you type `ls`, that
 the file `pom.xml` is in the current directory.  For best results, you should always run Maven from this directory.
@@ -319,7 +453,7 @@ You should eventually change this line to produce the correct output.
 But, don't do that just yet.  Let's first see what happens when you submit a program with errors in it to Gradescope.
 
 
-## Step 10: Submit incorrect Java code to Gradescope
+## Step 11: Submit incorrect Java code to Gradescope
 
 In this step, we'll see what happens when you submit two incorrect program to Gradescope.  We aren't grading this step, so you *could* skip it, but we strongly encourage you to do it anyway, because it's important to be able to understand how the autograders work on a simple case before dealing with a more complex case.
 
@@ -376,7 +510,7 @@ This, of course, has a syntax error.
 
 Try using `mvn compile` and see what happens when you compile this.
 
-## Step 11: Submit correct Java code to Gradescope
+## Step 12: Submit correct Java code to Gradescope
 
 Now, fix the code so that it produces the correct output.  Change the file `src/main/java/jpa00/Hello.java` so that the `System.out.println` method call reads:
 
@@ -402,12 +536,34 @@ git commit -m "correct the output"
 git push origin main
 ```
 
+Ensure when you push to GitHub, your output **does not** look like this:
+```bash
+To github.com:ucsb-cs156-f26/jpa00-yourGithubId.git
+ ! [remote rejected]   main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'github.com:ucsb-cs156-f26/jpa00-yourGithubId.git'
+```
+
+If so, please go back and look at the instructions for setting up signed commits, and go through them again.  You may have missed something.
+
+If it does work, try this command:
+
+```
+git log --show-signature
+```
+
+You should see that your commits are signed; something like this:
+
+<img width="1071" alt="image" src="https://github.com/user-attachments/assets/1ceac976-5ee9-4091-971a-c10475b0816e" />
+
+You can type `q` to get out of the `git log` command and return to the terminal shell prompt.
+
+
 Then submit to Gradescope again.
 
 
 Once you see that you have a score of 100 for {{page.title}} on Gradescope, you are *done* with the *required* work for {{page.title}}. However, you are encouraged to look at the README.md file in your lab00 repo and go through the explanation of the files in the repo.  Some of this may be review, but some if it may be new to you, especially if you have not used Maven before.   We'll be using Maven throughout the course, so it's good to get familiar with how Maven works in this very small `Hello World` program before we see a more complex example.
 
-# Step 12: Bonus Step: GitHub Student Developer Pack
+# Step 13: Bonus Step: GitHub Student Developer Pack
 
 The GitHub Student Developer Pack is a package of free stuff that you can get if you are a university student.
 

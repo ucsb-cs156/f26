@@ -1,8 +1,8 @@
 ---
 description: "Configuration of proj-frontiers dev deployment"
-title: jpa05-proj-frontiers
+title: jpa04-proj-frontiers
 nav_order: 100
-parent: lab/jpa05
+parent: lab/jpa04
 layout: default
 ---
 
@@ -15,7 +15,7 @@ layout: default
 
 Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values) using Steps 1-4 of these instructions: [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html) 
 
-**NOTE:** The name of your Dokku app for `jpa05` will be
+**NOTE:** The name of your Dokku app for `jpa04` will be
 * `frontiers-dev-yourGithubUsername`
 
 So your first Dokku redirect URI will be:

@@ -1,8 +1,8 @@
 ---
 description: "Configuration of proj-courses dev deployment"
-title: jpa05-proj-courses
+title: jpa04-proj-courses
 nav_order: 100
-parent: lab/jpa05
+parent: lab/jpa04
 layout: default
 ---
 
