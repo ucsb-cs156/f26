@@ -7,8 +7,7 @@ maven_version: 3.9.14
 node_lts: v22.22.2
 npm_lts: v10.9.7
 zoom_version: 6.3.11
-java_version: 21
-java_distribution: bellsoft-liberica-jdk
+java_version: 25.0.4
 ---
 
 # Software to Install or Configure at start of course (and/or update as needed)
@@ -17,12 +16,14 @@ Instructions on installing these follow below.
 
 * The latest version of git
 * SDKMAN (tool for installing and switching between Java versions)
-* Java {{page.java_version}} (<tt>{{page.java_distribution}}</tt> distribution recommended).
+* Java {{page.java_version}} (<tt>{{site.jdk_distribution}}</tt> distribution recommended).
 * Maven {{page.maven_version}}
 
 When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to double check that you completed every step successfully.
 
 # Software to Install in week 3 (for frontend development)
+
+You will not need this right away, so you can put this off until later.
 
 * nvm (node version manager)
 * Current LTS version of Node available through nvm (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
@@ -153,7 +154,7 @@ Native Ubuntu users (those not using Ubuntu through WSL) can skip the Windows-sp
 The following programs will be installed in the above guide:
 
 * The latest version of git
-* Java {{page.java_version}}
+* Java {{page.java_version}} (Distribution <tt>{{site.jdk_distribution}}</tt> recommended)
 * Maven {{page.maven_version}}
 * nvm (latest stable version)
 * Current LTS version of Node installed via `nvm install {{page.node_lts}}; nvm use {{page.node_lts}}` (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
