@@ -102,7 +102,7 @@ You will not need this right away, so you can put this off until later.
    
 6. Use `SDKMAN` to install Java {{page.java_version}}
 
-   Note that even once you decide to install Java {{page.java_version}}, there are a bewildering array of differnet distributions to choose from.  Based on the website <https://whichjdk.com/>, the distribution we currently recommend is {{site.jdk-distribution}}, so the command to install this with `SDKMAN` is:
+   Note that even once you decide to install Java {{page.java_version}}, there are a bewildering array of different distributions to choose from. Based on the website <https://whichjdk.com/>, the distribution we currently recommend is {{site.jdk_distribution}}, so the command to install this with `SDKMAN` is:
 
    <p><code>sdk install java {{site.jdk_distribution}}</code></p>
 
@@ -110,9 +110,9 @@ You will not need this right away, so you can put this off until later.
 
    <p><code>sdk use java {{site.jdk_distribution}}</code></p>
 
-   If you just type `sdk use java ` and press the tab key it may autocomplete for you if you have only one version of java installed with `sdk`.
+   If you just type `sdk use java ` and press the tab key it may autocomplete for you if you have only one version of Java installed with `sdk`.
 
-   **You really do need Java {{page.java_version}}, specifically**, and NOT some other version of Java, even if it is a *later* version of Java than {page.java_version}}.  It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it can definitely matter.
+   **You really do need Java {{page.java_version}}, specifically**, and NOT some other version of Java, even if it is a *later* version than {{page.java_version}}. It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it can definitely matter.
 
    In this course we work with Spring Boot, as well as many other complex third party libraries.  They may have specific dependencies on specific Java
    versions.  In this course we work only with the "Long Term Support" (LTS) versions of Java, avoiding the ones in between, and working with only one at a time (or in some cases, transitioning between LTS versions).  That helps us limit the number of
@@ -121,12 +121,15 @@ You will not need this right away, so you can put this off until later.
    Many real-world software organizations do the same. New graduates are often surprised to see how slowly organizations adopt new versions of languages
    and frameworks.
 
-8. Install Maven on your local system.
+7. Install Maven on your local system.
 
-   * For Mac users, instructions for installing Maven with Homebrew appear below.   
+   Install or upgrade to the latest supported version of Maven, specifically Maven {{page.maven_version}} or later.
+   Do not leave an older Maven version installed from a previous course or from the system package manager.
+
+   * For Mac users, instructions for installing Maven with Homebrew appear below.
    * For WSL users, see: [https://ucsb-cs156.github.io/topics/windows_wsl/](https://ucsb-cs156.github.io/topics/windows/windows_wsl.html)
 
-9. Install nvm on your local system.
+8. Install nvm on your local system.
 
    * For Mac users, instructions for installing nvm with Homebrew appear below. 
    * For WSL users, see:
@@ -135,7 +138,7 @@ You will not need this right away, so you can put this off until later.
      * [Update npm on WSL](https://ucsb-cs156.github.io/topics/windows/windows_wsl.html#update-npm-on-wsl)
 
    
-## Recommmended for Windows Users
+## Recommended for Windows Users
 
 Install Windows Subsystem for Linux.
 
@@ -161,9 +164,9 @@ The following programs will be installed in the above guide:
 
 If you're using a Linux distribution that is not Ubuntu (or a similar Debian-based distribution with access to `apt`), the commands listed in the setup guide linked above may not work. The staff cannot provide support on finding equivalent commands for your desired distribution, but community resources such as Stack Overflow can help here.
 
-## Recommmended for MacOS Users
+## Recommended for MacOS Users
 
-If you have questions about this section, please ask on the [[`#help-macos`]({{site.channels.help-macos.url}})]({{site.channels.help-macos.url}}) channel on the Slack
+If you have questions about this section, please ask on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the Slack.
 
 1. MacOS version: If you have a MacOS version that is really old (e.g. 12.x), you should consider upgrading to a later version.
 
@@ -197,7 +200,7 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
 
    ![image](https://github.com/user-attachments/assets/8e37dd9c-afb0-4a64-8611-86e4b03b6409)
 
-   In that case, please just follow the instructions given in the message.  Don't worry if it says it will take 72 hours for the install; if you start it and let it run for a minute or two, that estimate should come down to something reasonable quickly, but it still make take 10-15 minutes.
+   In that case, please just follow the instructions given in the message.  Don't worry if it says it will take 72 hours for the install; if you start it and let it run for a minute or two, that estimate should come down to something reasonable quickly, but it still may take 10-15 minutes.
 
    When you are done, you should be able to type `git --version` at a command prompt and see something like:
 
@@ -232,20 +235,20 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
     eval "$(/opt/homebrew/bin/brew shellenv)"
    ```
 
-   It is important to run these command to complete the brew installation.
+   It is important to run these commands to complete the brew installation.
 
 
 
-5. Maven
+4. Maven
 
-   You can use `brew` to install Maven:
+   You can use `brew` to install Maven, and you should make sure you are installing the current supported version for this course:
 
    ```
    brew update
    brew install maven
    ```
 
-   Or if you already have Maven installed, do this to upgrade your version to the latest one:
+   Or if you already have Maven installed, do this to upgrade it to the latest version:
 
    ```
    brew update
@@ -258,10 +261,16 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
    mvn --version
    ```
 
-   Be sure that you have Maven version 3.9 or higher, as Java {{page.java_version}} requires this version to work.
+   Be sure that you have Maven version {{page.maven_version}} or newer, as Java {{page.java_version}} requires this version to work.
 
-   When you type `mvn --version` be sure you are getting the correct version of Java
-   (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>
+   You should see output similar to:
+
+   ```
+   Apache Maven 3.9.14
+   ```
+
+   When you type `mvn --version`, be sure you are also getting the correct version of Java
+   (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>), not an older Java version from another installation.
 
    For example, you do NOT want to see this:
    ```
@@ -278,7 +287,7 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
 
    If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
    
-4. nvm, Node, and npm
+5. nvm, Node, and npm
 
    Even if you already have node and npm installed on your computer, you should install Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
 

@@ -10,6 +10,7 @@ exclude:
   - lab_SAVE
   - lectures_SAVE
   - hwk_SAVE
+  - course-maintenance
 
 course: "CMPSC 156"
 title: "CS156 f26"
