@@ -5,8 +5,8 @@ description: "Introduction, Meeting your team, Team agreements"
 ready: true
 layout: default
 parent: lectures
-self_introduction_on_canvas: "[Participation Activity P01 on Canvas](https://ucsb.instructure.com/TBD"
-group_activity_on_canvas: "[Participation Activity P04 on Canvas](https://ucsb.instructure.com/TBD)"
+self_introduction_on_canvas: "[Participation Activity P01 on Canvas](https://ucsb.instructure.com/courses/33921/assignments/509946)"
+group_activity_on_canvas: "[Participation Activity P03 on Canvas](https://ucsb.instructure.com/courses/33921/assignments/509948)"
 ---
 
 
@@ -183,18 +183,21 @@ Record as much of your conversation as you are able in the Slack channel
 
 # For Tuesday of week 1
 
-Complete H00, and P01 on Canvas (should take less than 30 minutes combined. ).
+Complete H00, P01, P02 on Canvas (should take less than 30 minutes combined. ).
 
-You may also like to start looking at this coming Tuesday's activity and get a headstart on it; it involved downloading and installing software.   
+You may also like to start looking at this coming Tuesday's activity and get a headstart on it; it involves downloading and installing software.   
 
-Some parts of it may involve long download times, so getting a headstart before discussion tomorrow is a good idea.
+Some parts of it may involve long download times, so getting a headstart before your next class is a good idea.
+
+In class on Tuesday, you can start coding if you have the installs done in advance, so I encourage that.
 
 # For Wednesday of week 1
 
+We'll be doing more Java coding, and finishing up any part of the install we didn't finish on Tuesday.
+
 If you are new to Java, you are encouraged to start reading the chapters in Head First Java; as many as you can get through before Thursday, but at a minimum, Chapters 1,2,3 (they are short and have lots of pictures, so don't panic.)
 
-# For Tuesday of week 2
+# For Thursday of week 1
 
-Read the Listening to Developers Paper:
-* <https://pconrad.github.io/files/paper028.pdf>
+Read the Listening to Developers Paper before coming to class: <https://pconrad.github.io/files/paper028.pdf>
 
