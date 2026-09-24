@@ -123,17 +123,53 @@ We will compute an overall average for your score in the course, based on the we
 
 Finally:
 
-* To earn a grade of A, you must an A average overall, and in *each* of the five components.
-* To earn a grade of A-, you must have at least an A- average overall, and at least a B- average in each of the components.
-* To earn a grade of B+, you must have at least an B+ average overall, and at least a C+ average in each of the components.
-* To earn a grade of B, you must have at least an B+ average overall, and at least a C average in each of the components.
-* To earn a grade of B-, you must have at least an B- average overall,  and at least a C- average in each of the components.
-* * To earn a grade of C+, you must have at least an B- average overall,  and at least a D+ average in each of the components.
-* * To earn a grade of C, you must have at least an C average overall,  and at least a D average in each of the components.
-* * To earn a grade of C-, you must have at least an C average overall,  and at least a D- average in each of the components.
-* To earn a grade of D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
+For an A: 
+* Must have completed at least one PRs merged to main during the first week after the project launch
+* Must have completed at least two PRs merged to main at any time during the legacy code project.
+* Must have completed , and at least two code reviews.
+* Number of missed standup meetings should be below 4, or below the course average, whichever is higher. 
+* Must have an A average overall, and in each of the four grading components (participation,hwk,PAs,exams)
 
-A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff).   Students earning an A+ grade must be in the top 10% of each of the five components of the grade in the class.  The instructor may decide, at their discretion, to not award any A+ grades.
+For an A-: 
+* Must have completed at least one PRs merged to main during the first week after the project launch
+* Must have completed at least two PRs merged to main at any time during the legacy code project.
+* Must have completed , and at least two code reviews.
+* Number of missed standup meetings should be below 4, or below the course average, whichever is higher. 
+* Must have at least an A- average overall, and at least a B in each of the four grading components (participation,hwk,PAs,exams)
+
+
+For a B+:
+* Must have completed at least two PRs merged to main at any time during the legacy code project.
+* Must have completed at least one code review of a PR merged to main
+* Missed standup meetings should be no higher than the course average + 1 standard deviation of the course.
+* Must have at least a B+ average overall, and at least a C+ in each of the four grading components (participation,hwk,PAs,exams)
+
+For a B:
+* Must have completed at least two PRs merged to main at any time during the legacy code project.
+* Must have completed at least one code review of a PR merged to main
+* Missed standup meetings should be no higher than the course average + 1 standard deviation of the course.
+* Must have at least a B+ average overall, and at least a C in each of the four grading components (participation,hwk,PAs,exams)
+
+For a B-:  
+* Must have completed at least one PR merged to main in the legacy code phase.
+* Missed standup meetings should be no higher than the course average + 1.5 standard deviation of the course.
+* Must have at least a B- average overall, and at least a C- in each of the four grading components (participation,hwk,PAs,exams)
+
+For a C+:
+
+* Missed standup meetings should be no higher than the course average + 2.0 standard deviation of the course, or nine, whichever is lower.
+* Must have at least a C+ average overall, and at least a D+ in each of the four grading components (participation,hwk,PAs,exams)
+
+For a C:
+
+* Missed standup meetings should be no higher than the course average + 2.0 standard deviation of the course, or nine, whichever is lower.
+* Must have at least a C average overall, and at least a D in each of the four grading components (participation,hwk,PAs,exams)
+
+For a C-:
+
+* Must have at least an C- average overall,  and at least a D- average in each of the components.
+
+For D+,D,D-: Must have the indicated average overall (no extra rules)
 
 ## Missing homework/in-class activities: Drop the lowest n grades
 
