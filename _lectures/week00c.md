@@ -1,7 +1,7 @@
 ---
 title: "Week 00c - 09/24 Thu"
 lecture_date: 2026-09-24
-description: "Introduction, Meeting your team, Team agreements"
+description: "Introduction, Meeting your team"
 ready: true
 layout: default
 parent: lectures
