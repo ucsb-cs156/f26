@@ -4,6 +4,7 @@ theme: just-the-docs
 incremental: true
 
 jdk_distribution: "25.0.4-tem"
+java_version: "25.0.4"
 
 
 exclude: 
