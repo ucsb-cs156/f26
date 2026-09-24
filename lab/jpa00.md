@@ -31,11 +31,21 @@ If you find typos or problems with the lab instructions, please report these via
 This lab checks that you can successfully edit, compile, run, and submit a simple
 `Hello.java` program to Gradescope for grading.
 
-# We encourage you to do this on your laptop
+# We encourage you to do this on your laptop, not CSIL!
 
-For this course, we use Java 25.0.4 via SDKMAN. You should complete the setup steps in <{{page.course_software}}> before starting this lab.
+It is possible to do this assignment on CSIL, but that misses the point.  
 
-Before you begin, install the required Java version using SDKMAN:
+Later in the course, we are working with projects that will be too large for your CSIL disk and file quotas (mainly the file quotas, due to the way that the `node_modules` directory is structure.)
+
+## Installing Java with SDKMAN
+
+You should complete the setup steps in <{{page.course_software}}> before starting this lab.
+
+For this course, we use Java {{site.java_version}} installed via SDKMAN. The purpose of SDKMAN is to allow multiple versions of Java to co-exist on your system.
+
+Even if you have a later version of Java, you are strongly encouraged to install *this exact version* of Java.  It will likely not matter for this assignment. It very well may for future assignments; misaligned Java versions tend to produced difficult to diagnose bugs that are frustrating for you, waste your time, and put extra burden on the staff as we try to help you.  
+
+So, before you begin, install the required Java version using SDKMAN:
 
 ```bash
 sdk install java {{site.jdk_distribution}}
@@ -47,7 +57,7 @@ This ensures you are using the exact Java distribution specified by the course f
 
 <details markdown="1">
 <summary markdown="1">
-If you are curious why we are so picky about Java 21, you can 
+If you are curious why we are so picky about Java versions, you can 
 click the triangle to read the details.
 </summary>
 
@@ -57,9 +67,9 @@ To be honest, for this first lab, the version probably doesn't matter.
 
 But later in the course, we'll be dealing with the Spring framework, which is a very complex Java framework with dozens of external dependencies. In this case, version matters a lot!
 
-Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions. That means Java 8, 11, 17, or 21, and in this course we are specifically using Java 25.0.4. Versions other than the supported LTS and course-supported versions may have incompatibilities that are not well documented or understood, and they can result in obscure, difficult-to-resolve bugs.
+Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions. That means Java 8, 11, 17, or 21, and in this course we are specifically using Java {{site.java_version}}. Versions other than the supported LTS and course-supported versions may have incompatibilities that are not well documented or understood, and they can result in obscure, difficult-to-resolve bugs.
 
-For this course, the required version is Java 25.0.4, using the recommended `25.0.4-tem` distribution from SDKMAN.
+For this course, the required version is Java {{site.java_version}}, using the recommended <tt>{{site.jdk_distribution}}</tt> distribution from SDKMAN.
 
 More info here: <https://ucsb-cs156.github.io/topics/java/java_versions.html>
 
@@ -112,9 +122,9 @@ There a few details, but they are all straightforward.
    that for this lab.  But you will need Java 25.0.4 via SDKMAN, Maven 3.9.14, and VSCode.
 
 
-## Step 2: Get setup with gradescope
+## Step 2: Get setup with Gradescope
 
-We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have added everyone enrolled in the course to Gradescope by syncing the Canvas roster.   You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.quarter}} courses.
+We will use Gradescope to many of your homework, exams and lab/programming assignments. I have added everyone enrolled in the course to Gradescope by syncing the Canvas roster.   You should have received an email notification with instructions about logging into Gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.quarter}} courses.
 
 The lab assignment {{page.title}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.title}} using this page.
 
@@ -134,7 +144,7 @@ We also want to set up `git` so that it records our commits properly.
     - Detailed instructions: [Configuring your ssh key for Github.com](https://ucsb-cs156.github.io/topics/GitHub/github_ssh_keys.html)
 
 
-3.  If you are brand new to git and github, review a few basic facts about git and github.com
+3.  If you are brand new to git and Github, review a few basic facts about git and github.com
     - <https://ucsb-cs156.github.io/topics/git/git_overview.html>
 
 
