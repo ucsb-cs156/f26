@@ -6,7 +6,6 @@ layout: default
 title: jpa01
 nav_order: 100
 ready: false
-layout: default
 parent: lab
 course_org: https://github.com/ucsb-cs156-f26
 course_org_name: ucsb-cs156-f26
@@ -181,6 +180,19 @@ We are going to run a command
 to start up this web server
 and then try to connect with
 a browser.
+
+Before you run any `mvn` commands, make sure your terminal is using the Java version this course requires,
+Java {{site.java_version}} (the SDKMAN distribution <tt>{{site.jdk_distribution}}</tt>), as described in the
+[software installation instructions]({{page.software}}):
+
+```bash
+sdk use java {{site.jdk_distribution}}
+java -version
+mvn --version
+```
+
+Both `java -version` and `mvn --version` should report Java {{site.java_version}}. If you see a different Java version, or a Maven older than the
+version listed in the [software installation instructions]({{page.software}}), fix that first; otherwise you may see confusing build errors.
 
 * First, use `mvn compile` to make sure that the code compiles.
 * Next, try `mvn test` to be sure that the test cases pass.
