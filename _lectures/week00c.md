@@ -1,5 +1,5 @@
 ---
-title: "Week 01a - 09/24 Thu"
+title: "Week 00c - 09/24 Thu"
 lecture_date: 2026-09-24
 description: "Introduction, Meeting your team, Team agreements"
 ready: true
