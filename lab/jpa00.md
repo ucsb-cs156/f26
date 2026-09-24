@@ -6,7 +6,6 @@ layout: default
 title: jpa00
 nav_order: 100
 ready: false
-layout: default
 parent: lab
 slack: https://ucsb-cs156-f26.slack.com
 course_org: https://github.com/ucsb-cs156-f26
@@ -29,12 +28,22 @@ If you find typos or problems with the lab instructions, please report these via
 
 # Goals
 
-This lab checks that you can succesfully edit, compile, run and submit a simple
-`Hello.java` to Gradescope for grading.
+This lab checks that you can successfully edit, compile, run, and submit a simple
+`Hello.java` program to Gradescope for grading.
 
-# We encourage you to do this on your laptop 
+# We encourage you to do this on your laptop
 
-At the moment, we need Java 21 and as of right now, it isn't installed on CSIL (they skipped right to Java 22). So you will need to do this lab on your own machine.
+For this course, we use Java 25.0.4 via SDKMAN. You should complete the setup steps in <{{page.course_software}}> before starting this lab.
+
+Before you begin, install the required Java version using SDKMAN:
+
+```bash
+sdk install java {{site.jdk_distribution}}
+sdk use java {{site.jdk_distribution}}
+java -version
+```
+
+This ensures you are using the exact Java distribution specified by the course for this assignment.
 
 <details markdown="1">
 <summary markdown="1">
@@ -46,11 +55,11 @@ click the triangle to read the details.
 
 To be honest, for this first lab, the version probably doesn't matter.
 
-But later in the course, we'll be dealing with the Spring framework, which is a very complex Java framework with dozens of external dependencies.   In this case, version matters a lot!
+But later in the course, we'll be dealing with the Spring framework, which is a very complex Java framework with dozens of external dependencies. In this case, version matters a lot!
 
-Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions.  That means Java 8, 11, 17 or 21.  Versions other than LTS versions (such as 18, 19, 20, 22, 23) may have incompatibilities that are not well documented or understood, and result in obscure, difficult to resolve bugs.
+Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions. That means Java 8, 11, 17, or 21, and in this course we are specifically using Java 25.0.4. Versions other than the supported LTS and course-supported versions may have incompatibilities that are not well documented or understood, and they can result in obscure, difficult-to-resolve bugs.
 
-The current Java LTS version is Java 21.
+For this course, the required version is Java 25.0.4, using the recommended `25.0.4-tem` distribution from SDKMAN.
 
 More info here: <https://ucsb-cs156.github.io/topics/java/java_versions.html>
 
@@ -100,7 +109,7 @@ There a few details, but they are all straightforward.
 3. Make sure you have completed the checklist for installation steps here: <https://ucsb-cs156.github.io/f26/info/install_checklist.html>.
   
    If you haven't done the `nvm` part yet, it's ok; you won't need
-   that for this lab.  But you will need Java 21, Maven, and VSCode.
+   that for this lab.  But you will need Java 25.0.4 via SDKMAN, Maven 3.9.14, and VSCode.
 
 
 ## Step 2: Get setup with gradescope
@@ -423,22 +432,22 @@ To compile type `mvn compile`.
 * Otherwise, you should see no error messages
 * There may be warning about missing `resources` and `UTF-8 encoding`, but you can safely ignore those for now.  If you are curious, see the the section "Warnings you May be able to Ignore" on [this page](https://ucsb-cs156.github.io/topics/maven/maven_hello_world.html).
 
-Then, type `mvn package`.  You should see a lot of output, but somewhere in that output, something like this:
+Then, type `mvn package`. You should see a lot of output, but somewhere in that output, something like this:
 
 ```
- [INFO] Building jar: target/hello-1.0.0.jar
+[INFO] Building jar: target/hello-1.0.0.jar
 ```
 
-That indicates that you have built a `.jar` (or Java Archive) file.  This file is a compressed archive of all of the compiled Java code from your program.  You can run it with this command:
+That indicates that you have built a `.jar` (or Java Archive) file. This file is a compressed archive of all of the compiled Java code from your program. You can run it with this command:
 
 ```
-java -cp target/hello-1.0.0.jar jpa00/Hello
+java -cp target/hello-1.0.0.jar jpa00.Hello
 ```
 
 You should see output like this:
 
 ```
-% java -cp target/hello-1.0.0.jar jpa00/Hello
+% java -cp target/hello-1.0.0.jar jpa00.Hello
 This is the wrong output!
 %
 ```
@@ -474,7 +483,7 @@ To submit your work, you should be able to click on the GitHub link in Gradescop
 * For instructions on submitting a Zip file, see: [Gradscope Zip Submission](https://ucsb-cs156.github.io/topics/gradescope/gradescope_zip_submission.html)
 
 
-After you submit, it will take some time for Gradescope to process your submission.  Once it's processsed, you should see output similar to this:
+After you submit, it will take some time for Gradescope to process your submission. Once it's processed, you should see output similar to this:
 
 <img width="294" alt="jpa00-gs-starter-code-50" src="https://user-images.githubusercontent.com/1119017/229932774-25157e0d-5911-4df9-877e-7d35d9a01c00.png">
 
@@ -531,7 +540,7 @@ You should see the correct output, `Hello, World!`.
 Now, commit this change:
 
 ```
-git add src/main/java/Hello.java
+git add src/main/java/jpa00/Hello.java
 git commit -m "correct the output"
 git push origin main
 ```
