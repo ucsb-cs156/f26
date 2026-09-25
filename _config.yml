@@ -216,7 +216,7 @@ channels:
     is_shared: false
     name: all-ucsb-cs156-f26
     name_normalized: all-ucsb-cs156-f26
-    num_members: 1
+    num_members: 97
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -236,218 +236,28 @@ channels:
       last_set: 0
       value: ''
     unlinked: 0
-    updated: 1780171948809
+    updated: 1790018432799
     url: https://ucsb-cs156-f26.slack.com/archives/C0B795WDKDX
-  f26-01:
+  courses-customers:
     context_team_id: T0B7AUVQKTN
-    created: 1780174303
-    creator: U0B7410E23F
-    id: C0B7B1UKYRJ
+    created: 1790198570
+    creator: U0B73UUQQ93
+    id: C0C4VGWDDG8
     is_archived: false
     is_channel: true
     is_ext_shared: false
     is_general: false
     is_group: false
     is_im: false
-    is_member: true
+    is_member: false
     is_mpim: false
     is_org_shared: false
     is_pending_ext_shared: false
     is_private: false
     is_shared: false
-    name: f26-01
-    name_normalized: f26-01
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-1
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174375220
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7B1UKYRJ
-  f26-02:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174303
-    creator: U0B7410E23F
-    id: C0B7B1V74N8
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-02
-    name_normalized: f26-02
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-2
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174639923
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7B1V74N8
-  f26-03:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174304
-    creator: U0B7410E23F
-    id: C0B77DA4MPC
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-03
-    name_normalized: f26-03
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-3
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174653532
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B77DA4MPC
-  f26-04:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174304
-    creator: U0B7410E23F
-    id: C0B75B6DYMC
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-04
-    name_normalized: f26-04
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-4
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174666560
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B75B6DYMC
-  f26-05:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174304
-    creator: U0B7410E23F
-    id: C0B7988KJ8Z
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-05
-    name_normalized: f26-05
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-5
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174681849
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7988KJ8Z
-  f26-06:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174805
-    creator: U0B7410E23F
-    id: C0B81N761CG
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-06
-    name_normalized: f26-06
-    num_members: 2
+    name: courses-customers
+    name_normalized: courses-customers
+    num_members: 1
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -459,108 +269,32 @@ channels:
     shared_team_ids:
     - T0B7AUVQKTN
     topic:
-      creator: ''
-      last_set: 0
-      value: ''
+      creator: U0B73UUQQ93
+      last_set: 1790198609
+      value: Customer feedback on <https://courses.dokku-00.cs.ucsb.edu>
     unlinked: 0
-    updated: 1780174805954
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B81N761CG
-  f26-07:
+    updated: 1790198609812
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C4VGWDDG8
+  dining-customers:
     context_team_id: T0B7AUVQKTN
-    created: 1780174306
-    creator: U0B7410E23F
-    id: C0B6RUYUBBR
+    created: 1790198287
+    creator: U0B73UUQQ93
+    id: C0C44R11V1A
     is_archived: false
     is_channel: true
     is_ext_shared: false
     is_general: false
     is_group: false
     is_im: false
-    is_member: true
+    is_member: false
     is_mpim: false
     is_org_shared: false
     is_pending_ext_shared: false
     is_private: false
     is_shared: false
-    name: f26-07
-    name_normalized: f26-07
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-7
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174697709
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B6RUYUBBR
-  f26-08:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174307
-    creator: U0B7410E23F
-    id: C0B7125RR27
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-08
-    name_normalized: f26-08
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names:
-    - f26-8
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174713802
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7125RR27
-  f26-09:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174806
-    creator: U0B7410E23F
-    id: C0B712MRXCK
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-09
-    name_normalized: f26-09
-    num_members: 2
+    name: dining-customers
+    name_normalized: dining-customers
+    num_members: 6
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -572,271 +306,12 @@ channels:
     shared_team_ids:
     - T0B7AUVQKTN
     topic:
-      creator: ''
-      last_set: 0
-      value: ''
+      creator: U0B73UUQQ93
+      last_set: 1790198624
+      value: Customer feedback on <https://dining.dokku-00.cs.ucsb.edu>
     unlinked: 0
-    updated: 1780174806715
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B712MRXCK
-  f26-10:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174307
-    creator: U0B7410E23F
-    id: C0B81MR21QQ
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-10
-    name_normalized: f26-10
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174307818
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B81MR21QQ
-  f26-11:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174308
-    creator: U0B7410E23F
-    id: C0B6RUYR2KH
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-11
-    name_normalized: f26-11
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174308064
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B6RUYR2KH
-  f26-12:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174308
-    creator: U0B7410E23F
-    id: C0B7989CVCZ
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-12
-    name_normalized: f26-12
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174308317
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7989CVCZ
-  f26-13:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174308
-    creator: U0B7410E23F
-    id: C0B7B1U9UDS
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-13
-    name_normalized: f26-13
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174308720
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B7B1U9UDS
-  f26-14:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174309
-    creator: U0B7410E23F
-    id: C0B77DBTUPL
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-14
-    name_normalized: f26-14
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174309015
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B77DBTUPL
-  f26-15:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174309
-    creator: U0B7410E23F
-    id: C0B75B5EMGE
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-15
-    name_normalized: f26-15
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174309384
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B75B5EMGE
-  f26-16:
-    context_team_id: T0B7AUVQKTN
-    created: 1780174309
-    creator: U0B7410E23F
-    id: C0B77DB349Y
-    is_archived: false
-    is_channel: true
-    is_ext_shared: false
-    is_general: false
-    is_group: false
-    is_im: false
-    is_member: true
-    is_mpim: false
-    is_org_shared: false
-    is_pending_ext_shared: false
-    is_private: false
-    is_shared: false
-    name: f26-16
-    name_normalized: f26-16
-    num_members: 2
-    parent_conversation: null
-    pending_connected_team_ids: []
-    pending_shared: []
-    previous_names: []
-    purpose:
-      creator: ''
-      last_set: 0
-      value: ''
-    shared_team_ids:
-    - T0B7AUVQKTN
-    topic:
-      creator: ''
-      last_set: 0
-      value: ''
-    unlinked: 0
-    updated: 1780174309735
-    url: https://ucsb-cs156-f26.slack.com/archives/C0B77DB349Y
+    updated: 1790198624775
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C44R11V1A
   f26-6:
     context_team_id: T0B7AUVQKTN
     created: 1780174306
@@ -911,6 +386,940 @@ channels:
     unlinked: 0
     updated: 1780174307536
     url: https://ucsb-cs156-f26.slack.com/archives/C0B741TKBCM
+  help-jpa00:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188829
+    creator: U0B7410E23F
+    id: C0B79NYB2Q1
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa00
+    name_normalized: help-jpa00
+    num_members: 28
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106775
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B79NYB2Q1
+  help-jpa01:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188830
+    creator: U0B7410E23F
+    id: C0B6SE85771
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa01
+    name_normalized: help-jpa01
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106577
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B6SE85771
+  help-jpa02:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188830
+    creator: U0B7410E23F
+    id: C0B71GVR5NX
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa02
+    name_normalized: help-jpa02
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106603
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B71GVR5NX
+  help-jpa03:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188830
+    creator: U0B7410E23F
+    id: C0B74GHHW93
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa03
+    name_normalized: help-jpa03
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106792
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B74GHHW93
+  help-jpa04:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188831
+    creator: U0B7410E23F
+    id: C0B7BGHNB36
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa04
+    name_normalized: help-jpa04
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106702
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B7BGHNB36
+  help-jpa05:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188831
+    creator: U0B7410E23F
+    id: C0B6SE8U86T
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-jpa05
+    name_normalized: help-jpa05
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106866
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B6SE8U86T
+  help-lecture-discussion:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188833
+    creator: U0B7410E23F
+    id: C0B74GH3H53
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-lecture-discussion
+    name_normalized: help-lecture-discussion
+    num_members: 35
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790296990359
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B74GH3H53
+  help-macos:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188834
+    creator: U0B7410E23F
+    id: C0B7BGJG5C4
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-macos
+    name_normalized: help-macos
+    num_members: 28
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106863
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B7BGJG5C4
+  help-team01:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188831
+    creator: U0B7410E23F
+    id: C0B79NYG3ED
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-team01
+    name_normalized: help-team01
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106893
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B79NYG3ED
+  help-team02:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188831
+    creator: U0B7410E23F
+    id: C0B6SE8J971
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-team02
+    name_normalized: help-team02
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106616
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B6SE8J971
+  help-team03:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188832
+    creator: U0B7410E23F
+    id: C0B7BGJ5M1A
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-team03
+    name_normalized: help-team03
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106961
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B7BGJ5M1A
+  help-wsl-linux:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188834
+    creator: U0B7410E23F
+    id: C0B827020FJ
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-wsl-linux
+    name_normalized: help-wsl-linux
+    num_members: 28
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106839
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B827020FJ
+  ltd-4-1-table-01:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188825
+    creator: U0B7410E23F
+    id: C0B79NYAJ5P
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-1-table-01
+    name_normalized: ltd-4-1-table-01
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106787
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B79NYAJ5P
+  ltd-4-1-table-11:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188826
+    creator: U0B7410E23F
+    id: C0B79NXMRAM
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-1-table-11
+    name_normalized: ltd-4-1-table-11
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106870
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B79NXMRAM
+  ltd-4-2-table-02:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188826
+    creator: U0B7410E23F
+    id: C0B75RWE5BQ
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-2-table-02
+    name_normalized: ltd-4-2-table-02
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836107308
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B75RWE5BQ
+  ltd-4-2-table-12:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188826
+    creator: U0B7410E23F
+    id: C0B74GHC9N1
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-2-table-12
+    name_normalized: ltd-4-2-table-12
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836107009
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B74GHC9N1
+  ltd-4-3-table-03:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188827
+    creator: U0B7410E23F
+    id: C0B74GH5FQD
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-3-table-03
+    name_normalized: ltd-4-3-table-03
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106946
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B74GH5FQD
+  ltd-4-3-table-13:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188827
+    creator: U0B7410E23F
+    id: C0B7BGJA1E0
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-3-table-13
+    name_normalized: ltd-4-3-table-13
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106896
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B7BGJA1E0
+  ltd-4-4-table-04:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188827
+    creator: U0B7410E23F
+    id: C0B8270DS8Y
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-4-table-04
+    name_normalized: ltd-4-4-table-04
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106782
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B8270DS8Y
+  ltd-4-4-table-14:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188828
+    creator: U0B7410E23F
+    id: C0B79NYH2UR
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-4-table-14
+    name_normalized: ltd-4-4-table-14
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106822
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B79NYH2UR
+  ltd-4-5-table-05:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188828
+    creator: U0B7410E23F
+    id: C0B7BGHEHKN
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-5-table-05
+    name_normalized: ltd-4-5-table-05
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106790
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B7BGHEHKN
+  ltd-4-5-table-15:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188828
+    creator: U0B7410E23F
+    id: C0B75RWD1HU
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-5-table-15
+    name_normalized: ltd-4-5-table-15
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836107266
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B75RWD1HU
+  ltd-4-6-table-06:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188829
+    creator: U0B7410E23F
+    id: C0B71GVCYLT
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-6-table-06
+    name_normalized: ltd-4-6-table-06
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106736
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B71GVCYLT
+  ltd-4-6-table-16:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188829
+    creator: U0B7410E23F
+    id: C0B71GV0GF5
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: ltd-4-6-table-16
+    name_normalized: ltd-4-6-table-16
+    num_members: 2
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      is_dormant: true
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1782836106728
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B71GV0GF5
   new-channel:
     context_team_id: T0B7AUVQKTN
     created: 1780171995
@@ -930,12 +1339,13 @@ channels:
     is_shared: false
     name: new-channel
     name_normalized: new-channel
-    num_members: 1
+    num_members: 75
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
     previous_names: []
     properties:
+      is_dormant: true
       use_case: project
     purpose:
       creator: U0B73UUQQ93
@@ -949,8 +1359,193 @@ channels:
       last_set: 0
       value: ''
     unlinked: 0
-    updated: 1780171995717
+    updated: 1782836106664
     url: https://ucsb-cs156-f26.slack.com/archives/C0B77B0PXQS
+  pr-queue-reviews:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188834
+    creator: U0B7410E23F
+    id: C0B71GV863D
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: pr-queue-reviews
+    name_normalized: pr-queue-reviews
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1780188834878
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B71GV863D
+  proj-courses:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188832
+    creator: U0B7410E23F
+    id: C0B77TPNU10
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: proj-courses
+    name_normalized: proj-courses
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1780188832611
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B77TPNU10
+  proj-dining:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188832
+    creator: U0B7410E23F
+    id: C0B8270Q74Y
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: proj-dining
+    name_normalized: proj-dining
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1780188832922
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B8270Q74Y
+  proj-frontiers:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188833
+    creator: U0B7410E23F
+    id: C0B75RWGNHL
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: proj-frontiers
+    name_normalized: proj-frontiers
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1780188833232
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B75RWGNHL
+  proj-happycows:
+    context_team_id: T0B7AUVQKTN
+    created: 1780188833
+    creator: U0B7410E23F
+    id: C0B74GGK021
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: true
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: proj-happycows
+    name_normalized: proj-happycows
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1780188833594
+    url: https://ucsb-cs156-f26.slack.com/archives/C0B74GGK021
   social:
     context_team_id: T0B7AUVQKTN
     created: 1780171934
@@ -970,12 +1565,13 @@ channels:
     is_shared: false
     name: social
     name_normalized: social
-    num_members: 1
+    num_members: 97
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
     previous_names: []
     properties:
+      is_dormant: true
       tabs:
       - data:
           file_id: F0B7AUV1UDA
@@ -1002,5 +1598,882 @@ channels:
       last_set: 0
       value: ''
     unlinked: 0
-    updated: 1780171942571
+    updated: 1782836106752
     url: https://ucsb-cs156-f26.slack.com/archives/C0B73UV62A1
+  team-f26-01:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102780
+    creator: U0C2RJ0PR0X
+    id: C0C3K83RHBP
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-01
+    name_normalized: team-f26-01
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3AMN4A5D
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3AMN4A5D
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118591940
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3K83RHBP
+  team-f26-02:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102781
+    creator: U0C2RJ0PR0X
+    id: C0C3Q44AU9Y
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-02
+    name_normalized: team-f26-02
+    num_members: 7
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3RV8QD18
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3RV8QD18
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118592344
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3Q44AU9Y
+  team-f26-03:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102781
+    creator: U0C2RJ0PR0X
+    id: C0C4JHWELSC
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-03
+    name_normalized: team-f26-03
+    num_members: 7
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C4LDMHSQ0
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C4LDMHSQ0
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118592711
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C4JHWELSC
+  team-f26-04:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102782
+    creator: U0C2RJ0PR0X
+    id: C0C4JHW2LSU
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-04
+    name_normalized: team-f26-04
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3Q4NK85C
+        label: ''
+        type: folder
+      - id: files
+        label: ''
+        type: files
+      tabz:
+      - id: Ct0C3Q4NK85C
+        type: folder
+      - type: files
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790316521482
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C4JHW2LSU
+  team-f26-05:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102782
+    creator: U0C2RJ0PR0X
+    id: C0C38RWME07
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-05
+    name_normalized: team-f26-05
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3AMN9DFZ
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3AMN9DFZ
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118593509
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C38RWME07
+  team-f26-06:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102783
+    creator: U0C2RJ0PR0X
+    id: C0C38RXCJH5
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-06
+    name_normalized: team-f26-06
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3M3SDGA1
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3M3SDGA1
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118593890
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C38RXCJH5
+  team-f26-07:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102783
+    creator: U0C2RJ0PR0X
+    id: C0C3K83DW4V
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-07
+    name_normalized: team-f26-07
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3AMNRAUX
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3AMNRAUX
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118594240
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3K83DW4V
+  team-f26-08:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102783
+    creator: U0C2RJ0PR0X
+    id: C0C3J0RD1C3
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-08
+    name_normalized: team-f26-08
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3M3SNYBX
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3M3SNYBX
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118594627
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3J0RD1C3
+  team-f26-09:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102784
+    creator: U0C2RJ0PR0X
+    id: C0C3TSXLLMA
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-09
+    name_normalized: team-f26-09
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3KRWLV9R
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3KRWLV9R
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118595040
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3TSXLLMA
+  team-f26-10:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102784
+    creator: U0C2RJ0PR0X
+    id: C0C3Q45AB5G
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-10
+    name_normalized: team-f26-10
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3Q4NHSDU
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3Q4NHSDU
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118595412
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3Q45AB5G
+  team-f26-11:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102784
+    creator: U0C2RJ0PR0X
+    id: C0C4JHX2Y9E
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-11
+    name_normalized: team-f26-11
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3RV9VDAN
+        label: ''
+        type: folder
+      - id: files
+        label: ''
+        type: files
+      tabz:
+      - id: Ct0C3RV9VDAN
+        type: folder
+      - type: files
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790299143185
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C4JHX2Y9E
+  team-f26-12:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102785
+    creator: U0C2RJ0PR0X
+    id: C0C3TSZH45A
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-12
+    name_normalized: team-f26-12
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3U17B5MX
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3U17B5MX
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118596189
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3TSZH45A
+  team-f26-13:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102785
+    creator: U0C2RJ0PR0X
+    id: C0C3N8XC3ML
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-13
+    name_normalized: team-f26-13
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3Q4ND44E
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3Q4ND44E
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118596554
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3N8XC3ML
+  team-f26-14:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102785
+    creator: U0C2RJ0PR0X
+    id: C0C38RX70EB
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-14
+    name_normalized: team-f26-14
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3AMN7VD5
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3AMN7VD5
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118596932
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C38RX70EB
+  team-f26-15:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102786
+    creator: U0C2RJ0PR0X
+    id: C0C3S5GNSMP
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-f26-15
+    name_normalized: team-f26-15
+    num_members: 8
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3M3S4F1T
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3M3S4F1T
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118597301
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3S5GNSMP
+  team-foo:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102786
+    creator: U0C2RJ0PR0X
+    id: C0C3S5GTDK3
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-foo
+    name_normalized: team-foo
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    properties:
+      tabs:
+      - id: Ct0C3KRBV4M9
+        label: ''
+        type: folder
+      tabz:
+      - id: Ct0C3KRBV4M9
+        type: folder
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790118361774
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C3S5GTDK3
+  team-foo1:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102786
+    creator: U0C2RJ0PR0X
+    id: C0C4JHXKS00
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-foo1
+    name_normalized: team-foo1
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790102786840
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C4JHXKS00
+  team-team3:
+    context_team_id: T0B7AUVQKTN
+    created: 1790102789
+    creator: U0C2RJ0PR0X
+    id: C0C38RY7SMD
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: team-team3
+    name_normalized: team-team3
+    num_members: 1
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790102789627
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C38RY7SMD
+  wed-5pm:
+    context_team_id: T0B7AUVQKTN
+    created: 1781736855
+    creator: U0B73UUQQ93
+    id: C0BBGBUP9C4
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: wed-5pm
+    name_normalized: wed-5pm
+    num_members: 47
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1789691081624
+    url: https://ucsb-cs156-f26.slack.com/archives/C0BBGBUP9C4
+  wed-6pm:
+    context_team_id: T0B7AUVQKTN
+    created: 1781736985
+    creator: U0B73UUQQ93
+    id: C0BBEJC6G8H
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: wed-6pm
+    name_normalized: wed-6pm
+    num_members: 44
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790018395522
+    url: https://ucsb-cs156-f26.slack.com/archives/C0BBEJC6G8H
+
