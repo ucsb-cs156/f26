@@ -8,7 +8,7 @@ maven_version: 3.9.14
 node_lts: v22.22.2
 npm_lts: v10.9.7
 zoom_version: 6.3.11
-java_version: 21
+java_version: 25.0.4
 ---
 
 # {{page.title}} 
