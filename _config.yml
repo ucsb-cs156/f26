@@ -6,6 +6,14 @@ incremental: true
 jdk_distribution: "25.0.4-tem"
 java_version: "25.0.4"
 
+# Recommended software versions, used in info/software*.md and info/install_checklist.md
+# These should be the same for MacOS and WSL, and should match current LTS versions.
+maven_version: 3.9.16
+node_lts: v24.21.0
+npm_lts: v11.19.0
+nvm_version: v0.40.8
+zoom_version: 6.3.11
+
 
 exclude: 
   - lab_SAVE
