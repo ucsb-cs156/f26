@@ -22,7 +22,7 @@ Instructions on installing these follow below.
 When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to double check that you completed every step successfully.
 
 
-## Recommmended for Everyone
+## Required for Everyone
 
 
 1. Slack Client
@@ -132,7 +132,7 @@ When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_chec
      * [Update npm on WSL](https://ucsb-cs156.github.io/topics/windows/windows_wsl.html#update-npm-on-wsl)
 
    
-## Recommended for Windows Users
+## Required for Windows Users
 
 Install Windows Subsystem for Linux.
 
@@ -142,7 +142,7 @@ instructions under Linux/WSL.
    
 If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [#help-windows-linux-wsl]({{site.channels.help-wsl-linux.url}}) channel on Slack. In that case, we will try to find an alternative for you.
  
-## Recommended for Ubuntu Linux / WSL Users
+## Required for Ubuntu Linux / WSL Users
  
 Instructions for installing Windows Subsystem for Linux (WSL), as well as environment setup instructions for Ubuntu systems, is available here: [https://ucsb-cs156.github.io/topics/windows_wsl/](https://ucsb-cs156.github.io/topics/windows/windows_wsl.html)
 
@@ -161,7 +161,7 @@ Starting in Week 3:
 
 If you're using a Linux distribution that is not Ubuntu (or a similar Debian-based distribution with access to `apt`), the commands listed in the setup guide linked above may not work. The staff cannot provide support on finding equivalent commands for your desired distribution, but community resources such as Stack Overflow can help here.
 
-## Recommended for MacOS Users
+## Required for MacOS Users
 
 If you have questions about this section, please ask on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the Slack.
 
