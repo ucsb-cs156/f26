@@ -21,12 +21,6 @@ Instructions on installing these follow below.
 
 When you are finished, check <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to double check that you completed every step successfully.
 
-# Software to Install in week 3 (for frontend development)
-
-You will not need this right away, so you can put this off until later.
-
-* nvm (node version manager)
-* Current LTS version of Node available through nvm (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
 
 ## Recommmended for Everyone
 
@@ -159,6 +153,9 @@ The following programs will be installed in the above guide:
 * The latest version of git
 * Java {{page.java_version}} (Distribution <tt>{{site.jdk_distribution}}</tt> recommended)
 * Maven {{page.maven_version}}
+
+Starting in Week 3:
+
 * nvm (latest stable version)
 * Current LTS version of Node installed via `nvm install {{page.node_lts}}; nvm use {{page.node_lts}}` (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
 
@@ -286,21 +283,26 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    That shows the wrong Java version (23).
 
    If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
+
+# Software to Install in week 3 (for frontend development)
+
+You will not need this right away, so you can put this off until later.
+
+* nvm (node version manager)
+* Current LTS version of Node available through nvm (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
    
-5. nvm, Node, and npm
+Even if you already have node and npm installed on your computer, you should install Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
 
-   Even if you already have node and npm installed on your computer, you should install Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
+You can install nvm via `brew install nvm`.
 
-   You can install nvm via `brew install nvm`.
+Be sure to read the post installation instructions, which may ask you to type in some commands to adjust your shell, typically something like the ones below. It's important to do these extra commands, and **note that the ones below may not be the correct ones for your system, so copy the ones shown on your screen after you type `brew install nvm`**.
 
-   Be sure to read the post installation instructions, which may ask you to type in some commands to adjust your shell, typically something like the ones below. It's important to do these extra commands, and **note that the ones below may not be the correct ones for your system, so copy the ones shown on your screen after you type `brew install nvm`**.
-
-   ```
-   echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
-   echo '[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh"' >> ~/.zshrc
-   echo '[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix nvm)/etc/bash_completion.d/nvm"' >> ~/.zshrc
-   source ~/.zshrc
-   ```
+```
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo '[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh"' >> ~/.zshrc
+echo '[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix nvm)/etc/bash_completion.d/nvm"' >> ~/.zshrc
+source ~/.zshrc
+```
 
 
 
