@@ -294,9 +294,12 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 
-You will not need this right away, so you can put this off until later.
+You will not need this right away, so if you want to get started on the early Java-only programming assignments, you can do so now, 
+and come back to this later.  You'll need this for the first assignment that includes "frontend" programming.
 
-Even if you already have node and npm installed on your computer, you should install Node Version Manager (nvm).  The projects you'll be working on may require specific versions of node and npm, so rather than installing a specific version of Node directly, it is better to use `nvm`, a program that allows you to easily install and switch between different versions of Node.
+Even if you already have `node` and `npm` installed on your computer, you should install Node Version Manager (`nvm`).  
+
+The projects you'll be working on may require specific versions of `node` and `npm`, so rather than installing a specific version of Node directly, it is better to use `nvm`, a program that allows you to easily install and switch between different versions of Node.
 
 As of the start of F26, the recommended LTS version is <tt>node {{site.node_lts}} (npm {{site.npm_lts}})</tt>.
 
