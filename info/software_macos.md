@@ -155,8 +155,12 @@ Next, generate an SSH key so that you can `git clone`, `git push`, etc. without 
    ssh -T git@github.com
    ```
 
-   The first time, you will be asked whether to trust the host; type `yes`.  You should see a message that says "Hi *your-github-username*! You've successfully authenticated".
+   The first time, you will be asked whether to trust the host; type `yes`.  You should see a message like this one:
 
+   <pre>
+   Hi <i>your-github-username</i>! You've successfully authenticated, but GitHub does not provide shell access.
+   </pre>
+   
 ## Part 2: VSCode command line tool
 
 You should already have installed VSCode from the [Software](software.html) page.  Now install the command line command so that at the command prompt you can type `code .` and it will open VSCode in that directory.
