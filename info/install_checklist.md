@@ -30,9 +30,10 @@ Throughout, "command prompt" means "Terminal Window" or "Shell Window".
 4. Part 2: VSCode shell command is installed
    * To test this, type `code .` at a command prompt in any directory, and it should bring up that directory in VSCode
 5. Part 3: SDKMAN and Java version {{site.java_version}} are installed
-   * To test this, type `sdk version` and `java --version` at a command prompt; you should get version {{site.java_version}} of Java (not a later or earlier one).
+   * To test this, type `sdk version` first.
+   * Then, type `sdk use java {{site.jdk_distribution}}; java --version` at a command prompt; you should get version {{site.java_version}} of Java (not a later or earlier one).
 6. Part 4: Maven version {{site.maven_version}} is installed
-   * To test this, type `mvn --version` at a command prompt, and you get a message that Maven is version {{site.maven_version}} (or newer), that the Maven home is under `.sdkman`, and that it is using version {{site.java_version}} of Java (not a later or earlier one).
+   * To test this, type ``sdk use maven {{site.maven_version}}; mvn --version` at a command prompt, and you get a message that Maven is version {{site.maven_version}} (or newer), that the Maven home is under `.sdkman`, and that it is using version {{site.java_version}} of Java (not a later or earlier one).
 7. **(Week 3)** Part 5: Node Version Manager is installed
    * To test this, type `nvm --version` at a command prompt; you should see version {{site.nvm_version}} (or newer)
 8. **(Week 3)** Part 5: Node Version Manager can install the current LTS version of node and npm.
