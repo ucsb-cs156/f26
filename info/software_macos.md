@@ -193,39 +193,36 @@ and frameworks.
 
 ## Part 4: Maven
 
-Install or upgrade to the latest supported version of Maven, specifically Maven {{site.maven_version}} or later.
-Do not leave an older Maven version installed from a previous course or from the system package manager.
+Install Maven {{site.maven_version}} using SDKMAN (which you installed in Part 3):
 
-You can use `brew` to install Maven:
+<p><code>sdk install maven {{site.maven_version}}</code></p>
 
-```
-brew update
-brew install maven
-```
+If SDKMAN asks whether you want to make it the default version, answer `Y`.
 
-Or if you already have Maven installed, do this to upgrade it to the latest version:
+Installing Maven with SDKMAN (rather than Homebrew) means the same steps work on MacOS and WSL, and that Maven uses whichever Java version you selected with SDKMAN.
 
-```
-brew update
-brew upgrade maven
-```
+**Do not leave an older Maven version installed from a previous course or from another package manager.**  If you previously installed Maven with `brew`, remove it with `brew uninstall maven`; otherwise `mvn` may run Homebrew's copy, which comes with its own (wrong) version of Java.
 
-Then to check that it is installed, do:
+Then to check that it is installed, open a new terminal window and do:
 
 ```
 mvn --version
 ```
 
-Be sure that you have Maven version {{site.maven_version}} or newer, as Java {{site.java_version}} requires a recent version of Maven to work.  You should see output similar to:
+You should see output similar to the following. Be sure that the Maven version is {{site.maven_version}} (or newer), and that the Maven home is under `.sdkman`:
 
 ```
-Apache Maven {{site.maven_version}}
+Apache Maven {{site.maven_version}} (...)
+Maven home: /Users/yourname/.sdkman/candidates/maven/{{site.maven_version}}
+Java version: {{site.java_version}}, vendor: ..., runtime: /Users/yourname/.sdkman/candidates/java/{{site.jdk_distribution}}
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", ...
 ```
 
 When you type `mvn --version`, be sure you are also getting the correct version of Java
 (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>), not an older or newer Java version from another installation.
 
-For example, you do NOT want to see this:
+For example, you do NOT want to see this, which shows Homebrew's Maven using the wrong Java version (23):
 
 ```
 pconrad@Phillips-MacBook-Air ~ % mvn --version
@@ -237,9 +234,7 @@ OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
 pconrad@Phillips-MacBook-Air ~ % 
 ```
 
-That shows the wrong Java version (23).
-
-If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
+If you are not seeing the correct version of Maven or Java after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 

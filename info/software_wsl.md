@@ -200,59 +200,36 @@ and frameworks.
 
 ## Part 4: Maven
 
-Install or upgrade to the latest supported version of Maven, specifically Maven {{site.maven_version}} or later.
-Do not leave an older Maven version installed from a previous course or from the system package manager.
+Install Maven {{site.maven_version}} using SDKMAN (which you installed in Part 3):
 
-The `apt` package manager typically has an older version of Maven, so we need to manually download and extract Maven.
+<p><code>sdk install maven {{site.maven_version}}</code></p>
 
-Note: The first `cd` command below is to make sure that you are doing the rest of the commands in your "home directory" (i.e. a directory where you have write permission.)  Sometimes the shell will put you in a system directory by default where you don't have write permission; in that case, downloads will fail even if the link and network connections are fine.
+If SDKMAN asks whether you want to make it the default version, answer `Y`.
 
-```sh
-cd
-export MAVEN_VERSION={{site.maven_version}}
-curl -O https://downloads.apache.org/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz
-tar -zxvf apache-maven-${MAVEN_VERSION}-bin.tar.gz
-sudo mv apache-maven-${MAVEN_VERSION} /opt/maven
-```
+Installing Maven with SDKMAN (rather than manually downloading it from Apache) means the same steps work on MacOS and WSL, and that Maven uses whichever Java version you selected with SDKMAN.
 
-If the `curl` download fails with "not found", the Apache site may have moved Maven {{site.maven_version}} to a different mirror.  Try `https://dlcdn.apache.org/maven/maven-3/...` or `https://archive.apache.org/dist/maven/maven-3/...` in place of `https://downloads.apache.org/maven/maven-3/...`, or check for the current version at <https://maven.apache.org/download.cgi>.
+**Do not leave an older Maven version installed from a previous course or from another package manager.**  If you previously installed Maven with `apt`, remove it with `sudo apt remove maven`.  If you previously installed Maven manually into `/opt/maven`, remove the line `export PATH=$PATH:/opt/maven/bin` from `~/.bashrc` (`nano ~/.bashrc`), so that it doesn't take priority over the SDKMAN version.
 
-**Then, add Maven to your PATH by adding the following line to `~/.bashrc`.**  Your `.bashrc` file can be opened in any text editor, but an easy one is:
-
-```sh
-nano ~/.bashrc
-```
-
-Add this line at the bottom:
-
-```sh
-export PATH=$PATH:/opt/maven/bin
-```
-
-Save and close nano by hitting `Ctrl+O` followed by enter, and then `Ctrl+X`.
-
-**Then, restart your terminal.**
-
-To check that Maven is installed, do:
+Then to check that it is installed, open a new terminal window and do:
 
 ```
 mvn --version
 ```
 
-Be sure that you have Maven version {{site.maven_version}} or newer, as Java {{site.java_version}} requires a recent version of Maven to work.  You should see output similar to:
+You should see output similar to the following. Be sure that the Maven version is {{site.maven_version}} (or newer), and that the Maven home is under `.sdkman`:
 
 ```
-Apache Maven {{site.maven_version}}
-Maven home: /opt/maven
-Java version: {{site.java_version}}, vendor: Eclipse Adoptium, runtime: ...
+Apache Maven {{site.maven_version}} (...)
+Maven home: /home/yourname/.sdkman/candidates/maven/{{site.maven_version}}
+Java version: {{site.java_version}}, vendor: ..., runtime: /home/yourname/.sdkman/candidates/java/{{site.jdk_distribution}}
 Default locale: en_US, platform encoding: UTF-8
-OS name: "linux", version: "5.4.0-72-generic", arch: "amd64", family: "unix"
+OS name: "linux", ...
 ```
 
 When you type `mvn --version`, be sure you are also getting the correct version of Java
 (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>), not an older or newer Java version from another installation.
 
-If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) channel on the course slack.
+If you are not seeing the correct version of Maven or Java after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) channel on the course slack.
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 
