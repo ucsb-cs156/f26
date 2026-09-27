@@ -193,7 +193,17 @@ Then open a new terminal window, or run this command to add the `sdk` executable
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
 
-To check that it worked, type `sdk version`.
+To check that it worked, type `sdk version`.  It should show these version numbers (or higher):
+
+```
+pconrad@Phillips-MacBook-Air-2 ~ % sdk version
+
+SDKMAN!
+script: 5.23.1
+native: 0.7.34 (macos aarch64)
+
+pconrad@Phillips-MacBook-Air-2 ~ % 
+```
 
 ### 3.2 Use SDKMAN to install Java {{site.java_version}}
 
