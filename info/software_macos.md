@@ -242,7 +242,10 @@ and frameworks.
 
 Install Maven {{site.maven_version}} using SDKMAN (which you installed in Part 3):
 
-<p><code>sdk install maven {{site.maven_version}}</code></p>
+<pre>
+sdk install maven {{site.maven_version}}
+sdk use maven {{site.maven_version}}
+</pre>
 
 If SDKMAN asks whether you want to make it the default version, answer `Y`.
 
@@ -250,13 +253,16 @@ Installing Maven with SDKMAN (rather than Homebrew) means the same steps work on
 
 **Do not leave an older Maven version installed from a previous course or from another package manager.**  If you previously installed Maven with `brew`, remove it with `brew uninstall maven`; otherwise `mvn` may run Homebrew's copy, which comes with its own (wrong) version of Java.
 
-Then to check that it is installed, open a new terminal window and do:
+To check that the correct version of Java and Maven are installed and selected, use:
 
 ```
 mvn --version
 ```
 
-You should see output similar to the following. Be sure that the Maven version is {{site.maven_version}} (or newer), and that the Maven home is under `.sdkman`:
+You should see output similar to the following. Be sure that:
+* the Maven version is {{site.maven_version}} (or newer)
+* the Maven home is under `.sdkman`:
+* the selected Java version is {{site.java_version}}
 
 ```
 Apache Maven {{site.maven_version}} (...)
@@ -266,22 +272,12 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", ...
 ```
 
-When you type `mvn --version`, be sure you are also getting the correct version of Java
-(the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>), not an older or newer Java version from another installation.
-
-For example, you do NOT want to see this, which shows Homebrew's Maven using the wrong Java version (23):
-
-```
-pconrad@Phillips-MacBook-Air ~ % mvn --version
-Apache Maven 3.9.11 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-Maven home: /opt/homebrew/Cellar/maven/3.9.11/libexec
-Java version: 23, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home
-Default locale: en_US, platform encoding: UTF-8
-OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
-pconrad@Phillips-MacBook-Air ~ % 
-```
-
-If you are not seeing the correct version of Maven or Java after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
+If you are not seeing the correct version of Maven or Java after typing the following, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
+<pre>
+ sdk use java {{site.jdk_distribution}}
+ sdk use maven {{site.maven_version}}
+ mvn --version
+</pre>
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 
