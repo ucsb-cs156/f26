@@ -345,14 +345,14 @@ If you don't have one on this machine, follow these instructions to create one:
 
 Once you've made an ssh key, you have to tell github it exists. For most students, the commands will be below. 
 
-* If you set a custom location for your public/private key pair, replace `~/.ssh/id_rsa.pub` with your public key location. 
-* **If you have an id_ed25519 key, replace `id_rsa.pub` with `id_ed25519.pub`**. 
+* If you set a custom location for your public/private key pair, replace `~/.ssh/id_ed25519.pub` with your public key location. 
+* **If your key is in rsa format instead of ed25519 format, replace `id_ed25519.pub` with `id_rsa.pub` in these instructions**. 
 
 Run the following commmands:
 
 ```bash
 git config --global gpg.format ssh
-git config --global user.signingkey ~/.ssh/id_rsa.pub
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
 ```
 
 So that you don't have to remember to sign each commit as you make it, you can run the following command:
@@ -369,10 +369,10 @@ mkdir -p ~/.config/git
 touch ~/.config/git/allowed_signers
 ```
 
-Followed by this one (changing `~/.ssh/id_rsa.pub to the name of your public key file if needed).
+Followed by this one (changing `~/.ssh/id_ed25519.pub to the name of your public key file if needed).
 
 ```
-echo "myemail@ucsb.edu" `cat ~/.ssh/id_rsa.pub` >> ~/.config/git/allowed_signers
+echo "myemail@ucsb.edu" `cat ~/.ssh/id_ed25519.pub` >> ~/.config/git/allowed_signers
 ```
 
 Then, tell git where the allowed signers are:
@@ -387,15 +387,15 @@ This is mainly needed so that the `git log --show-signature` command works prope
 
 Next, you need to upload your *public* key to Github as a *signing key*.  This is different from uploading it to Github for accessing repos, which you probably have already done previously. 
 
-VERY IMPORTANT: you want to upload your `id_rsa.pub` file to `github.com`
+VERY IMPORTANT: you want to upload your `id_ed25519.pub` file to `github.com`
 
-You do NOT upload your `id_rsa` file to github.com. That file is your private key, and needs to stay private and protected.
+You do NOT upload your `id_ed25519` file to github.com. That file is your private key, and needs to stay private and protected.
 
-You don't actually "upload" your `id_rsa.pub` to github.com.   You actually just copy and paste the value. `cd` into the `~/.ssh` directory and use the command `cat id_rsa.pub` to have the file be printed in the terminal like this
+You don't actually "upload" your `id_ed25519.pub` to github.com.   You actually just copy and paste the value. `cd` into the `~/.ssh` directory and use the command `cat id_ed25519.pub` to have the file be printed in the terminal like this
 
 ```
-    (~/.ssh)$ cat ~/.ssh/id_rsa.pub
-    ssh-rsa 
+    (~/.ssh)$ cat ~/.ssh/id_ed25519.pub
+    ssh-ed25519 
     AAAAB3NzaC1yc2EAAAADAQABAAABAQDYySoh7b1uGpI7saLozpgXz184YYgC9k22zLH8TqKiSLAcNCO5hEzgC0kZoytCMtw/hUx3kto8
     apPS4ORL6HebWXuGfzQ3nQslPpBNmto0hdo446wBu/Hl5a7pC3SZUzti4YbUjRDOBgM5zQMaopTXhtqNY/tRB8/lSSYaEtIxLN5twk29
     IQUoA2wdPTmU/fRPc3PUdD9/KHJfBIL/ROsOb73tGOxqZoMnzV0ElmLhjq6WEqNWypaFrI0YU8OmIvxmlDXn0gkr3oYHqrbz5qznSust
@@ -403,7 +403,7 @@ You don't actually "upload" your `id_rsa.pub` to github.com.   You actually just
     (~/.ssh)$
 ```
 
-Then you want to copy the text contents of the file, starting with 'ssh-rsa AAAAA...' and ending with '...@csil.cs.ucsb.edu or the name of your computer'.
+Then you want to copy the text contents of the file, starting with 'ssh-ed25519 AAAAA...' and ending with '...@csil.cs.ucsb.edu or the name of your computer'.
 
 * Keep in mind that uploading a public SSH key gives access to your github account to whoever has access to the matching private SSH key on his/her computer.
 * So make sure that you are using YOUR OWN public ssh key—and not the key shown in the example above.
