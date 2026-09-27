@@ -531,7 +531,22 @@ Try using `mvn compile` and see what happens when you compile this.
 
 ## Step 12: Submit correct Java code to Gradescope
 
-Now, fix the code so that it produces the correct output.  Change the file `src/main/java/jpa00/Hello.java` so that the `System.out.println` method call reads:
+Now, fix the code so that it produces the correct output.  
+
+We encourage you to do this in VSCode by:
+
+1. Making sure your current directory is the root of the repo.  When you type `ls` at the command line, you should see the `pom.xml`, the `src` directory and the other files in the repo, like this:
+   ```
+   pconrad@Phillips-MacBook-Air-2 jpa00-pconrad % ls
+   LICENSE		mvnw		pom.xml
+   README.md	mvnw.cmd	src
+   pconrad@Phillips-MacBook-Air-2 jpa00-pconrad % 
+   ```
+2. Using `code .` to open VSCode in the root of the repo.
+
+You could, of course, use any editor you like, but VSCode has specific tools that will be very useful in the course, and *works best when opened in the root of the repo*.  VSCode looks for clues about it's environment to customize the features available, and it *expects* to be opened in the root of the repo.
+
+Now that you have the repo open in VSCode, change the file `src/main/java/jpa00/Hello.java` so that the `System.out.println` method call reads:
 
 ```
         System.out.println("Hello, World!");
