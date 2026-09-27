@@ -311,6 +311,7 @@ You can install nvm via `brew`:
 brew install nvm
 ```
 
+
 Be sure to read the post installation instructions, which may ask you to type in some commands to adjust your shell, typically something like the ones below. It's important to do these extra commands, and **note that the ones below may not be the correct ones for your system, so copy the ones shown on your screen after you type `brew install nvm`**.
 
 ```
@@ -320,11 +321,16 @@ echo '[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && \. "$(brew --pr
 source ~/.zshrc
 ```
 
+The steps might ask you to put lines in your `~/.zshrc` file; you can do this with VSCode (e.g. `code ~/.zsrhc`) as long as you already installed the VSCode command line at an earlier step.
+
 To verify that the install was successful, open a new terminal window and run:
 
 ```
 nvm --version
 ```
+
+The current version should be {{site.nvm_version}}. If you get  `zsh: command not found: nvm`, check that you did the steps recommended in the output of the
+`nvm` install script that were printed out on your shell console.
 
 ### 5.2 Install Node
 
