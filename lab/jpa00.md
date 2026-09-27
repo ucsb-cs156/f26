@@ -501,13 +501,13 @@ After you submit, it will take some time for Gradescope to process your submissi
 The most important part is this:
 
 ```
-FAILED:
-expected:<[Hello, World]!
-> but was:<[This is the wrong output]!
+FAILED/ABORTED:: 
+org.opentest4j.AssertionFailedError: expected: <Hello, World!
+> but was: <This is the wrong output!
 >
 ```
 
-Note that it tells you exactly what was different between the expected and actual output (the part in `[]`).  The `!` is the same in both parts, so it is outside the `[]`.
+Note that it tells you exactly what was different between the expected and actual output (the part in `[]`).  The `!` is the same in both parts, so it is outside the `[]`.   Notice the newline characters as well.
 
 
 Once you've understood this output,
