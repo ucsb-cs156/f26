@@ -42,7 +42,40 @@ On MacOS, `git` and other basic developer tools typically get installed as part 
 xcode-select --install
 ```
 
-If they are already installed, you will get a message saying so.  Otherwise, follow the instructions given in the message that pops up.  Don't worry if it says it will take 72 hours for the install; if you start it and let it run for a minute or two, that estimate should come down to something reasonable quickly, but it still may take 10-15 minutes.
+If these are not installed, an installer will appear; in that case, follow the instructions given in the message that pops up.
+
+Don't worry if it says it will take 72 hours for the install; if you start it and let it run for a minute or two, that estimate should come down to something reasonable quickly, but it still may take 10-15 minutes.
+
+Or, you might get this message:
+```
+xcode-select: note: Command line tools are already installed. 
+Use "Software Update" in System Settings or the softwareupdate command line interface to install updates
+```
+
+If you get that message, type this next:
+
+```
+softwareupdate --list
+```
+
+Look through the list, and see if you find this:
+
+```
+* Label: Command Line Tools for Xcode-16.2
+	Title: Command Line Tools for Xcode, Version: 16.2, Size: 751786KiB, Recommended: YES, 
+```
+
+If so, use this command to update the command line tools for Xcode.  **Do not copy this command exactly**, but instead, use the label that showed up on your system so that you get the correct version:
+
+```
+sudo softwareupdate --install "Command Line Tools (macOS...) for Xcode-..."
+```
+
+For example, for the output above, I would type:
+
+```
+sudo softwareupdate --install "Command Line Tools (macOS...) for Xcode-16.2"
+```
 
 ### 0.3 Homebrew (package manager)
 
