@@ -68,13 +68,13 @@ Look through the list, and see if you find this:
 If so, use this command to update the command line tools for Xcode.  **Do not copy this command exactly**, but instead, use the label that showed up on your system so that you get the correct version:
 
 ```
-sudo softwareupdate --install "Command Line Tools (macOS...) for Xcode-..."
+sudo softwareupdate --install "Command Line Tools for Xcode-..."
 ```
 
 For example, for the output above, I would type:
 
 ```
-sudo softwareupdate --install "Command Line Tools (macOS...) for Xcode-16.2"
+sudo softwareupdate --install "Command Line Tools for Xcode-16.2"
 ```
 
 ### 0.3 Homebrew (package manager)
