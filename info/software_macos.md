@@ -229,6 +229,12 @@ You should see something like this:
 openjdk 25.0.4 2026-..
 ```
 
+If you get `zsh: command not found: java`, you might have missed this step, so do this and try again:
+
+```
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
 **You really do need Java {{site.java_version}}, specifically**, and NOT some other version of Java, even if it is a *later* version than {{site.java_version}}. It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it can definitely matter.
 
 In this course we work with Spring Boot, as well as many other complex third party libraries.  They may have specific dependencies on specific Java
@@ -278,6 +284,13 @@ If you are not seeing the correct version of Maven or Java after typing the foll
  sdk use maven {{site.maven_version}}
  mvn --version
 </pre>
+
+
+If you get `zsh: command not found: mvn`, you might have missed this step, so do this and try again:
+
+```
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 
