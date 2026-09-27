@@ -495,7 +495,7 @@ To submit your work, you should be able to click on the GitHub link in Gradescop
 
 After you submit, it will take some time for Gradescope to process your submission. Once it's processed, you should see output similar to this:
 
-<img width="294" alt="jpa00-gs-starter-code-50" src="https://user-images.githubusercontent.com/1119017/229932774-25157e0d-5911-4df9-877e-7d35d9a01c00.png">
+<img width="530" height="137" alt="image" src="https://github.com/user-attachments/assets/b239cd62-171a-46c5-8351-a30806875825" />
 
 
 The most important part is this:
