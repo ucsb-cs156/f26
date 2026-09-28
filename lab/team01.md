@@ -14,7 +14,6 @@ github_org_url: https://github.com/ucsb-cs156-f26
 github_org: ucsb-cs156-f26
 starter_repo: https://github.com/ucsb-cs156-f26/STARTER-team01
 starter_repo_url: git@github.com:ucsb-cs156-f26/STARTER-team01.git
-slack_help_channel: "[#help-team01](https://ucsb-cs156-f26.slack.com/archives/C09M40206CC)" 
 teams_url: https://bit.ly/cs156-f26-teams
 office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
 software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
@@ -176,7 +175,7 @@ We'll be working to create six database tables:
 * Articles: for example, blog posts, newspaper articles, etc.
 * UCSB Dining Commons Menu Items: food/beverage items offered by UCSB Dining Halls
 * Menu Item Reviews: reviews of food/beverage items offered by UCSB Dining Halls
-* Help Requests: requests for help, e.g. those on the `#help-lecture-discussion` channel of the course slack
+* Help Requests: requests for help, e.g. those on the {% include slack.html channel="help-lecture-discussion" %} channel of the course slack
 * Recommendation Requests: e.g. requests for letters of rec for grad school, scholarships, jobs
 * UCSB Organizations: student orgs at UCSB
 
@@ -975,7 +974,7 @@ The code in most of our controllers relies on this exception handler to return a
 We may add more hints about working with the team01 code as we discover what
 problems students run into.
 
-In the meantime, use the `#help-team01` channel to ask questions.
+In the meantime, use the {% include slack.html channel="help-team01" %} channel to ask questions.
 
 ## A note about open source
 
@@ -1010,7 +1009,7 @@ The examples for the Controllers and Controller Tests are in these files:
 
 You should be able to find the code you need for each of the methods, and use it as a model to create the code for your database table.
 
-If you need additional guidance, ask on the `#help-team01` channel, and we'll try to steer you in the right direction.
+If you need additional guidance, ask on the {% include slack.html channel="help-team01" %} channel, and we'll try to steer you in the right direction.
 
 # When you are done
 

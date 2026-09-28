@@ -99,4 +99,4 @@ So you are encouraged to do the following: set a 30 minute timer, and try to do 
 
 If/when you run into problems, post to your team channel first (since everyone on your team is doing pretty much the “same but different, but also sort of the same” assignment.)  
 
-If they don’t know then try `#help-team01`.
+If they don’t know then try {% include slack.html channel="help-team01" %}.

@@ -12,12 +12,13 @@ parent: lab
 course_org: https://github.com/ucsb-cs156-f26
 course_org_name: ucsb-cs156-f26
 starter_repo: https://github.com/ucsb-cs156-f26/STARTER-jpa03
-slack_help_channel: "[#help-jpa03](https://ucsb-cs156-f26.slack.com/archives/C09JJGHELKE)"
 example_running_app: https://jpa03-staff.dokku-00.cs.ucsb.edu/
 office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
 software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
 ---
+
+{% assign help_channel = "help-" | append: page.title %}
 
 # {{page.title}} - {{page.description}}
 
@@ -35,7 +36,7 @@ For due date: see jpa03 on Gradescope.
 
 ## Instructions for jpa03
 
-If you run into problems, let us know on the {{page.slack_help_channel}} channel on the slack.
+If you run into problems, let us know on the {% include slack.html channel=help_channel %} channel on the slack.
 
 {% include drop_down_style.html %}
 
@@ -343,11 +344,11 @@ puncutation and collection of fields should be the same).
 
 If it doesn't work:
 
-* Check on the Slack channel <tt>#help-{{page.title}}</tt> to see if there are any known issues.
+* Check on the Slack channel {% include slack.html channel=help_channel %} to see if there are any known issues.
 * Ask folks on your own team for help first on your team's slack channel.
-* Post a specific question on the <tt>#help-{{page.title}}</tt> slack channel—note what you were trying to do, what you expected, and what happened instead.  Screenshots or copy/pasted console output is helpful!
+* Post a specific question on the {% include slack.html channel=help_channel %} slack channel—note what you were trying to do, what you expected, and what happened instead.  Screenshots or copy/pasted console output is helpful!
 * Come to office hours (posted here: <{{page.office_hours_pages}}>)
-* Ask during class on `#help-lecture-discussion`
+* Ask during class on {% include slack.html channel="help-lecture-discussion" %}
 
 ## Step 6: Add link to running app to your README.md file
 

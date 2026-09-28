@@ -18,7 +18,7 @@ It turns out that almost everything in terms of installing software (Java, Maven
 Therefore we strongly suggest that if you have a Windows environment, you install the Windows Subsystem for Linux (WSL) and then follow
 the instructions below.  WSL is a tool that creates a separate Linux environment alongside your Windows environment, with access to your local filesystem.  This gives you access to package managers (such as `apt` for Ubuntu/Debian) and the full suite of UNIX commands.
 
-If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [#help-windows-linux-wsl]({{site.channels.help-wsl-linux.url}}) channel. In that case, we will try to find an alternative for you.
+If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the {% include slack.html channel="help-wsl-linux" %} channel. In that case, we will try to find an alternative for you.
 
 **Native Ubuntu Linux users** (those not using Ubuntu through WSL) can skip Part 0 and go directly to Part 1.  If you're using a Linux distribution that is not Ubuntu (or a similar Debian-based distribution with access to `apt`), the commands on this page may not work. The staff cannot provide support on finding equivalent commands for your desired distribution, but community resources such as Stack Overflow can help here.
 
@@ -229,7 +229,7 @@ OS name: "linux", ...
 When you type `mvn --version`, be sure you are also getting the correct version of Java
 (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>), not an older or newer Java version from another installation.
 
-If you are not seeing the correct version of Maven or Java after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) channel on the course slack.
+If you are not seeing the correct version of Maven or Java after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the {% include slack.html channel="help-wsl-linux" %} channel on the course slack.
 
 ## Part 5: nvm and Node (needed starting in Week 3, for frontend development)
 

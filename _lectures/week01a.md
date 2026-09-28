@@ -25,21 +25,21 @@ Also note that you can get started on some of this *before* class and you are en
 
      If it doesn't work, check the steps in H00 again where you set up your private key and authorized key files.
 
-     If it *still* doesn't work, ask for help on [#help-lecture-discussion]({{site.channels.help-lecture-discussion.url}}).
+     If it *still* doesn't work, ask for help on {% include slack.html channel="help-lecture-discussion" %}.
 
      Once it works, make a post to your team slack channel that says: "I can login to dokku".
 
-     But if you are unable to resolve the dokku issue in a reasonable amount of time, make a post on your team channel that says: "I cannot log into dokku", as well as making a post on `#help-dokku` describing what's happening (along with screenshots.)
+     But if you are unable to resolve the dokku issue in a reasonable amount of time, make a post on your team channel that says: "I cannot log into dokku", as well as making a post on {% include slack.html channel="help-dokku" %} describing what's happening (along with screenshots.)
 
    
 2. Next, check in on your Slack with your name, and what platform you use, e.g. `I use MacOS`, or `I use Windows/WSL` or `My laptop runs Ubuntu Linux` or whatever.
    * Optional: You may want to rearrange yourself at the table so that Mac folks are sitting with Mac folks, and Windows folks with Windows folks, etc.  This will make it easier if you run into problems later, since you can check in with your neighbor.
 3. Follow the instructions at this link: <https://ucsb-cs156.github.io/f26/info/software.html>
    * If you get stuck, check your slack channel to see which team members have the same platform as you.  Try to get help from them first.
-   * If the folks are your team don't know, then try the [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) channels. Before posting your question, see if it's already been answered by someone else.
-   * If you post a question that has no answer, then copy a link to your Slack post, and post that *again* on [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}}).  Include your table number along with the link to your question on either [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}})
+   * If the folks are your team don't know, then try the {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %} channels. Before posting your question, see if it's already been answered by someone else.
+   * If you post a question that has no answer, then copy a link to your Slack post, and post that *again* on {% include slack.html channel="help-lecture-discussion" %}.  Include your table number along with the link to your question on either {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %}
 
-4. When you are all finished, go through the checklist at:  <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to ensure that each item works as expected.  If it doesn't, then ask for help (using the same order as in step 2: (1) team slack channel and live people (2) [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}) (3) [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}}) with table/team number and link to your post on [`#help-macos`]({{site.channels.help-macos.url}}) or [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}}).
+4. When you are all finished, go through the checklist at:  <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to ensure that each item works as expected.  If it doesn't, then ask for help (using the same order as in step 2: (1) team slack channel and live people (2) {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %} (3) {% include slack.html channel="help-lecture-discussion" %} with table/team number and link to your post on {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %}.
 
 5. When all items work as expected, make a post on your slack channel that says: "Installation steps for P04: installation check complete", and post that link to Canvas.
 6. **IF YOU RUN OUT OF TIME**, i.e. class is almost over and it doesn't look like you'll finish:

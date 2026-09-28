@@ -89,7 +89,7 @@ Everything else you need to install depends on what kind of computer you have.  
 | A Linux PC running Ubuntu (or another Debian-based distribution) | [Software for Windows with WSL](software_wsl.html), skipping the parts that are specific to Windows (installing WSL itself) |
 {:.table .table-sm .table-striped .table-bordered}
 
-If you are unable to use either of these options because of limitations on your machine, please reach out to the course staff via Slack using the [#help-windows-linux-wsl]({{site.channels.help-wsl-linux.url}}) channel. In that case, we will try to find an alternative for you.
+If you are unable to use either of these options because of limitations on your machine, please reach out to the course staff via Slack using the {% include slack.html channel="help-wsl-linux" %} channel. In that case, we will try to find an alternative for you.
 
 ## Optional (for everyone)
 

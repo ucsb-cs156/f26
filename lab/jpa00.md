@@ -21,10 +21,10 @@ course_software: https://ucsb-cs156.github.io/f26/info/software.html
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
 
 If you find typos or problems with the lab instructions, please report these via Slack:
-* When class is in session (e.g. lecture or discussion) please use [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}})
-* At other times, please use `#help-jpa00`, or if it is a configuration problem, use one of these channels as applicable:
-  - [`#help-macos`]({{site.channels.help-macos.url}})
-  - [`#help-windows-linux-wsl`]({{site.channels.help-wsl-linux.url}})
+* When class is in session (e.g. lecture or discussion) please use {% include slack.html channel="help-lecture-discussion" %}
+* At other times, please use {% include slack.html channel="help-jpa00" %}, or if it is a configuration problem, use one of these channels as applicable:
+  - {% include slack.html channel="help-macos" %}
+  - {% include slack.html channel="help-wsl-linux" %}
 
 # Goals
 
@@ -128,7 +128,7 @@ We will use Gradescope to many of your homework, exams and lab/programming assig
 
 The lab assignment {{page.title}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.title}} using this page.
 
-If you don't see the course {{site.course}} and the assignment {{page.title}}, please check with the staff using [`#help-lecture-discussion`]({{site.channels.help-lecture-discussion.url}}) during class, or `#help-lab00` outside of class.
+If you don't see the course {{site.course}} and the assignment {{page.title}}, please check with the staff using {% include slack.html channel="help-lecture-discussion" %} during class, or {% include slack.html channel="help-jpa00" %} outside of class.
 
 
 ## Step 3: Configure your machine for git/GitHub

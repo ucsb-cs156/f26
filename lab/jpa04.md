@@ -11,7 +11,6 @@ layout: default
 parent: lab
 course_org: https://github.com/ucsb-cs156-f26
 course_org_name: ucsb-cs156-f26
-slack_help_channel: "[#help-jpa04](https://ucsb-cs156-f26.slack.com/archives/C09K987DZ08)"
 staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
 previous_deploy_backend_lab: jpa03
 ---
@@ -26,9 +25,11 @@ previous_deploy_backend_lab: jpa03
 
 For due date: see {{page.title}} on Canvas.
 
+{% assign help_channel = "help-" | append: page.title %}
+
 # Instructions for {{page.title}}
 
-If you run into problems, let us know on the {{page.slack_help_channel}} channel on the slack.
+If you run into problems, let us know on the {% include slack.html channel=help_channel %} channel on the slack.
 
 {% include drop_down_style.html %}
 
@@ -129,11 +130,11 @@ This step may differ in subtle ways across the four repos, so we have created se
 
 If it doesn't work:
 
-* Check on the Slack channel <tt>#help-{{page.title}}</tt> to see if there are any known issues.
+* Check on the Slack channel {% include slack.html channel=help_channel %} to see if there are any known issues.
 * Ask folks on your own team for help first on your team's slack channel.
-* Post a specific question on the <tt>#help-{{page.title}}</tt> slack channel—note what you were trying to do, what you expected, and what happened instead.  Screenshots or copy/pasted console output is helpful!
+* Post a specific question on the {% include slack.html channel=help_channel %} slack channel—note what you were trying to do, what you expected, and what happened instead.  Screenshots or copy/pasted console output is helpful!
 * Come to office hours (posted here: <{{page.office_hours_pages}}>)
-* Ask during class on `#help-lecture-discussion`
+* Ask during class on {% include slack.html channel="help-lecture-discussion" %}
 
 ## Step 5: Submit a link to your running app on Canvas
 

@@ -77,7 +77,7 @@ Click triangle for links to the repos:
 
 | Repo | Kanban Board | GH Pages | Dokku | Dokku QA | Slack |
 |-----|-----|------|{% for t in site.teams %}
-|[{{page.repo_to_work_in}}-{{t.team}}]({{page.github_org_url}}/{{page.repo_to_work_in}}-{{t.team}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.repo_to_work_in}}-{{t.team}}) | [dokku](https://{{page.repo_to_work_in}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.repo_to_work_in}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack](site.channels[t.team].url }}) | {% endfor %}
+|[{{page.repo_to_work_in}}-{{t.team}}]({{page.github_org_url}}/{{page.repo_to_work_in}}-{{t.team}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.repo_to_work_in}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.repo_to_work_in}}-{{t.team}}) | [dokku](https://{{page.repo_to_work_in}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.repo_to_work_in}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | {% capture team_channel %}team-{{ t.team }}{% endcapture %}{% include slack.html channel=team_channel text="slack" %} | {% endfor %}
 
 </details>
 
