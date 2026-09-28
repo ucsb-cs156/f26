@@ -283,14 +283,16 @@ There are two ways to do it:
    on your laptop to pull in the latest changes to your local repo (the one on your laptop.)
 
 
-In general, all quarter long, we want you to develop the habit of adjusting the
+In general, for all of the programming exercises during the "onboarding" phase of the course, we want you to develop the habit of adjusting the
 README.md in your repo to include a link to your running web app, and sometimes
-other things as well.
+other things as well.  
 
-Follow the instructions in the README.md, including removing the `TODOs` after you take care of each one.
+We'll stop doing this when we get to the "legacy code" phase of the course, because then, the `README.md` file in your repo will
+be the one that is merged to main as the "real" code.
+
+But, for now, for this and every programming assignment, follow the instructions in the README.md, including removing the `TODOs` after you take care of each one.
 
 Use the `https` link when you put a link to your running app in your README.md file.
-
 
 ## Step 8: Submitting your work for grading
 
