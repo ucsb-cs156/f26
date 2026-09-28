@@ -187,6 +187,7 @@ Java {{site.java_version}} (the SDKMAN distribution <tt>{{site.jdk_distribution}
 
 ```bash
 sdk use java {{site.jdk_distribution}}
+sdk use maven {{site.maven_version}}
 java -version
 mvn --version
 ```
