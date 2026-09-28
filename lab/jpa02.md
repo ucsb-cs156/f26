@@ -521,7 +521,7 @@ Then open the file `target/pit-reports/index.html` in a browser
 
 As with the line coverage reports from `jacoco`, the `pitest` report starts at the package level.  In this project, all of our code is in the package
 `edu.ucsb.cs156.spring.hello`.  The part we are interested in here is the mutation percentage, which shows how many of our mutants survived (remember that
-a surviving mutant is *bad*; it means that we were able to introduce what was likely a bug into the code, but no test caught the bug.)  We only killed 11 out of 25 mutants, which is
+a surviving mutant is *bad*; it means that we were able to introduce what was likely a bug into the code, but no test caught the bug.)  We only killed 11 out of 25 mutants (you may see slightly different numbers on your machine), which is
 not very good.
 
 ![image](https://github.com/user-attachments/assets/b13953d3-5ea7-42c4-8a5a-4369eba19a56)
