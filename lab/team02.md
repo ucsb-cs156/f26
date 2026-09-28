@@ -58,7 +58,7 @@ Here are the links to the artifacts for {{page.title}}:
 
 | Repo | Kanban Board | GH Pages | Dokku | Dokku QA | Slack |
 |-----|-----|------|{% for t in site.teams %}
-|[{{page.title}}-{{t.team}}]({{page.github_org_url}}/{{page.title}}-{{t.team}}) | [{{page.title}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.title}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.title}}-{{t.team}}) | [dokku](https://{{page.title}}-{{t.team}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.title}}-{{t.team}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | [slack](site.channels[t.team].url }}) | {% endfor %}
+|[{{page.title}}-{{t.team}}]({{page.github_org_url}}/{{page.title}}-{{t.team}}) | [{{page.title}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.title}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.title}}-{{t.team}}) | [dokku](https://{{page.title}}-{{t.team}}.dokku-{{t.dokku}}.cs.ucsb.edu) | [dokku-qa](https://{{page.title}}-{{t.team}}-qa.dokku-{{t.dokku}}.cs.ucsb.edu) | {% capture team_channel %}team-{{ t.team }}{% endcapture %}{% include slack.html channel=team_channel text="slack" %} | {% endfor %}
 
 
 For {{page.title}}, the Kanban board is populated by the staff before you start using the Github Actions workflow [<tt>99-{{page.title}}.yml</tt>](
