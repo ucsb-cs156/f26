@@ -298,3 +298,22 @@ When you have a running web app on Dokku, make a submission on Gradescope here:
 * <{{page.gradescope_link}}>
 
 
+# Staff Info
+
+<details markdown="1">
+<summary markdown="1">Information in this section is for staff.  You can click on the triangle to see the staff info if you like.
+</summary>
+
+## Before this lab
+
+* Set up STARTER-jpa01
+* Set up autograder on Gradescope
+* Create jpa01 student repos (student access is admin, visibility is public, and required signed keys is enabled).
+
+  <img width="393" height="349" alt="image" src="https://github.com/user-attachments/assets/5bccf104-704a-497c-9c82-4321d69f2c14" />
+
+* Test that you can submit on Gradescope. You may have to do the step where you authorize Gradescope to access the Github organization. [This may help](https://ucsb-cs156.github.io/topics/gradescope/gradescope_organization_access.html)
+
+
+  
+</details>
