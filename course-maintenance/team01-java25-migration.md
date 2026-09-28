@@ -60,6 +60,19 @@ What was new compared with JPA03:
   `setup.sh` must therefore be at least the starter's Java version, or every
   submission fails to compile (`--release 25`). It was still installing Java
   21 from a PPA.
+- **jgrade2 shades JUnit Platform 1.10, which breaks on Spring Boot 3.5.**
+  `io.github.jgrade2:jgrade2:2.0.0-a3` is a fat jar containing
+  `org/junit/platform/...` 1.10 classes. Boot 3.5 brings JUnit Jupiter 5.12,
+  whose engine calls `EngineDiscoveryRequest.getOutputDirectoryProvider()`
+  (Platform 1.12+). Since `pom add` appends jgrade2 after the student's
+  dependencies, its bundled classes precede `junit-platform-engine-1.12.x` on
+  the test classpath, discovery fails with `NoSuchMethodError`, and the
+  autograder silently runs **zero** graded tests (Boot 3.4 / JUnit 5.11 never
+  called that method, so S26 was fine). The fix in `run_autograder` is to
+  `pom add org.junit.platform:junit-platform-launcher` (version managed by
+  the Boot parent) *before* jgrade2. Any starter that bumps Spring Boot and
+  uses a jgrade2-based autograder needs the same check: look for the
+  `[Autograder] Found test class:` lines in the run log.
 
 ## The four surfaces for team01
 
@@ -132,8 +145,22 @@ Starter, under `25.0.4-tem` / Maven 3.9.16 via `./mvnw` (macOS arm64):
 
 Autograder: Docker image built from `gradescope/autograder-base` with the new
 `setup.sh`; `java -version` = 25.0.4 (Temurin), `mvn --version` = 3.9.16;
-`run_autograder` run inside the image against a zip of the updated starter
-(see the autograder PR for the result).
+`run_autograder` run inside the image against a zip of the updated starter:
+the student code compiles on Java 25, the six graded test classes are
+discovered (30 graded tests, all 0/2 against the bare starter, as expected)
+and the seven shell checks produce results. Two things to know for local
+meta-runs:
+
+- Gradescope repo submissions are flat (the `pom.xml` is at the root of
+  `/autograder/submission`), so zip the *contents* of the repo, not a folder.
+- `pom-cli` (the `pom add ...` step that injects `jgrade2` and `reflections`
+  into the student's pom) is a GraalVM native binary built for x86-64 with
+  AVX2. Under Docker's amd64 emulation on Apple Silicon it aborts with
+  "The current machine does not support all of the following CPU features",
+  and because the call is `|| true` the Maven step then fails with
+  `package com.github.jgrade2 ... does not exist`. On real Gradescope
+  hardware it runs; for a local run on a Mac, add the two dependencies to
+  the submission's `pom.xml` by hand first.
 
 f26: `bundle exec jekyll build`; rendered `lab/team01.html` has no unresolved
 Liquid and shows `sdk use java 25.0.4-tem` / `sdk use maven 3.9.16`.
