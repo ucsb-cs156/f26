@@ -181,7 +181,6 @@ teams:
     legacy_kanban: "tbd"
 
 
-
 channels:
   all-ucsb-cs156-f26:
     context_team_id: T0B7AUVQKTN
@@ -202,7 +201,7 @@ channels:
     is_shared: false
     name: all-ucsb-cs156-f26
     name_normalized: all-ucsb-cs156-f26
-    num_members: 97
+    num_members: 98
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -280,7 +279,7 @@ channels:
     is_shared: false
     name: dining-customers
     name_normalized: dining-customers
-    num_members: 6
+    num_members: 7
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -298,7 +297,44 @@ channels:
     unlinked: 0
     updated: 1790198624775
     url: https://ucsb-cs156-f26.slack.com/archives/C0C44R11V1A
-  
+ 
+  help-dokku:
+    context_team_id: T0B7AUVQKTN
+    created: 1790555230
+    creator: U0B73UUQQ93
+    id: C0C5P1446EL
+    is_archived: false
+    is_channel: true
+    is_ext_shared: false
+    is_general: false
+    is_group: false
+    is_im: false
+    is_member: false
+    is_mpim: false
+    is_org_shared: false
+    is_pending_ext_shared: false
+    is_private: false
+    is_shared: false
+    name: help-dokku
+    name_normalized: help-dokku
+    num_members: 95
+    parent_conversation: null
+    pending_connected_team_ids: []
+    pending_shared: []
+    previous_names: []
+    purpose:
+      creator: ''
+      last_set: 0
+      value: ''
+    shared_team_ids:
+    - T0B7AUVQKTN
+    topic:
+      creator: ''
+      last_set: 0
+      value: ''
+    unlinked: 0
+    updated: 1790555230432
+    url: https://ucsb-cs156-f26.slack.com/archives/C0C5P1446EL
   help-jpa00:
     context_team_id: T0B7AUVQKTN
     created: 1780188829
@@ -318,7 +354,7 @@ channels:
     is_shared: false
     name: help-jpa00
     name_normalized: help-jpa00
-    num_members: 28
+    num_members: 99
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -357,7 +393,7 @@ channels:
     is_shared: false
     name: help-jpa01
     name_normalized: help-jpa01
-    num_members: 2
+    num_members: 96
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -396,7 +432,7 @@ channels:
     is_shared: false
     name: help-jpa02
     name_normalized: help-jpa02
-    num_members: 2
+    num_members: 96
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -552,7 +588,7 @@ channels:
     is_shared: false
     name: help-lecture-discussion
     name_normalized: help-lecture-discussion
-    num_members: 35
+    num_members: 36
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -589,7 +625,7 @@ channels:
     is_shared: false
     name: help-macos
     name_normalized: help-macos
-    num_members: 28
+    num_members: 29
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -745,7 +781,7 @@ channels:
     is_shared: false
     name: help-wsl-linux
     name_normalized: help-wsl-linux
-    num_members: 28
+    num_members: 29
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -1478,7 +1514,7 @@ channels:
     is_shared: false
     name: social
     name_normalized: social
-    num_members: 97
+    num_members: 98
     parent_conversation: null
     pending_connected_team_ids: []
     pending_shared: []
@@ -2196,8 +2232,6 @@ channels:
     unlinked: 0
     updated: 1790118597301
     url: https://ucsb-cs156-f26.slack.com/archives/C0C3S5GNSMP
- 
-  
   wed-5pm:
     context_team_id: T0B7AUVQKTN
     created: 1781736855
@@ -2272,4 +2306,3 @@ channels:
     unlinked: 0
     updated: 1790018395522
     url: https://ucsb-cs156-f26.slack.com/archives/C0BBEJC6G8H
-
