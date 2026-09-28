@@ -147,13 +147,13 @@ starter agree), and CI results on the PR branches (check before merging).
 ## JPA03 PRs and issues from this wave
 
 - Starter issue: https://github.com/ucsb-cs156-f26/STARTER-jpa03/issues/1
-- Starter code PR (master list for the wave): STARTER_PR_URL
+- Starter code PR (master list for the wave): https://github.com/ucsb-cs156-f26/STARTER-jpa03/pull/2
 - Autograder issue: https://github.com/ucsb-cs156/jpa03-autograder/issues/8
-- Autograder PR: AUTOGRADER_PR_URL
+- Autograder PR: https://github.com/ucsb-cs156/jpa03-autograder/pull/9
 - f26 issue: https://github.com/ucsb-cs156/f26/issues/9
-- f26 PR (this file): F26_PR_URL
+- f26 PR (this file): https://github.com/ucsb-cs156/f26/pull/10
 - Shared docs issue: https://github.com/ucsb-cs156/ucsb-cs156.github.io/issues/15
-- Shared docs PR: DOCS_PR_URL
+- Shared docs PR: https://github.com/ucsb-cs156/ucsb-cs156.github.io/pull/16
 
 After merging the autograder PR, tag a release so `github-release.yaml`
 produces `jpa03-Autograder-<tag>.zip`, and upload it to the F26 jpa03
