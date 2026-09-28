@@ -17,7 +17,7 @@ starter_repo_url: git@github.com:ucsb-cs156-f26/STARTER-team01.git
 teams_url: https://bit.ly/cs156-f26-teams
 office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
 software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
-staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.edu,divyanipunj@ucsb.edu,samuelzhu@ucsb.edu,dgkirschbaum@ucsb.edu,phtcon@ucsb.edu"
+staff_emails: "dgkirschbaum@ucsb.edu,djensen@ucsb.edu,komura@ucsb.edu,phtcon@ucsb.edu,victor_c_nardi@ucsb.edu,wsong@ucsb.edu"
 starter_storybook: "https://ucsb-cs156-f26.github.io/STARTER-team01/chromatic"
 canvas_link: "[team01 on Canvas, F26](https://ucsb.instructure.com/courses/32781/assignments/455943)"
 example_full_running_app: "[team01](https://team01.dokku-00.cs.ucsb.edu)"

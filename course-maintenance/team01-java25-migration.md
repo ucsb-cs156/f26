@@ -102,11 +102,12 @@ What was new compared with JPA03:
    - `starter_code/` mirror (rsync from the starter, excluding `.git`,
      `target`); `running-example-copy/` (an F25 student repo on Java 21,
      unreferenced) was left alone pending a decision
-   - **Still to do by staff:** `autograder/tools/roster.csv` (S26) and the
-     `staff_emails` list at the top of `autograder/tools/verify_admin_emails.py`
-     (S26). Both are data files that must be refreshed by hand each quarter;
-     the jpa03 autograder already has the F26 versions. The lab page's
-     `staff_emails` front matter (unused in the page body) is also stale.
+   - `autograder/tools/roster.csv` and the `staff_emails` list at the top of
+     `autograder/tools/verify_admin_emails.py` are the F26 versions, copied
+     from the jpa03 autograder with the instructor's approval. Both are data
+     files that must be refreshed by hand each quarter (the roster is student
+     data, so do not copy it between repos without asking). The lab page's
+     `staff_emails` front matter was aligned to the same list.
 3. **Assignment instructions:** `f26/lab/team01.md`
    - Java-version reminder block (same wording as jpa03) in "Getting started"
    - Fixed undefined `{{page.num}}`, `{{page.teams_link}}`,
