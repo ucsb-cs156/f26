@@ -53,7 +53,7 @@ A basic feature of many applications (not just web applications) is referred to 
 At this link, you'll find a working app with CRUD operations for a Restaurant table:
 * {{page.example_full_running_app}}
 
-This is the first of three team assignments (team01, team01, team03) that will add additional database tables to this app.  The coding will be fairly straightforward, and will be very similar to a typical "first assignment" you might get on a real world team, in that it involves a lot of "copy and paste" coding.  That is, you'll look at an example of how to do CRUD operations for one database table, and you'll replicate that code for another database table.
+This is the first of three team assignments (team01, team02, team03) that will add additional database tables to this app.  The coding will be fairly straightforward, and will be very similar to a typical "first assignment" you might get on a real world team, in that it involves a lot of "copy and paste" coding.  That is, you'll look at an example of how to do CRUD operations for one database table, and you'll replicate that code for another database table.
 
 **Avoid the temptation to just do this mindlessly**.  It is common to be assigned tasks like this in your first days in a new software development organization, because the *assumption* is that it gives you a chance to learn the codebase.  You'll need to navigate between two extremes, both of which raise problems:
 * If you try to understand *everything* about *every* line of code, you'll likely get bogged down in details.
@@ -95,18 +95,18 @@ Here's how that will play out in detail:
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
 4. Now navigate to your repo for {{page.title}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.title}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
-4. You should now see a list of issues.  These are the work items your team needs to complete to do the the work for the team01 assignment. They are the same issues that you find in the "To Do" column of your Kanban board (i.e. your `Project`, to use the GitHub terminology).
-5. There may also be some additional housekeeping steps that you need to complete in order for the {{page.num}} assignment to be considered completed; the issues on the Kanban board are not necessarily the only things you need to complete to earn full credit for the assignment.  But these issues are the bulk of the work you need to divide up as a team.
-6. Note that you are allowed and even encouraged to add cards on the Kanban board and/or Issues for any other items you find in the assignment description that need to be completed.  Tracking this on the Kanban board can be a helpful way to make sure that it get done, and to signal to other team members when it has been done.
-7. Each team member will take on an issue, one at a time, assign it to themselves, and move it from the "To Do" column of the Kanban board to the "In Progress" column as you start the issue.  When you are finished with the issue, you move it into the "In Review" column when you've made a "Pull Request" to indicate that the issue is ready for your team members to review.
-8. Ideally, each team member should have exactly one (and only one) issue assigned to them in the In Progress column at a time.
-9. Once a pull request is complete for a given task, you move it into the `In Review` column
+5. You should now see a list of issues.  These are the work items your team needs to complete to do the the work for the team01 assignment. They are the same issues that you find in the "To Do" column of your Kanban board (i.e. your `Project`, to use the GitHub terminology).
+6. There may also be some additional housekeeping steps that you need to complete in order for the {{page.title}} assignment to be considered completed; the issues on the Kanban board are not necessarily the only things you need to complete to earn full credit for the assignment.  But these issues are the bulk of the work you need to divide up as a team.
+7. Note that you are allowed and even encouraged to add cards on the Kanban board and/or Issues for any other items you find in the assignment description that need to be completed.  Tracking this on the Kanban board can be a helpful way to make sure that it get done, and to signal to other team members when it has been done.
+8. Each team member will take on an issue, one at a time, assign it to themselves, and move it from the "To Do" column of the Kanban board to the "In Progress" column as you start the issue.  When you are finished with the issue, you move it into the "In Review" column when you've made a "Pull Request" to indicate that the issue is ready for your team members to review.
+9. Ideally, each team member should have exactly one (and only one) issue assigned to them in the In Progress column at a time.
+10. Once a pull request is complete for a given task, you move it into the `In Review` column
    - At this stage, you seek a code review from a member of the team that
      was not involved in the coding.
    - Also, at this stage, if the PR is not "green on CI",
      meaning that all of the GitHub actions scripts show green checks, this is when you
      should address that, before merging the pull request.
-6. Only when the PR is merged does the issue get moved into the `Done` column.
+11. Only when the PR is merged does the issue get moved into the `Done` column.
 
 As long as you are not done with your contribution to the project, you should always have at least one issue in the `In Progress` column (the thing you are working on to contribute to the team's work.)
 
@@ -250,7 +250,7 @@ Having said that, it is still the responsibility of the *entire team* to get all
 The time/effort you invest now in helping to build the capacity of your team will pay off later.
 
 * If other members of your team are sincerely putting in effort with an intention to work for the team, but don't have as much coding experience as you, helping those members out is both in your personal best interest, and the best interest of the team.  It is something you can talk about at job interviews; for employers, this is a highly valued trait.
-* On the other hand, if there are members of your team that are not really showing up, not following through, etc. *this is the time* to call attention to it, not in a mean or hostile way, but in a supportive, but honest way.  You are encouraged to do as much as you can with friendly but candid discussions inside your team first.  Messages on the team slack channel can be helpful here.   If that doesn't help, then call this to the attention of your team mentor (i.e. the TA/LA assigned to your team, see: <{{page.teams_link}}> for a list), and or the instructor via DMs on Slack.
+* On the other hand, if there are members of your team that are not really showing up, not following through, etc. *this is the time* to call attention to it, not in a mean or hostile way, but in a supportive, but honest way.  You are encouraged to do as much as you can with friendly but candid discussions inside your team first.  Messages on the team slack channel can be helpful here.   If that doesn't help, then call this to the attention of your team mentor (i.e. the TA/LA assigned to your team, see: <{{page.teams_url}}> for a list), and or the instructor via DMs on Slack.
 * If you want to have a private 1-1 chat, that's good too, but please start with a Slack message so that we can keep track of who is telling us what; with sixteen teams (and sometimes 32 or more teams over the course of an academic year) it gets difficult to remember who we talked to about what.
 
 
@@ -262,8 +262,8 @@ From a process standpoint, here's how this project works:
 2. On the team's Kanban board, there should be two types of issues:
    * Ones that are global to the entire team (setup tasks)
    * Ones that pertain to a particular database table
-4. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
-5. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
+3. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
+4. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
 
    That post might look something like this:
 
@@ -278,16 +278,16 @@ From a process standpoint, here's how this project works:
 
    At this point, whomever was assigned the issue to add the table to the README with the team assignments should be able to get that done.
 
-6. Now look on the Kanban board.  You should find that there are six issues on the Kanban board for your specific database table:
+5. Now look on the Kanban board.  You should find that there are six issues on the Kanban board for your specific database table:
 
    You should find all of the stories for your database item, and assign them to yourself; but drag *only one* into the In Progress column (and if you are already assigned to one of the set up tasks, don't even drag that one yet)!
 
    Typically, you should be assigned to only one item at a time in the In Progress column.  The exception is if you drag an item to In Progress, make some progress on it, and then need to stop working on it for a while because you are blocked, or something else urgently needs your attention.  But that should be the exception, not the normal way of doing things.
 
-7. This [YouTube video](https://youtu.be/Shi0kzx-3K4) shows how to locate all of your issues and assign them to yourself.  You are strongly encourage to assign all of the issues pertaining to your database table to yourself (as shown in the video) right from the start; but only drag one issues at a time into the `In Progress` column, so that the column reflects what the team is actually working on.    
+6. This [YouTube video](https://youtu.be/Shi0kzx-3K4) shows how to locate all of your issues and assign them to yourself.  You are strongly encourage to assign all of the issues pertaining to your database table to yourself (as shown in the video) right from the start; but only drag one issues at a time into the `In Progress` column, so that the column reflects what the team is actually working on.    
 
-8. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.  Also work on the setup task to which you were assigned.
-9. While the project is underway, **every time class meets, you'll start with a standup meeting**.
+7. Now work on your issues, dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.  Also work on the setup task to which you were assigned.
+8. While the project is underway, **every time class meets, you'll start with a standup meeting**.
 
    While it is optional, many teams also find it helpful to schedule a few standups on slack/zoom or in person outside of class on days the class doesn't meet (one or more of: Fri, Sat, Sun, Mon).
 
@@ -312,6 +312,25 @@ To get started:
   ```
   git checkout -b Chris-ReqRequestTable
   ```
+
+## Check your Java and Maven versions before running `mvn`
+
+Before running any `mvn` command in your team01 repo (for example `mvn spring-boot:run` or `mvn test`), make sure that the shell you are using has
+Java {{site.java_version}} (the SDKMAN distribution <tt>{{site.jdk_distribution}}</tt>) and Maven {{site.maven_version}} selected, as described in the
+[software installation instructions]({{page.software_install_url}}):
+
+```bash
+sdk use java {{site.jdk_distribution}}
+sdk use maven {{site.maven_version}}
+java -version
+mvn --version
+```
+
+Both `java -version` and `mvn --version` should report Java {{site.java_version}}. If you see a different Java version, or a Maven older than the
+version listed in the [software installation instructions]({{page.software_install_url}}), fix that first; otherwise you may see confusing build errors
+(for example, an older JaCoCo or Pitest complaining about an `Unsupported class file major version`, or dozens of `cannot find symbol` errors for
+Lombok-generated methods such as `builder()`).
+The starter code includes an `.sdkmanrc` file (so `sdk env` selects the right Java) and a Maven Wrapper, so `./mvnw` can be used in place of `mvn` in any of the commands in this assignment.
 
 Also: set up your dev deployment on dokku (see the issue: "(your-database-table) - Create personal dokku dev deployment"
 
@@ -397,15 +416,16 @@ You'll be adding CRUD operations for six additional database tables; one per tea
 
 Here are the six tables you'll be adding (one per person).
 
-On the Kanban board, you'll find five issues for each of these tables:
+On the Kanban board, you'll find {{page.num_issues_per_table_alpha}} issues for each of these tables:
 
+* Set up a personal dokku dev deployment for your table (configuration only, no coding)
 * Add database table (the `@Entity` and `@Repository` classes, no test classes)
 * Add `GET` endpoint to list all database records, and a `POST`  endpoint to create new database records, plus tests (this, and all of the rest, are done in the Controller and Controller test classes)
 * Add `GET` endpoint to get a single database row by its id. (plus tests)
 * Add `PUT` endpoint to update a single database row by its id. (plus tests)
 * Add `DELETE` endpoint to delete a single database row by its id. (plus tests)
 
-You should choose one of these database tables, and then assign yourself the five issues that pertain to that database table.
+You should choose one of these database tables, and then assign yourself the {{page.num_issues_per_table_alpha}} issues that pertain to that database table.
 
 As you look over these, note that some of them use an *autogenerated `Long`* as the `@Id` field, while others use a different field
 already in the data.  That may not make any sense to you right now, but there is an explanation immediately following the list of database tables.
@@ -1057,12 +1077,12 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
 
-* Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
+* Make sure the example app {{page.example_full_running_app}} is up and running, and is sync'd with the starter code:
 
   i.e, on dokku-00 for example, do:
 
   <pre>
-  dokku git:sync team01 https://github.com/{{page.github_org}}/PRIVATE-team01 main
+  dokku git:sync team01 https://github.com/{{page.github_org}}/STARTER-team01 main
   dokku ps:rebuild team01
   </pre>
 
