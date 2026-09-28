@@ -250,6 +250,22 @@ As shown in the [`README.md`]({{page.starter_repo}}/blob/main/README.md), these 
    - Setting up Google OAuth credentials
    - Entering those credential in the `.env` file
 
+Before you run any `mvn` commands, make sure your terminal is using the Java version this course requires,
+Java {{site.java_version}} (the SDKMAN distribution <tt>{{site.jdk_distribution}}</tt>), as described in the
+[software installation instructions]({{page.software_install_url}}):
+
+```bash
+sdk use java {{site.jdk_distribution}}
+sdk use maven {{site.maven_version}}
+java -version
+mvn --version
+```
+
+Both `java -version` and `mvn --version` should report Java {{site.java_version}}. If you see a different Java version, or a Maven older than the
+version listed in the [software installation instructions]({{page.software_install_url}}), fix that first; otherwise you may see confusing build errors
+(for example, an older JaCoCo or Pitest complaining about an `Unsupported class file major version`).
+The starter code also includes a Maven Wrapper, so `./mvnw` can be used in place of `mvn` in any of the commands below.
+
 Once the app is configured, you should be able to run it with:
 
 ```
@@ -347,10 +363,10 @@ If it doesn't work:
 * Check on the Slack channel {% include slack.html channel=help_channel %} to see if there are any known issues.
 * Ask folks on your own team for help first on your team's slack channel.
 * Post a specific question on the {% include slack.html channel=help_channel %} slack channel—note what you were trying to do, what you expected, and what happened instead.  Screenshots or copy/pasted console output is helpful!
-* Come to office hours (posted here: <{{page.office_hours_pages}}>)
+* Come to office hours (posted here: <{{page.office_hours_page}}>)
 * Ask during class on {% include slack.html channel="help-lecture-discussion" %}
 
-## Step 6: Add link to running app to your README.md file
+## Step 5: Add link to running app to your README.md file
 
 At the top of your README.md, you'll find this:
 
@@ -363,7 +379,7 @@ not the example value shown here).
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/1119017/235759017-e48fdcf6-abb7-40e7-8ae8-71173113d4cd.png">
 
 
-## Step 7: Submit on Gradescope
+## Step 6: Submit on Gradescope
 
 Submit on Gradescope to check that you have completed all of the necessary steps.
 
