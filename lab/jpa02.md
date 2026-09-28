@@ -161,6 +161,21 @@ When you've completed those steps, you are ready to deploy your app on localhost
 
 ### Step 1.3: Deploy on `localhost`
 
+Before you run any `mvn` commands, make sure your terminal is using the Java version this course requires,
+Java {{site.java_version}} (the SDKMAN distribution <tt>{{site.jdk_distribution}}</tt>), as described in the
+[software installation instructions]({{page.software}}):
+
+```bash
+sdk use java {{site.jdk_distribution}}
+sdk use maven {{site.maven_version}}
+java -version
+mvn --version
+```
+
+Both `java -version` and `mvn --version` should report Java {{site.java_version}}. If you see a different Java version, or a Maven older than the
+version listed in the [software installation instructions]({{page.software}}), fix that first; otherwise you may see confusing build errors
+(for example, an older JaCoCo or Pitest complaining about an `Unsupported class file major version`).
+
 Now, to deploy the app on `localhost` (as you did in jpa01), we run the following command:
 
 ```
@@ -386,7 +401,7 @@ mvn test jacoco:report
 When you do, it will run the test suite, and then generate a jacoco line coverage report, which will be formatted as a web page.  Here's what the tail end of that output looks like:
 
 ```
-[INFO] --- jacoco:0.8.12:report (default-cli) @ hello ---
+[INFO] --- jacoco:0.8.15:report (default-cli) @ hello ---
 [INFO] Loading execution data file /Users/pconrad/github/ucsb-cs156-f26/jpa02-pconrad/target/jacoco.exec
 [INFO] Analyzed bundle 'hello' with 4 classes
 [INFO] ------------------------------------------------------------------------
@@ -413,7 +428,7 @@ Look over the report, and look for the red.  These are parts of the code that we
 Let's zoom in on this part:
 ![image](https://github.com/user-attachments/assets/7970f262-6106-43a9-a677-607258b3e3a0)
 
-It shows the package `edu.ucsb.cs156.spring.hello` and it shows that the code in this package has only 86% line coverage, and 56% branch coverage.  Our goal is to get that to 100%
+It shows the package `edu.ucsb.cs156.spring.hello` and it shows that the code in this package has only 86% instruction coverage, and 50% branch coverage (the exact percentages may differ slightly from the screenshot depending on your Java and JaCoCo versions).  Our goal is to get that to 100%
 
 * An aside: in most industry settings, 100% coverage is explictly **not** the goal; there are diminishing returns if you start chasing 100% coverage in very large legacy code bases.
 * However, in this course, we've engineered things so that on these early assignments 100% coverage is definitely reasonable and possible.
@@ -789,7 +804,7 @@ First, verify that `jshell` works on your system by typing `jshell`.  You should
 
 ```
 pconrad@Phillips-Mac-mini-2 jpa02-pconrad % jshell
-|  Welcome to JShell -- Version 21.0.4
+|  Welcome to JShell -- Version 25.0.4
 |  For an introduction type: /help intro
 
 jshell> 
@@ -815,7 +830,7 @@ You should then be able to import the Team class with the command:
 
 ```
 pconrad@Phillips-Mac-mini-2 jpa02-pconrad % jshell --class-path `pwd`/target/classes
-|  Welcome to JShell -- Version 21.0.4
+|  Welcome to JShell -- Version 25.0.4
 |  For an introduction type: /help intro
 
 jshell> import edu.ucsb.cs156.spring.hello.*
