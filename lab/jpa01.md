@@ -30,9 +30,9 @@ This is an **individual** lab on the topic of Java web apps.
 
 You may cooperate with one or more pair partners from your team to help in debugging and understanding the lab, but each person should complete the lab separately for themselves.
 
-## Ask for help on `#help-jpa01`
+## Ask for help on {% include slack.html channel="help-jpa01" %}
 
-There should be a slack channel called  `#help-jpa01`  where you can ask questions about this assignment.
+There should be a slack channel called {% include slack.html channel="help-jpa01" %} where you can ask questions about this assignment.
 Check that channel first to see if your question has already been answered.
 
 ## What is this lab about?
@@ -98,7 +98,7 @@ pconrad@Phillips-Mac-mini-2 .ssh %
 
 If you are able to login to your dokku-xx machine successfully, you may log out for now, and move on to the next step.  
 
-But if you were *not* able to log in to the dokku-xx machine successfully, please post to `#help-jpa01` now, with a main post of "trouble loggin into dokku", and then in the reply thread, include screenshots of the problems you are seeing.
+But if you were *not* able to log in to the dokku-xx machine successfully, please post to {% include slack.html channel="help-jpa01" %} now, with a main post of "trouble loggin into dokku", and then in the reply thread, include screenshots of the problems you are seeing.
 
 Once you've made that post, *you can continue working*, because you won't need dokku for the first few steps of  the lab.  We asked you to check that you could login *first* so that if there's a problem, the staff can look into it while you work on the other steps.
 

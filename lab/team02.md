@@ -16,7 +16,6 @@ starter: https://github.com/ucsb-cs156-f26/STARTER-team02
 deployment: https://team02.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-f26.github.io/STARTER-team02/chromatic
 canvas: https://ucsb.instructure.com/courses/32781/assignments/455944
-help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f26.slack.com/archives/C09MDAMH27K)"
 nvm_use: "<tt>nvm use 22.18.0</tt>"
 ---
 
@@ -492,7 +491,7 @@ After {{page.title}}, we have one more team assignment, {{page.next_assignment}}
 
 # Asking for help
 
-If you need additional guidance, ask on the `#help-lecture-discussion` channel during class time, or on {{page.help_team02}} outside of class time.
+If you need additional guidance, ask on the {% include slack.html channel="help-lecture-discussion" %} channel during class time, or on {% include slack.html channel="help-team02" %} outside of class time.
 
 # When you are done
 
@@ -506,7 +505,7 @@ Note that these are from an earlier quarter so if you find that you don't have a
 
 Also, there may be slight differences between the assignment in earlier quarters and the assignment this quarter; in case of any discrepency, follow the
 instructions in this file and in the issues on your Kanban board.  You can
-also seek clarification on the {{page.help-team02}} channel.
+also seek clarification on the {% include slack.html channel="help-team02" %} channel.
 
 Note that these videos refer to **team03** instead of **team02** (we eliminated one earlier assignment this quarter.)
 
@@ -595,7 +594,7 @@ The next step was probably already done earlier, but just in case:
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
 
-* Be sure that {{page.help_team02}} is set up.
+* Be sure that {% include slack.html channel="help-team02" %} is set up.
 * Run the script to set up the Issues (action 99, see links below)
 * Copy issues to the Kanban boards
 

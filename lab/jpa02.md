@@ -336,7 +336,7 @@ A few key points:
   * Act: call the method you want to test (or otherwise cause it to be invoked)
   * Assert: make one or more *assertions* that should be true if the code worked properly
 
-Look for these in the test code. Note that not all of the test code follows this pattern *precisely*, which may lead you to have many questions.  That's good! Ask the questions on {{page.slack_help_channel}}, and we'll try to answer as many as we can.
+Look for these in the test code. Note that not all of the test code follows this pattern *precisely*, which may lead you to have many questions.  That's good! Ask the questions on {% include slack.html channel="help-jpa02" %}, and we'll try to answer as many as we can.
 
 But in the meantime, let's move on to discussing code coverage and mutation coverage.
 

@@ -14,7 +14,7 @@ Before you begin, be sure you have installed the software that is the same for e
 
 The steps on this page are the same, and in the same order, as the steps on the [WSL page](software_wsl.html), except for the prerequisites in Part 0.
 
-If you have questions about this page, please ask on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the Slack.
+If you have questions about this page, please ask on the {% include slack.html channel="help-macos" %} channel on the Slack.
 
 Throughout, "command prompt" means "Terminal Window" (open the Terminal app in `Applications/Utilities`).
 
@@ -278,7 +278,7 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", ...
 ```
 
-If you are not seeing the correct version of Maven or Java after typing the following, then ask for help on the [`#help-macos`]({{site.channels.help-macos.url}}) channel on the course slack.
+If you are not seeing the correct version of Maven or Java after typing the following, then ask for help on the {% include slack.html channel="help-macos" %} channel on the course slack.
 <pre>
  sdk use java {{site.jdk_distribution}}
  sdk use maven {{site.maven_version}}

@@ -11,7 +11,7 @@ parent: lectures
 
 ## Work on PRs!
 
-You can see the queue of when to expect the next staff PR review on the slack channel [`#pr-queue-reviews`](https://ucsb-cs156-f26.slack.com/archives/C09SV15G8SE)
+You can see the queue of when to expect the next staff PR review on the slack channel {% include slack.html channel="pr-queue-reviews" %}
 
 Reminders:
 * Most PRs need dokku deployments

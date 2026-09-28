@@ -1,0 +1,24 @@
+{%- comment -%}
+Render a link to a Slack channel using the metadata in site.channels (in _config.yml).
+
+Usage:
+  {% include slack.html channel="help-macos" %}
+
+Optional parameters:
+  text="..."   Override the visible link text (default is #channel-name in code font).
+
+If the channel is not present in site.channels, the name is still rendered (in code font,
+but not linked), along with an HTML comment so the problem shows up when grepping the
+generated site for "UNKNOWN SLACK CHANNEL".
+{%- endcomment -%}
+{%- assign slack_channel = site.channels[include.channel] -%}
+{%- if include.text -%}
+  {%- assign slack_text = include.text -%}
+{%- else -%}
+  {%- capture slack_text -%}<code>#{{ include.channel }}</code>{%- endcapture -%}
+{%- endif -%}
+{%- if slack_channel -%}
+<a href="{{ slack_channel.url }}">{{ slack_text }}</a>
+{%- else -%}
+{{ slack_text }}<!-- UNKNOWN SLACK CHANNEL: {{ include.channel }} -->
+{%- endif -%}
