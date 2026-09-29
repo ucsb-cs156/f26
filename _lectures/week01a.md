@@ -13,6 +13,21 @@ Today's activity is {{page.on_canvas}}.
 
 Also note that you can get started on some of this *before* class and you are encouaged to do so.  If you get it all done before class, then all you need to do is come to class to check in briefly, and possibly help some of your teammates.
 
+## Announcements
+
+I will do the first "informed consent" briefing about the Frontiers project.
+
+You should be receiving a "Qualtrics Survey" email from Washington State University that looks like it's coming from me (Phill Conrad).
+* This is legit, not spam.
+* Please fill it out.
+* Filling it out is a required course activity, **however**: agreeing to allow us to use your data for research is **optional, and confidential**.
+* I will not know whether you agreed or not until after final course grades are submitted.
+* Your data, if used, will be anonymized, and will help us improve the course for future students, but there is no *direct* benefit for participation.
+
+If you do agree to let us use your data: thank you.
+
+And even if you don't, thank you as well for at least considering it.
+
 ## Outline for Today
 
 1. Dokku is the platform where we'll be deploying web apps in this course, so let's test your dokku access.  Here's how:
