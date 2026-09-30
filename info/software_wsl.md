@@ -6,6 +6,8 @@ parent: Software
 grand_parent: info
 ---
 
+{% include drop_down_style.html %}
+
 # {{page.title}}
 
 **Using a Mac instead?** Go to [Software for MacOS](software_macos.html).
@@ -48,6 +50,25 @@ If your Windows 10 machine has an older build, the better / safer solution is to
       * The latest LTS release of Ubuntu
 3. Restart your computer if asked to.
 4. Once installation is complete, launch Ubuntu from the Windows Start Menu.  The first time, it will ask you to choose a Linux username and password.  (Remember the password; you need it for `sudo` commands below.)
+
+<details markdown="1">
+<summary markdown="1">Is WSL refusing to install despite restarting? Click here for more information.
+</summary>
+  If despite restarting, WSL still claims to not be installed, please try the following steps:
+  1. Plug your laptop into a charger
+  2. Restart your laptop
+  3. Again attempt the following commands:
+  ```bat
+  wsl --install
+  wsl ~
+  ```
+  4. If windows again claims you must restart your system, make sure that when you restart, you click "Restart and Install Updates". It may take a couple minutes, but after completing the update, please try the following:
+  ```bat
+  wsl --install -d Ubuntu
+  ```
+  After this, you should successfully be able to use WSL.
+</details>
+
 
 More information on the above steps can be found in the [Microsoft WSL install documentation](https://docs.microsoft.com/en-us/windows/wsl/install).
 
