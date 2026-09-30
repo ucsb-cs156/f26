@@ -19,6 +19,22 @@ finish both of them within one discussion section.
 
 [jpa02](https://ucsb-cs156.github.io/f26/lab/jpa02.html), on the other hand, may take a bit more time and thought.  The sooner you start, the better.
 
+## Participation Assignment P05
+
+For today's participation assignment, please:
+* Make a post on slack indicating where you are with jpa00,jpa01,jpa02.  For example:
+  * Finished with jpa00, working on jpa01
+  * Still working on jpa00
+  * Finished with jpa00 and jpa01, working on jpa02
+  * Haven't started jpa00; still working on software installs.
+* Submit a link to that Slack post as P05 on Canvas.
+* In addition: please make at least an initial submission for jpa00 by 11:59pm, or else explain on your team slack channel what problems you are running into with that.
+
+For full credit:
+* Make the slack post, submit the link on Canvas, and at least start jpa00 (or explain why you haven't).
+* If you make the slack post, but don't submit the link on Canvas, it will be a 10 point deduction.
+* If you haven't started jpa00 and also don't make a post explaining why, it will an additional 10 point deduction.
+
 
 ## Looking ahead
 
