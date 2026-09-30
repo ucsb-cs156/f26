@@ -1,10 +1,11 @@
 ---
 title: "Week 01b - 09.30 Wed"
 lecture_date: 2026-09-30
-description: "Finish up software installs, jpa00, jpa01; start jpa02"
+description: "P05: Finish up software installs, jpa00, jpa01; start jpa02"
 ready: true
 layout: default
 parent: lectures
+participation_assignment_url: https://ucsb.instructure.com/courses/33921/assignments/519490
 ---
 
 # {{page.title}} - {{page.description}}
@@ -20,6 +21,8 @@ finish both of them within one discussion section.
 [jpa02](https://ucsb-cs156.github.io/f26/lab/jpa02.html), on the other hand, may take a bit more time and thought.  The sooner you start, the better.
 
 ## Participation Assignment P05
+
+Today's Participation Assignment is P05: <{{page.participation_assignment_url}}>
 
 For today's participation assignment, please:
 * Make a post on slack indicating where you are with jpa00,jpa01,jpa02.  For example:
