@@ -56,10 +56,10 @@ And even if you don't, thank you as well for at least considering it.
 
 4. When you are all finished, go through the checklist at:  <https://ucsb-cs156.github.io/f26/info/install_checklist.html> to ensure that each item works as expected.  If it doesn't, then ask for help (using the same order as in step 2: (1) team slack channel and live people (2) {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %} (3) {% include slack.html channel="help-lecture-discussion" %} with table/team number and link to your post on {% include slack.html channel="help-macos" %} or {% include slack.html channel="help-wsl-linux" %}.
 
-5. When all items work as expected, make a post on your slack channel that says: "Installation steps for P04: installation check complete", and post that link to Canvas.
+5. When all items work as expected, make a post on your slack channel that says: "Installation steps for P05: installation check complete", and post that link to Canvas.
 6. **IF YOU RUN OUT OF TIME**, i.e. class is almost over and it doesn't look like you'll finish:
-   * Make a post on Canvas that says: P04: installation check incomplete" and then lists the things you still need to do.
-   * Submit that post as your answer to P04 on Canvas.  As long as you make a post that reports your current status, and as long as you made a valid attempt to do as much as you could today during classtime, **you get full credit**.
+   * Make a post on Canvas that says: P05: installation check incomplete" and then lists the things you still need to do.
+   * Submit that post as your answer to P05 on Canvas.  As long as you make a post that reports your current status, and as long as you made a valid attempt to do as much as you could today during classtime, **you get full credit**.
    * You will *still* need to finish these installation steps eventually, preferably outside of class, and make a post that says: "Install check complete!" at some point, preferably before your discussion section on Wednesday, but at the latest by next Tuesday.  However, the minimum requirement for full credit for the participation grade today is just to get as far as you can with it, and then document what still needs to be done.  If you get it all done, that's even better, but not required for full credit.
 6. Then work on jpa00, and then jpa01 (find them under "labs" on the course website.)
 7. If you've done *all* of the items above, then check in with your teammates on the Slack channel and/or in person to see if any of them need any help.  If so, please help them as best you can. If not, you are *free to go early*, but only if you've finished jpa00 and jpa01 and no one else on your team needs your help.
