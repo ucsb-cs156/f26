@@ -185,7 +185,7 @@ Where both n and k are a function of the number of assignments in that category:
 * <= 2 assignments, no dropped assignments
 * 2 to 5 assignments: 1 dropped grades
 * 6 to 8 assignments: 2 dropped grades
-* 9 or more: 2 dropped grades
+* 9 or more: 3 dropped grades
 
 This applies only to participation and homework assignments.
 
