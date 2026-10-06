@@ -12,15 +12,14 @@ parent: lectures
 
 Today, we'll first do the following group activity:
 
-* [p05](https://ucsb-cs156.github.io/f26/hwk/p05/)
+* [p06](https://ucsb-cs156.github.io/f26/hwk/p06/)
 
 Then continue with whatever parts of this you still haven't finished:
 
 * Install Checklist: <https://ucsb-cs156.github.io/f26/lectures/week01a/>
-* [jpa00](https://ucsb-cs156.github.io/f26/lab/jpa00.html)
-* [jpa01](https://ucsb-cs156.github.io/f26/lab/jpa01.html)
-* [jpa02](https://ucsb-cs156.github.io/f26/lab/jpa02.html)
-* [jpa03](https://ucsb-cs156.github.io/f26/lab/jpa03.html)
+* [jpa01](https://ucsb-cs156.github.io/f26/lab/jpa01.html) (only 4 students still haven't completed it)
+* [jpa02](https://ucsb-cs156.github.io/f26/lab/jpa02.html) (about half the class is done)
+* [jpa03](https://ucsb-cs156.github.io/f26/lab/jpa03.html) (Now available to start!)
 
 
 You should work independently, but also help other folks on your team as/when they get stuck on things.

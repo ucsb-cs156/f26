@@ -1,0 +1,223 @@
+---
+layout: default
+assigned: 2026-10-13 17:00
+description: 'Discuss LTD Paper'
+due: 2026-10-13 18:15
+title: p06
+layout: default
+canvas_assignment_link: "[P06 on Canvas](https://ucsb.instructure.com/TBD)"
+qxx: f26
+prev_team_assignment: "[p05](https://ucsb-cs156.github.io/f26/hwk/p05/)"
+prev_hwk_assignment: "[h01](https://ucsb-cs156.github.io/f26/hwk/h01/)"
+---
+
+See also: <{{page.canvas_assignment_link}}>
+
+# Introducting Today's Team Activity (5:00-5:05)
+
+(typically Tuesday of week 3)
+
+This activity works with the paper that you were assigned to read:
+
+* <https://pconrad.github.io/files/paper028.pdf>.
+
+Each of you contributed some text to a repo when working on {{page.prev_team_assignment}} and {{page.prev_hwk_assignment}}.
+
+As a reminder, for {{page.prev_hwk_assignment}} you wrote a summary of material from Section 4 of this paper: <https://pconrad.github.io/files/paper028.pdf>
+
+Here are those repos:
+
+
+{% include NOTES_repos.md %}
+
+<details markdown="1">
+<summary>
+For a reminder of the main themes of each section, click the triangle.
+</summary>
+
+| Section | Title | Academia | Industry |
+|---------|-------|----------|----------|
+| 4.1 | What: Differences in Scope | well-defined, fixed scope | vague, open-ended, evolving scope |
+| 4.2 | When: Short vs. Long Time Spans | short time spans (days, weeks)  | long time spans (months, years) |
+| 4.3 | Who: Individual vs. Large Team | individuals, pairs, small groups  | larger teams |
+| 4.4 | Why: Learning vs. User Needs | to learn something  | to address a user need |
+| 4.5 | How: Ad-Hoc vs. Professional | ad-hoc tools and practices |  professional tools and formal practices |
+| 4.6 | How Big: Small vs. Large Codebases | small programs | large complex systems |
+{:.table .table-sm .table-striped .table-bordered}
+
+</details>
+
+Here's an overview:
+
+* Step 1,2,3:  In teams of people that read the same section of the paper as you, discuss that section.
+* Step 4: At your original tables, discuss the whole paper.
+
+
+# Step 1: Organizing your First Group (Sixteen *different* teams of six) (5:05-5:10)
+
+Your first breakout group will be with other people that read the same section as you.
+
+Your seating arrangment for this activity is as follows:
+
+| Section | Table for all of 5pm section (teams 1-8) | Table for all of 6pm section (teams 9-16) |
+|---------|----------------------------------------------|----------------------------------------|
+| 4.1     | 1 | 11 |
+| 4.2     | 2 | 12 |
+| 4.3     | 3 | 13 |
+| 4.4     | 4 | 14 |
+| 4.5     | 5 | 15 |
+| 4.6     | 6 | 16 |
+
+(Tables 7,8,9,10 will be unused during this activity.)
+
+If you want, you can take your chair with you (and store your "stuff" on the ledge inside the chair).
+
+If you (or one of the folks in the discussion) is on Zoom: Use the breakout room that corresponds to the table number.
+
+Each group should choose one person as the "time keeper", and a second person as the "scribe".
+
+Then, go on the course slack, <https://ucsb-cs156-{{page.qxx}}.slack.com>.  You should find that there is a dropdown where you locate channels.
+
+![image](https://user-images.githubusercontent.com/1119017/113913264-f798c080-9790-11eb-8ff9-ac528e786d81.png)
+
+Find the slack channel for your table/group and join it, e.g. {% include slack.html channel="ltd-4-1-table-01" %}, {% include slack.html channel="ltd-4-2-table-12" %}, etc.  Please note that you will not necessarily see the channel: you'll have to *search* for it and then *join* it  You can use the search bar at the top of the Slack interface (with the 🔍 icon next to it).
+
+Once you've joined that channel, make a post with your name and pronouns, and identifying which group you are a part of (by your table number).   There will be up to eight of you per group if there is full attendance, so you may need to squish in a bit at the tables.
+
+# Step 2a: Extra Steps for the timekeeper (5:10-5:15)
+
+Take note of any team members that are participating via zoom.
+
+But: Regardless of whether you have members on zoom or everyone is in person, **the timekeeper should**
+
+1. Grab the keyboard/mouse for the computer at your team's table
+2. Use it to join the zoom session and join the breakout room corresponding to your table number (remember that the information to join the zoom session from an ILP 2211 table computer is on Canvas, at the top of the main CS156 course page)
+3. Log into Slack and join the channel for the table (the one labelled {% include slack.html channel="ltd-4-4-table-04" %} for example).
+4. (Make a note to log out of Slack when you are finished!)
+
+That way everyone at the table can see the zoom room and the slack channel.
+
+
+# Step 2b: Extra Steps for the scribe (5:10-5:15)
+
+**The scribe should, from their own computer**:
+
+1. Log into to the zoom session and join the zoom room for the table.
+2. Log into Slack and join the channel for the table (the one labelled {% include slack.html channel="ltd-4-4-table-04" %} for example)
+3. Share their screen so that as they take notes, everyone can follow along.
+4. On the slack channel for the table {% include slack.html channel="ltd-4-4-table-04" %}, make a note of who is present and absent
+
+# Step 2c: Individual (everyone), (5:10-5:15)
+
+Find your team's repo, and your contribution to it.  Read it over again, and perhaps also skim the section of the paper, to remind you about what you read, and what you wrote.
+
+The link to the paper is here:  <https://pconrad.github.io/files/paper028.pdf>
+
+# Step 3: Sharing responses (5:15-5:35)
+
+Next, you'll each share with the group your responses to this question"
+
+* Question: Based on what you've learned from this paper, **what skills would be helpful for students to learn in this class to be well prepared for industry**
+
+The timekeeper should give each member of the room *exactly 3 minutes* to share their responses to this question. You can reaffirm what others have said, but its even better if you can add something that
+wasn't already mentioned.
+
+* The timekeeper should go last, and someone else should time them.
+* The scribe should ask someone else to scribe while they give their report.
+
+When each person has finished:
+* Make a <tt>{{page.title}} Step 3 Done!</tt> post in your team channel (e.g. {% include slack.html channel="ltd-4-1-table-01" %}).
+<!-- * Everyone should return to the main room -->
+* The scribe should make a post on the {% include slack.html channel="help-lecture-discussion" %} channel to indicate that the group is finished, e.g. <tt>ltd-4-1-table-01 {{page.title}} Step 3 Done!</tt>
+
+Stay at your table until the signal is given, and then everyone will move back to their original team tables.
+
+Important: **Scribe: Log out of Slack on the table computer before moving back!**
+
+# Step 4: (Second Breakout Group; original teams, 5:35-5:55)
+
+When the instructor signals, everyone gets up and returns to their original team tables, zoom rooms and slack channels. **If you borrowed chairs from another table, please return them to their original tables.** 
+
+Again, choose a  scribe and timekeeper, and post the names of those folks to your team channel, along with the names of who is present/absent.
+(If everyone is present you can just say: "everyone present"; actively participating synchronously on zoom counts as being "present").
+
+Then, each member of the team should report on their portion of the paper, starting with section 4.1, then 4.2, etc.
+
+**Important:** If your team has no-one that covered that section, or that member of your team is absent, please take a moment *as a team* to look over the posts on the channel for that section, and as a team, come up with a summary.
+
+Again, **give each team member at most 3 minutes** (strictly).
+
+The scribe should write a summary in the team's slack channel capturing the discussion.
+
+You may refer to the notes from the {% include slack.html channel="ltd-4-1-table-01" %}, {% include slack.html channel="ltd-4-2-table-12" %} etc. channels on the slack
+channel on Slack, or just report from you own memory, as you see fit.
+
+# Step 5: (Still in Second Breakout Group, 5:55-6:10)
+
+Now, in your same breakout room, make a list (as a group) of (at least) **six learning goals** you have between now and the end of the course, i.e. things that you want to "be able to do" by the end of this course.
+
+They may relate 1-1 to the six themes in the paper, or they may be different; the point is that they are things that are meaningful
+to the members of your group, knowing what you know from your own experiences, as well as what you've learned from this paper.
+
+Put that list on your team's Slack channel (e.g. `f24-07`, etc.), along with a list of the names of the group members that contributed to your discussion.
+
+Example:
+```
+By the end of the course, we will be able to:
+* Use GitHub to manage group work in a team (how)
+* Understand how to get started with a new large code base (how big)
+etc.
+```
+
+Ideally, you'd come up with at least one learning goal that corresponds to each of the six sections of the paper.   It's ok if you have more than six.
+
+When you are done, make a post in the team's slack channel with <tt>{{page.title}} Step 5: Done!</tt>
+
+# Step 6: Finishing up (6:10-6:15)
+
+When that's done, you are almost finished with today's lecture activity; last steps are for the scribe:
+
+Scribe: be sure that your team's channel contains
+(1) a post with the scribe / timekeeper and attendance for today's activity
+(2) summary of what your team members reported back
+(3) learning goals for your team.
+(4) the <tt>{{page.title}} Step 5: Done!</tt> post
+
+Once that's done, grab the URL of the Slack post with the scribe/timekeeper and attendance (i.e. where the Step 4 discussion started) and post that to the {{page.title}} assignment on Canvas.
+
+# Step 7: What then?
+
+Then you are done with today's class... but before you leave:
+* Check the {% include slack.html channel="all-ucsb-cs156-f26" %} channel and your team channel on Slack for any announcements
+* There may be announcement of homework or participation assignments that you may have missed
+* Check Slack for any DMs.
+
+
+<details markdown="1">
+  
+<summary>
+Instructor Reminders
+</summary>
+  
+* Be sure there are zoom breakout rooms that correspond to table numbers
+* Be sure that when you open zoom breakout rooms, that you click "allow participants to choose own room" before opening them.
+* Be sure to create these channels on Slack before class:
+  
+  ```
+  ltd-4-1-table-01
+  ltd-4-1-table-11
+  ltd-4-2-table-02
+  ltd-4-2-table-12
+  ltd-4-3-table-03
+  ltd-4-3-table-13
+  ltd-4-4-table-04
+  ltd-4-4-table-14
+  ltd-4-5-table-05
+  ltd-4-5-table-15
+  ltd-4-6-table-06
+  ltd-4-6-table-16
+  ```
+
+* Check that students have finished the prior homework and remind them if they haven't (so that most of them have)
+</details>
+
