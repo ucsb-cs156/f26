@@ -1033,9 +1033,7 @@ If you need additional guidance, ask on the {% include slack.html channel="help-
 
 # When you are done
 
-When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas.
-
-There is no Gradescope autograder for team01; it will be graded manually.
+When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas and Gradescope.
 
 ## Video Resources
 
