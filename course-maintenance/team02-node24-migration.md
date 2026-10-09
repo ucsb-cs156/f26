@@ -138,6 +138,6 @@ Gradescope run (nothing in the autograder changed).
 - Starter code PR (master list for the wave): https://github.com/ucsb-cs156-f26/STARTER-team02/pull/4
 - Autograder: no issue or PR; no Node dependency (see above)
 - f26 issue: https://github.com/ucsb-cs156/f26/issues/16
-- f26 PR (this file): @@F26PR@@
+- f26 PR (this file): https://github.com/ucsb-cs156/f26/pull/17
 - Shared docs issue: https://github.com/ucsb-cs156/ucsb-cs156.github.io/issues/20
-- Shared docs PR: @@SITEPR@@
+- Shared docs PR: https://github.com/ucsb-cs156/ucsb-cs156.github.io/pull/21
