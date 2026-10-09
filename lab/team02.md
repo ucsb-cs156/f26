@@ -16,7 +16,6 @@ starter: https://github.com/ucsb-cs156-f26/STARTER-team02
 deployment: https://team02.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-f26.github.io/STARTER-team02/chromatic
 canvas: https://ucsb.instructure.com/courses/32781/assignments/455944
-nvm_use: "<tt>nvm use 22.18.0</tt>"
 ---
 
 <style>
@@ -24,6 +23,13 @@ nvm_use: "<tt>nvm use 22.18.0</tt>"
   code {white-space: pre; font-size: 80%}
   pre {white-space: pre; font-size: 80%}
 </style>
+
+{% comment %}
+The Node version comes from node_lts in _config.yml, which is also what
+info/software_macos.md and info/software_wsl.md tell students to install.
+Front matter is not Liquid-processed, so the value is captured here instead.
+{% endcomment %}
+{% capture nvm_use %}<tt>nvm use {{site.node_lts}}</tt>{% endcapture %}
 
 {% include drop_down_style.html %}
 
@@ -426,19 +432,19 @@ all the rest*.
 To test the backend and frontend together:
 
 * At top level of repo, run `mvn spring-boot:run` in one window (you'll need to configure your `.env` file with `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `ADMIN_EMAILS`)
-* In a separate terminal window, cd into `frontend`, type {{page.nvm_use}} and then run `npm start`
+* In a separate terminal window, cd into `frontend`, type {{nvm_use}} and then run `npm start`
 
 Remember that the first time you do that, you must first do `npm ci`, like this:
 
 <pre>
-{{page.nvm_use}}
+{{nvm_use}}
 npm ci
 npm start
 </pre>
 
 
 Here are some other commands, all things you do in the `frontend` directory
-after first doing {{page.nvm_use}} once in that session:
+after first doing {{nvm_use}} once in that session:
 
 * Run tests locally: `npm test`.
 * Run tests from one file locally: `npm test -- RestaurantsEditPage`
