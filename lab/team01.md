@@ -1,7 +1,7 @@
 ---
 description: "Intro to Kanban, PRs, Code Review, Spring Boot CRUD"
-assigned: 2026-10-21
-due: 2026-10-28 23:59
+assigned: 2026-10-14
+due: 2026-10-21 23:59
 layout: default
 title: team01
 nav_order: 100
@@ -19,7 +19,6 @@ office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
 software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "dgkirschbaum@ucsb.edu,djensen@ucsb.edu,komura@ucsb.edu,phtcon@ucsb.edu,victor_c_nardi@ucsb.edu,wsong@ucsb.edu"
 starter_storybook: "https://ucsb-cs156-f26.github.io/STARTER-team01/chromatic"
-canvas_link: "[team01 on Canvas, F26](https://ucsb.instructure.com/courses/32781/assignments/455943)"
 example_full_running_app: "[team01](https://team01.dokku-00.cs.ucsb.edu)"
 num_issues: 42
 num_top_level_issues: 6
@@ -37,7 +36,7 @@ project_title: team01
 
 {% include drop_down_style.html %}
 
-For due date: see the {{page.title}} entry on Canvas: {{page.canvas_link}}
+For due date: see the {{page.title}} entry on Gradescope.
 
 
 
@@ -224,7 +223,7 @@ These appear only once on the board for the entire team; there are a total of {{
 | Setting up a Repo with prod deployment on Dokku |
 | Setting up a Repo with qa deployment on Dokku |
 | Adjusting the links in the README.md for the dokku deployments |
-| Submitting the final project on Canvas (this is the *last* thing the team will do) |
+| Submitting the final project on Gradescope (this is the *last* thing the team will do) |
 
 ### Coding Tasks
 
@@ -291,7 +290,7 @@ From a process standpoint, here's how this project works:
 
    While it is optional, many teams also find it helpful to schedule a few standups on slack/zoom or in person outside of class on days the class doesn't meet (one or more of: Fri, Sat, Sun, Mon).
 
-   When all issues are finished, complete the "Submit on Canvas" issue. It may contain a checklist of things to review as you submit.
+   When all issues are finished, complete the "Submit on Gradescope" issue. It may contain a checklist of things to review as you submit.
 
 
 # Getting started
@@ -1033,7 +1032,7 @@ If you need additional guidance, ask on the {% include slack.html channel="help-
 
 # When you are done
 
-When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas and Gradescope.
+When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Gradescope.
 
 ## Video Resources
 
@@ -1057,20 +1056,20 @@ Total running time: 3 hours, 38 minutes.
 Click the triangle for a list of tasks the instructor should do prior releasing this lab.
 </summary>
 
-* Create team01 repos using the github actions in <https://github.com/ucsb-cs156-f26/membership-scripts>
+* Create team01 repos using Frontiers, with these options:
   * public
   * team access admin
   * signed commits
 * Set up starter code in the course organization, and update links
 * Change the START_DATE and END_DATE in the STARTER-team01 repo in workflow 82!
-* Create a Canvas assignment for team01; update the due dates and publish it
+* Make sure the autograder for team01 is setup on Gradescope.
 * Create projects for all of the groups. The best way is to create a Template that
   has precisely the setup you want (i.e. the columns, etc.) and then manually create the
   team kanban boards.  There is not yet an API that will create the project with a precise
   configuration of columns, etc. so this is still the easiest way.  Make sure the projects
   are named with the same exact names as the repos; this makes a later step easier.
 * Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
-* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action that will 
+* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action (`45-link-team-projects.yml`) that will 
   * Link the project to the repo
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
@@ -1087,7 +1086,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 
-The next step was probably already done in team01, but just in case: 
+The next step was probably already done for an earlier assignment, but just in case: 
 
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/{{page.github_org}}/settings/actions>
 
@@ -1100,6 +1099,11 @@ The next step was probably already done in team01, but just in case:
 
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
+* Check the links at the top of this assignment file.  You will likely need to update the hardcoded projects numbers for the Kanban boards.  You will also need to run workflow 02 for each of the repos to setup the Github pages sites, and then set up the github pages sites.
+
+* Run workflow 99 on each repo to set up the backlog of issues.
+* Populate each kanban board.
+  
 ### If setting up starter code and Kanban boards for students
 
 **Clone all repos**: change directory into a directory where you can clone all of the repos like this:
@@ -1150,11 +1154,6 @@ do
   cd ..
 done
 ```
-
-
-## For f26
-
-* Consider updating the issues in 99-team01.yml to guide the students through branch hygeine.  Otherwise, they are likely to make one big branch and one big PR for the entire project.
 
 </details>
 

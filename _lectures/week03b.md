@@ -1,13 +1,32 @@
 ---
 title: "Week 03b - 10/14 Wed"
 lecture_date: 2026-10-14
-description: "Work on jpa02,jpa03,jpa04"
+description: "Start team01, Participation Activity p10 "
 ready: true
 layout: default
 parent: lectures
-participation_activity: "[p07](https://ucsb.instructure.com/courses/32781/assignments/455940)"
-jpa04: "[jpa04](https://ucsb.instructure.com/courses/32781/assignments/455938)"
+participation_activity: https://ucsb-cs156.github.io/f26/hwk/p10/
 ---
+
+# {{page.title}} - {{page.description}}
+
+It will be important to be present in class today
+because we are starting the team project, which includes
+dividing up the tasks.
+
+Today, we start team01.
+
+Please bring up the instructions here:
+
+* <https://ucsb-cs156.github.io/f26/lab/team01.html>
+
+Also, complete this participation activity:
+
+* <{{page.participation_activity}}>
+
+
+
+
 
 
 # {{page.title}} - {{page.description}}
