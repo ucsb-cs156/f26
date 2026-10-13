@@ -1069,7 +1069,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   configuration of columns, etc. so this is still the easiest way.  Make sure the projects
   are named with the same exact names as the repos; this makes a later step easier.
 * Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
-* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action that will 
+* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action (`45-link-team-projects.yml`) that will 
   * Link the project to the repo
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
