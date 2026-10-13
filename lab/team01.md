@@ -1099,6 +1099,8 @@ The next step was probably already done for an earlier assignment, but just in c
 
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
+* Check the links at the top of this assignment file.  You will likely need to update the hardcoded projects numbers for the Kanban boards.  You will also need to run workflow 02 for each of the repos to setup the Github pages sites, and then set up the github pages sites.
+  
 ### If setting up starter code and Kanban boards for students
 
 **Clone all repos**: change directory into a directory where you can clone all of the repos like this:
