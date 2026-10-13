@@ -1057,13 +1057,13 @@ Total running time: 3 hours, 38 minutes.
 Click the triangle for a list of tasks the instructor should do prior releasing this lab.
 </summary>
 
-* Create team01 repos using the github actions in <https://github.com/ucsb-cs156-f26/membership-scripts>
+* Create team01 repos using Frontiers, with these options:
   * public
   * team access admin
   * signed commits
 * Set up starter code in the course organization, and update links
 * Change the START_DATE and END_DATE in the STARTER-team01 repo in workflow 82!
-* Create a Canvas assignment for team01; update the due dates and publish it
+* Make sure the autograder for team01 is setup on Gradescope.
 * Create projects for all of the groups. The best way is to create a Template that
   has precisely the setup you want (i.e. the columns, etc.) and then manually create the
   team kanban boards.  There is not yet an API that will create the project with a precise
@@ -1087,7 +1087,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 
-The next step was probably already done in team01, but just in case: 
+The next step was probably already done for an earlier assignment, but just in case: 
 
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/{{page.github_org}}/settings/actions>
 
@@ -1150,11 +1150,6 @@ do
   cd ..
 done
 ```
-
-
-## For f26
-
-* Consider updating the issues in 99-team01.yml to guide the students through branch hygeine.  Otherwise, they are likely to make one big branch and one big PR for the entire project.
 
 </details>
 
