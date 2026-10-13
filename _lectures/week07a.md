@@ -13,3 +13,7 @@ parent: lectures
 For details of the legacy project launch, see: 
 
 * <https://ucsb-cs156.github.io/f26/lab/project.html>
+
+## What to do during legacy projecct work sessions
+
+{% include legacy_project_work_sessions.md %}
