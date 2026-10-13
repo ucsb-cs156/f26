@@ -1,7 +1,7 @@
 ---
 description: "Intro to Kanban, PRs, Code Review, Spring Boot CRUD"
-assigned: 2026-10-21
-due: 2026-10-28 23:59
+assigned: 2026-10-14
+due: 2026-10-21 23:59
 layout: default
 title: team01
 nav_order: 100
@@ -19,7 +19,6 @@ office_hours_page: https://ucsb-cs156.github.io/f26/office-hours
 software_install_url: https://ucsb-cs156.github.io/f26/info/software.html
 staff_emails: "dgkirschbaum@ucsb.edu,djensen@ucsb.edu,komura@ucsb.edu,phtcon@ucsb.edu,victor_c_nardi@ucsb.edu,wsong@ucsb.edu"
 starter_storybook: "https://ucsb-cs156-f26.github.io/STARTER-team01/chromatic"
-canvas_link: "[team01 on Canvas, F26](https://ucsb.instructure.com/courses/32781/assignments/455943)"
 example_full_running_app: "[team01](https://team01.dokku-00.cs.ucsb.edu)"
 num_issues: 42
 num_top_level_issues: 6
@@ -37,7 +36,7 @@ project_title: team01
 
 {% include drop_down_style.html %}
 
-For due date: see the {{page.title}} entry on Canvas: {{page.canvas_link}}
+For due date: see the {{page.title}} entry on Gradescope.
 
 
 
@@ -224,7 +223,7 @@ These appear only once on the board for the entire team; there are a total of {{
 | Setting up a Repo with prod deployment on Dokku |
 | Setting up a Repo with qa deployment on Dokku |
 | Adjusting the links in the README.md for the dokku deployments |
-| Submitting the final project on Canvas (this is the *last* thing the team will do) |
+| Submitting the final project on Gradescope (this is the *last* thing the team will do) |
 
 ### Coding Tasks
 
@@ -291,7 +290,7 @@ From a process standpoint, here's how this project works:
 
    While it is optional, many teams also find it helpful to schedule a few standups on slack/zoom or in person outside of class on days the class doesn't meet (one or more of: Fri, Sat, Sun, Mon).
 
-   When all issues are finished, complete the "Submit on Canvas" issue. It may contain a checklist of things to review as you submit.
+   When all issues are finished, complete the "Submit on Gradescope" issue. It may contain a checklist of things to review as you submit.
 
 
 # Getting started
@@ -1033,7 +1032,7 @@ If you need additional guidance, ask on the {% include slack.html channel="help-
 
 # When you are done
 
-When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas and Gradescope.
+When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Gradescope.
 
 ## Video Resources
 
