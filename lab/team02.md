@@ -161,7 +161,7 @@ Here are some things to explore:
   while the Edit button takes you to a separate Edit page.  Note that
   the URL changes.
 
-What you'll be doing (as a team) is adding additional menu items alongside `Restaurants` and `UCSBDates`, providing similar CRUD operations for four, five or six of these tables (the sames ones from {{page.title}}):
+What you'll be doing (as a team) is adding additional menu items alongside `Restaurants` and `UCSBDates`, providing similar CRUD operations for four, five or six of these tables (the same ones from {{page.prev_assignment}}):
 
 * `UCSBDiningCommonsMenuItem`
 * `UCSBOrganization`
@@ -170,7 +170,7 @@ What you'll be doing (as a team) is adding additional menu items alongside `Rest
 * `HelpRequest`
 * `Articles`
 
-You'll reuse the backend files you built for {{page.title}}; copying them over
+You'll reuse the backend files you built for {{page.prev_assignment}}; copying them over
 is one of the first steps in the lab. Then you'll build a frontend in Javascript using the React framework.
 
 ## Understanding the Starter Code
@@ -233,7 +233,7 @@ This has several benefits:
 ## Assigning the database tables to your team
 
 The tables you'll need to divide up among the team members are the same ones
-as in {{page.title}}.  You can assign team members to the same tables, or you can
+as in {{page.prev_assignment}}.  You can assign team members to the same tables, or you can
 switch it up; that's up to you.
 
 The six tables are:
