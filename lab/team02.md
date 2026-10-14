@@ -110,7 +110,7 @@ If you find that one of the Github Actions related to Chromatic is not finishing
 
 ## What are we doing in {{page.title}}?
 
-In this team project, you'll continue the work you started in {{page.title}}.
+In this team project, you'll continue the work you started in {{page.prev_assignment}}.
 
 The starter code has examples of:
 
