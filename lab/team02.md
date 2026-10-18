@@ -94,7 +94,9 @@ If this presents a difficulty, please contact the instructor ASAP so that some a
 
 We are trying to incoporate Chromatic visual difference testing into the course, but it is a work in progress.
 
-The dropdown box below will contain information about issues/problems we run into using Chromatic, and it **may be updated periodically** as we run into additional issues.  Please check it periodically if you run into Chromatic issues while working on this lab. For instructions on how to setup Chromatic for team02, see here: <https://ucsb-cs156.github.io/topics/chromatic/>
+The dropdown box below will contain information about issues/problems we run into using Chromatic, and it **may be updated periodically** as we run into additional issues.  Please check it periodically if you run into Chromatic issues while working on this lab. 
+
+For instructions on how to setup Chromatic for team02, see here: <https://ucsb-cs156.github.io/topics/chromatic/>
 
 <details markdown="1">
 <summary markdown="1">
