@@ -3,7 +3,7 @@ layout: default
 assigned: 2026-10-30
 description: 'Integration and E2E Testing'
 due: 2026-11-06
-title: team03
+title: jpa04
 repo_to_work_in: team02
 layout: default
 qxx: f26
@@ -14,9 +14,9 @@ layout: default
 parent: lab
 github_org: ucsb-cs156-f26
 github_org_url: https://github.com/ucsb-cs156-f26/
-video_testing_pyramid: "[team03 01 - Testing Pyramid (10 min)](https://youtu.be/zvLlO8EUh0c)"
-video_integration_tests: "[team03 02 - Integration Tests (24 min)](https://youtu.be/ohPxfE0hbZI)"
-video_e2e_tests: "[team03 03 - End-to-end Tests (32 min)](https://youtu.be/SGhXLNJrA8I)"
+video_testing_pyramid: "[jpa04 01 - Testing Pyramid (10 min)](https://youtu.be/zvLlO8EUh0c)"
+video_integration_tests: "[jpa04 02 - Integration Tests (24 min)](https://youtu.be/ohPxfE0hbZI)"
+video_e2e_tests: "[jpa04 03 - End-to-end Tests (32 min)](https://youtu.be/SGhXLNJrA8I)"
 nav_order: 600
 ---
 
