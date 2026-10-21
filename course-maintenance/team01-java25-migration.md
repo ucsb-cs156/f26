@@ -103,11 +103,9 @@ What was new compared with JPA03:
      `target`); `running-example-copy/` (an F25 student repo on Java 21,
      unreferenced) was left alone pending a decision
    - `autograder/tools/roster.csv` and the `staff_emails` list at the top of
-     `autograder/tools/verify_admin_emails.py` are the F26 versions, copied
-     from the jpa03 autograder with the instructor's approval. Both are data
-     files that must be refreshed by hand each quarter (the roster is student
-     data, so do not copy it between repos without asking). The lab page's
-     `staff_emails` front matter was aligned to the same list.
+     `autograder/tools/verify_admin_emails.py` were the F26 versions, copied
+     from the jpa03 autograder with the instructor's approval. **Superseded in
+     October 2026:** both files are gone; see "Frontiers lookup" below.
 3. **Assignment instructions:** `f26/lab/team01.md`
    - Java-version reminder block (same wording as jpa03) in "Getting started"
    - Fixed undefined `{{page.num}}`, `{{page.teams_link}}`,
@@ -188,3 +186,59 @@ workflows 30–36), so also audit `frontend/package.json` engines, `.nvmrc`,
 `node_lts` / `npm_lts` in `f26/_config.yml`, the frontend workflows, and the
 Dockerfile's Node install. Check `.java-version` stays `25` there too, since
 they use the same reusable workflows.
+
+## October 2026: Frontiers lookup replaces roster.csv and the staff list
+
+[team01-autograder#14](https://github.com/ucsb-cs156/team01-autograder/pull/14)
+(issue #13) did for team01 what
+[jpa02-autograder#9](https://github.com/ucsb-cs156/jpa02-autograder/pull/9)
+and [jpa03-autograder#11](https://github.com/ucsb-cs156/jpa03-autograder/pull/11)
+did for those assignments. The four surfaces were re-checked for this wave:
+
+1. **Autograder:** `roster.csv`, `repo_matcher.py`, `requirements.txt` and
+   the hard-coded `staff_emails` list are gone. Each submission asks Frontiers
+   (`GET /api/courses/studentInfo` and `GET /api/courses/emails?type=STAFF`,
+   key in `X-API-KEY`) for the submitter's team and teammates and for the
+   staff; the repo name is `team01-<team>`. The release workflow writes the
+   key and course id into the zip from the `ucsb-cs156` organization secret
+   `FRONTIERS_API_KEY` and variable `FRONTIERS_COURSE_ID` (shared with
+   jpa02/jpa03). A submitter on the Frontiers **Staff** tab but not on the
+   roster is graded as the staff team: `STAFF_TEAM="f26-00"` in
+   `autograder/run_autograder` (next to `GITHUB_ORG`), so the repo checked is
+   `team01-f26-00` and `ADMIN_EMAILS` must contain the staff emails only.
+   The autograder README, "Quarterly Required Updates", has the procedure
+   (create the key, choose its expiry, org secret/variables, rotation).
+   Per-quarter items are now: the key and course id, `GITHUB_ORG`, and
+   `STAFF_TEAM`.
+2. **Starter:** nothing to change. The `app.public_key` in
+   `application.properties` was verified to match the autograder's
+   `private_key.pem` (live starter and the autograder's `starter_code/`
+   mirror). The generated issues (`99-team01.yml`) tell students to take the
+   `ADMIN_EMAILS` list from a pinned post on their team's Slack channel, so
+   **that post must list the Frontiers Staff tab emails plus the team**; the
+   Staff tab is what the autograder checks against. Note that
+   [STARTER-team01#4](https://github.com/ucsb-cs156-f26/STARTER-team01/pull/4)
+   (the Java 25 wave above) was still open at the time of this check, so the
+   live starter still lacks `.sdkmanrc`, the Maven wrapper and the CI/Dockerfile
+   fixes that the autograder's mirror already has.
+3. **Instructions (this repo):** `lab/team01.md` has a `staff_emails` front
+   matter value that nothing on the page renders (the jpa03/jpa05 pages used
+   to interpolate it into an `ADMIN_EMAILS=` line; team01 relies on the Slack
+   pin instead). Keep it equal to the Frontiers Staff tab anyway, since the
+   staff autograders page treats it as the per-quarter checklist item. The
+   page now says to submit on Gradescope (8fdfc3d), which resolves the
+   "no Gradescope autograder for team01" contradiction noted above.
+4. **Shared docs:**
+   [ucsb-cs156.github.io#19](https://github.com/ucsb-cs156/ucsb-cs156.github.io/pull/19)
+   rewrites the "Files that carry staff and student information" section of
+   the staff autograders page for the converted autograders and records this
+   wave. The same stale roster note also sits in `jpa02-java25-migration.md`
+   and `jpa03-java25-migration.md` in this directory; they were left as-is
+   (historical), and this section is the current description for all three.
+
+Validation for this wave (autograder repo): 6 unit tests for
+`verify_admin_emails.py`; `bash -n` on every changed script; a smoke test of
+the scripts with fake Frontiers data (staff, student, no team, lookup error);
+the release workflow YAML parses. Not run: an end-to-end Gradescope
+submission; the PR description has the test plan, which needs the org
+variable `FRONTIERS_COURSE_ID` set to the F26 course id first.
