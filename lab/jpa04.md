@@ -271,6 +271,9 @@ When all team members are finished, and all PRs are merged, submit a link to you
 
 ## Videos
 
+NOTE: These videos refer to "team03", but that's just the old name of this assignment.  This quarter we are calling it "jpa04" and grading it individually, but the video
+content is still valid.
+
 * {{page.video_testing_pyramid}}
 * {{page.video_integration_tests}}
 * {{page.video_e2e_tests}}
