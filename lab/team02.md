@@ -558,18 +558,19 @@ Before releasing this lab to students, be sure the following tasks are done:
 
 
 * Finalize starter code repo <{{page.starter}}>
-* Create {{page.title}} repos using the github actions in <https://github.com/ucsb-cs156-f26/membership-scripts>
+* Create {{page.title}} repos using Frontiers, with these options:
   * public
   * team access admin
   * signed commits
-* Create a Canvas assignment for {{page.title}}; update the due dates and publish it
+* Change the START_DATE and END_DATE in the STARTER-{{page.title}} repo in workflow 82!
+* Make sure the autograder for {{page.title}} is setup on Gradescope.
 * Create projects for all of the groups. The best way is to create a Template that
   has precisely the setup you want (i.e. the columns, etc.) and then manually create the
   team kanban boards.  There is not yet an API that will create the project with a precise
   configuration of columns, etc. so this is still the easiest way.  Make sure the projects
   are named with the same exact names as the repos; this makes a later step easier.
-* Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
-* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action that will 
+* Then, update `_config.yml` for the website with the project numbers for {{page.title}}.  This causes the table of links in this lab to render properly.
+* Then, in <https://github.com/ucsb-cs156-f26/membership-scripts>, there is a Github Action (`45-link-team-projects.yml`) that will 
   * Link the project to the repo
   * Set the permission for the project properly
 * Double check that the kanban boards and repos are set up and have the correct permissions.
@@ -580,15 +581,15 @@ Before releasing this lab to students, be sure the following tasks are done:
   i.e, on dokku-00 for example, do:
 
   <pre>
-  dokku git:sync <{{page.title}}> https://github.com/{{page.github_org}}/STARTER-<{{page.title}}> main
-  dokku ps:rebuild <{{page.title}}>
+  dokku git:sync {{page.title}} https://github.com/{{page.github_org}}/STARTER-{{page.title}} main
+  dokku ps:rebuild {{page.title}}
   </pre>
 
 * Set up storybook (and the rest of the gh pages site): <{{page.storybook}}>
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 
-The next step was probably already done earlier, but just in case: 
+The next step was probably already done for an earlier assignment, but just in case: 
 
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/{{page.github_org}}/settings/actions>
 
@@ -602,9 +603,10 @@ The next step was probably already done earlier, but just in case:
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
 
+* Check the links at the top of this assignment file.  You will likely need to update the hardcoded projects numbers for the Kanban boards.  You will also need to run workflow 02 for each of the repos to setup the Github pages sites, and then set up the github pages sites.
 * Be sure that {% include slack.html channel="help-team02" %} is set up.
-* Run the script to set up the Issues (action 99, see links below)
-* Copy issues to the Kanban boards
+* Run workflow 99 on each repo to set up the backlog of issues (see links below).
+* Populate each kanban board.
 
 ### Links for staff setup
 
