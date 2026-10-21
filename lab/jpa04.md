@@ -7,7 +7,7 @@ title: jpa04
 repo_to_work_in: team02
 layout: default
 qxx: f26
-canvas: https://ucsb.instructure.com/courses/TBD
+canvas: https://ucsb.instructure.com/courses/33921/assignments/509962
 starter: https://github.com/ucsb-cs156-f26/STARTER-team02
 sample_team: f26-04
 layout: default
@@ -267,7 +267,7 @@ As the deadline approaches, you may also need to:
 * schedule time outside of class to check in with each other
 * check in asynchronously at least once a day.
 
-When all team members are finished, and all PRs are merged, submit a link to your repo at the Canvas assignment here: <{{page.canvas}}> 
+When all team members are finished, and all PRs are merged, submit two links to your pull requests which have been merged to the Canvas assignment here: <{{page.canvas}}> 
 
 ## Videos
 
