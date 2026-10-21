@@ -562,7 +562,7 @@ Before releasing this lab to students, be sure the following tasks are done:
   * public
   * team access admin
   * signed commits
-* Change the START_DATE and END_DATE in the STARTER-{{page.title}} repo in workflow 82!
+* Set the organization-level variables `TEAM02_START_DATE` and `TEAM02_END_DATE` (at <https://github.com/organizations/{{page.github_org}}/settings/variables/actions>).  Workflow 82 (the Kanban/Slack update) is now a central workflow that reads these variables, rather than having the dates edited in the workflow file itself.
 * Make sure the autograder for {{page.title}} is setup on Gradescope.
 * Create projects for all of the groups. The best way is to create a Template that
   has precisely the setup you want (i.e. the columns, etc.) and then manually create the
