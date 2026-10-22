@@ -1,7 +1,7 @@
 ---
 title: "Week 05b - 10/28 Wed"
 lecture_date: 2026-10-28
-description: "Continue work on team01/team02/team03"
+description: "Continue work on team01/team02/jpa04"
 ready: true
 layout: default
 parent: lectures
@@ -9,7 +9,7 @@ parent: lectures
 
 # {{page.title}} - {{page.description}}
 
-This class period is allocated to you to work on team01/team02/team03.
+This class period is allocated to you to work on team01/team02/jpa04.
 
 * Start with a standup meeting
 * Then do a PR queue review, first for the team01 repo, then the team02 repo
@@ -21,5 +21,5 @@ If any team members are not in touch with the team:
 
 It is important that team issues get resolved early, rather than later in the course.
 
-* The team grades for team01/team02/team03 are a relatively small part of your course grade, compared to the legacy project.
+* The team grades for team01/team02/jpa04 are a relatively small part of your course grade, compared to the legacy project.
 * So, if things are not going well now, let's fix it before it becomes a bigger problem.   
