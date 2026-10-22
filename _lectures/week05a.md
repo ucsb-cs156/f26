@@ -1,7 +1,7 @@
 ---
 title: "Week 05a - 10/27 Tue"
 lecture_date: 2026-10-27
-description: "Work on team01/team02/team03"
+description: "Work on team01/team02/jpa04"
 ready: true
 layout: default
 parent: lectures
