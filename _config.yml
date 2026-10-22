@@ -92,13 +92,13 @@ teams:
   - team: f26-01
     dokku: "01"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "22"
     legacy_project: "courses"
     legacy_kanban: "tbd"
   - team: f26-02
     dokku: "02"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "27"
     legacy_project: "courses"
     legacy_kanban: "tbd"
   - team: f26-03
