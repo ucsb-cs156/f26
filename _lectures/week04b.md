@@ -1,12 +1,11 @@
 ---
 title: "Week 04b - 10/21 Wed"
 lecture_date: 2026-10-21
-description: "Work on team01/team02/team03"
+description: "Work on team01/team02"
 ready: true
 layout: default
 parent: lectures
-canvas_link: https://ucsb.instructure.com/courses/27687/assignments/381962
-participation_activity: p10
+participation_activity: p12
 ---
 
 Today will be a day to work on:
