@@ -158,25 +158,25 @@ teams:
   - team: f26-12
     dokku: "12"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "37"
     legacy_project: "frontiers"
     legacy_kanban: "tbd"
   - team: f26-13
     dokku: "13"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "38"
     legacy_project: "happycows"
     legacy_kanban: "tbd"
   - team: f26-14
     dokku: "14"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "39"
     legacy_project: "happycows"
     legacy_kanban: "tbd"
   - team: f26-15
     dokku: "15"
     team01_project: "tbd"
-    team02_project: "tbd"
+    team02_project: "40"
     legacy_project: "happycows"
     legacy_kanban: "tbd"
 
