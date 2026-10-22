@@ -185,7 +185,7 @@ Where both n and k are a function of the number of assignments in that category:
 * <= 2 assignments, no dropped assignments
 * 2 to 5 assignments: 1 dropped grades
 * 6 to 8 assignments: 2 dropped grades
-* 9 or more: 3 dropped grades
+* 9 or more: 3 dropped grades (for participation assignments: <s>3</s> 4 dropped grades; see slack update [here](https://ucsb-cs156-f26.slack.com/archives/C0B795WDKDX/p1792689873849329) for an explanation of this change.)
 
 This applies only to participation and homework assignments.
 
