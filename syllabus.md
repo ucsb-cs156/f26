@@ -332,3 +332,23 @@ That's the main point of standup—to identify  blockers to team progress (and 
 If that's not going to happen (even if for a completely understandable reason), informing your team early and often gives them a chance to respond.
 
 And it gives the course staff (and in the professional world, your management), an opportunity to adjust deadlines and/or work assignments to ensure that the big picture goals are still met.   This is what responsible professionals do.
+
+## Use of AI (both code completion and Agentic AI) in CMPSC 156
+
+I got a message from a student that was somewhat concerned because they had accidentally clicked the "Assign to Copilot" button in Github, and ended up with code contributed by Copilot.  They were approaching me apologizing, as if they had done something wrong, and assuring me that they went back and did everything by hand.
+
+The thing is: in this course, there's no problem with using Agentic AI.  It's totally fine, as long as you understand what the generated code is doing, and how it works.
+
+That last part is crucial.   Asking the AI agent to explain the code to you, one method or line at a time, and engaging with the AI in question and answer until you understand is a legitimate way to learn about Spring Boot, React, and all of the dozens of other frameworks we are working with.
+
+Asking AI to help you write tests to cover the uncovered lines, or kill the remaining Stryker mutations is totally fine—as long as you read the code it generates, and make a good faith effort to understand what is going on.  
+
+Full disclosure: I, and the course staff, are using AI extensively, and it would be hypocrisy of the highest order if we were to prohibit you from doing so.    
+
+But, again, the key is the learning.  Even though we are trying to pivot in this class to "writing code to solve a user issue", this is still, after all, an undergraduate university course, and learning is the main goal.
+
+So, as long as you are learning, you are doing fine.
+
+(For the record, I think that CS8/9/16/24/32 should still emphasize writing code by hand.  I also think that as students progress through the curriculum,  introducing AI assisted coding, and finally fully agentic AI is an entirely reasonable way to structure an undergraduate program in CS or AI.  I will also stipulate that AI assisted coding and Agentic AI is changing too quickly for us to fully understand the impacts; by the time we can conduct any educational research on any of the topics, the landscape has already changed in ways that make the previous research results out-of-date.   So we are all flying by the seat of our pants, and relying more on intuition than evidence.   That may be the "new normal" in CS education for a while, certainly the entire time remaining in your undergraduate degree program.)
+
+(end, syllabus additions,10/26/2026)
