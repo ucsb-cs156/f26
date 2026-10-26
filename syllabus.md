@@ -314,4 +314,21 @@ Furthermore, for general academic support, students are encouraged to visit Camp
 This syllabus is as accurate as possible, but is subject to change at
 the instructor's discretion, within the bounds of UC policy.
 
-(end of syllabus)
+(end of original syllabus)
+
+# Syllabus additions
+
+(Added 10/26/2026)
+
+## Communicating to your team about issues affecting performance (e.g. illnesses)
+
+If you are sick, or otherwise going through something beyond your control, it's understandable that your contributions to your team may suffer.
+
+This isn't unexpected, and it isn't necessarily a problem.
+
+But not communicating that early and often to your team absolutely is a problem. If you are ill to the point that you cannot do your work, that is a blocker. and should be identified as such during your standup updates.
+
+That's the main point of standup—to identify  blockers to team progress (and all progress on a team is team progress.). If you just say "no blockers", then your team can and should reasonable expect you to complete your work on time.
+If that's not going to happen (even if for a completely understandable reason), informing your team early and often gives them a chance to respond.
+
+And it gives the course staff (and in the professional world, your management), an opportunity to adjust deadlines and/or work assignments to ensure that the big picture goals are still met.   This is what responsible professionals do.
