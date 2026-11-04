@@ -42,17 +42,11 @@ The detailed instructions will depend on which project you are assigned to.  Her
 The goal of this lab is to build on what you learned in {{page.prev_deploy_backend_lab}} about setting up
 dokku deployments.  This time, you'll be setting up a deployment of a full stack app (backend and frontend) that represents one of the legacy code projects in CMPSC 156.
 
-By the end of this lab, you'll have deployed your own copy of the `main` branch of one of these four repos on both localhost and Dokku.   The repo you will deploy
-depends on which team you are a part of.
+By the end of this lab, you'll have deployed your own copy of the `main` branch of your team's legacy code repo.
 
-| Teams | Repo |
-|-|-|
-| `01,02,03,04` | <https://github.com/ucsb-cs156/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-dining> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-frontiers> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-happycows> |
+See the table here for a list of your repos:
 
-Note that you will have read only access to these repos, but at a later stage, you will have a copy of these repos that is set up specifically for your team, where you will the ability to push to every branch *except* the `main` branch.
+
 
 Your dev deployment should be named as follows:
 
