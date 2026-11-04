@@ -1,7 +1,7 @@
 ---
 title: project
 desc: "Legacy Code Project instructions"
-assigned: 2026-11-06 17:00
+assigned: 2026-11-04 17:00
 due: 2026-11-19 19:15
 github_org: ucsb-cs156-f26
 layout: lab
@@ -9,7 +9,7 @@ layout: default
 parent: lab
 num: project
 nav_order: 700
-jpa_create_dev: jpa04
+jpa_create_dev: jpa05
 qxx: f26
 githubOrgUrl: https://github.com/ucsb-cs156-f26
 githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f26/projects
