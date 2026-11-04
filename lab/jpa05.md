@@ -80,19 +80,12 @@ As with jpa03, the configuration and deployment of the app can be broken down in
 
 ## Step 1: Clone the starter repo on your machine
 
-The starter repo you should clone is one of these:
+The starter repo you should clone is your team repo from the list above.
 
-| Teams | Repo |
-|-|-|
-| `01,02,03,04` | <https://github.com/ucsb-cs156/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-dining> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-frontiers> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-happycows> |
-
-NOTE: You should use the `https` link rather than the `ssh` link, since you don't have push access to these repos.
-
-Clone that repo somewhere and cd into it.  Note that for this assignment, you won't actually be making any changes to this repo; you'll just
+Clone that repo somewhere and cd into it.  Note that for *this* assignment, you won't actually be making any changes to this repo; you'll just
 be running the code that it contains, both on localhost, and on dokku.
+
+But later, you'll be making branches and PRs to these repos as part of the legacy code project.
 
 ## Step 2: Configure your app for localhost as documented in the README.md
 
@@ -145,7 +138,7 @@ The grading rubric is as follows:
 * (20 pts) Submitted a dokku link in the correct format
 * (20 pts) There is a running app 
 * (10 pts) Configured for OAuth correctly so that a user can login with Google Credentials
-* (10 pts) ADMIN_EMAILS is configured correctly.
+* (10 pts) ADMIN_EMAILS is configured correctly (all staff, and all members of your team, just like team01 and team02.)
 * (40 pts) Application specific configuration is correct (includes database, access keys, etc.)
 
   
