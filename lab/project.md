@@ -444,7 +444,7 @@ This command checks the disk space on the root disks of all of the dokkus (when 
 
 ```
 for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16; do echo "====== dokku-$i =======" ; ssh dokku-$i.cs.ucsb.edu "(df | head -2)"; done
-``
+```
 
 Example output.  This shows a show-stopper problem on dokku-02, and cause for concern on dokkus 1, 3 and 4.
 
