@@ -1,8 +1,8 @@
 ---
 description: "Configuration of proj-dining dev deployment"
-title: jpa04-proj-dining
+title: jpa05-proj-dining
 nav_order: 100
-parent: lab/jpa04
+parent: lab/jpa05
 layout: default
 ---
 
