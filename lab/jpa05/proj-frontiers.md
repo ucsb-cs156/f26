@@ -1,8 +1,8 @@
 ---
 description: "Configuration of proj-frontiers dev deployment"
-title: jpa04-proj-frontiers
+title: jpa05-proj-frontiers
 nav_order: 100
-parent: lab/jpa04
+parent: lab/jpa05
 layout: default
 ---
 
