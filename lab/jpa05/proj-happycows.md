@@ -1,8 +1,8 @@
 ---
 description: "Configuration of proj-happycows dev deployment"
-title: jpa04-proj-happycows
+title: jpa05-proj-happycows
 nav_order: 100
-parent: lab/jpa04
+parent: lab/jpa05
 layout: default
 ---
 
