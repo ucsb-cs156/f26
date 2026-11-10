@@ -89,12 +89,14 @@ dokku ps:rebuild happycows-dev-yourGithubUsername
 # Enable https
 dokku letsencrypt:set happycows-dev-yourGithubUsername email yourEmail@ucsb.edu # modify email
 dokku letsencrypt:enable happycows-dev-yourGithubUsername
-
-# rebuild again
-dokku ps:rebuild happycows-dev-yourGithubUsername
 ```
 
 {% include keycloak_directions.md %}
+
+Then, rebuild again:
+```bash
+dokku ps:rebuild happycows-dev-yourGithubUsername
+```
 
 Your app should now be running at <tt>https://happycows-dev-<i>yourGithubUsername</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
 
