@@ -73,8 +73,6 @@ dokku git:set happycows-dev-yourGithubUsername keep-git-dir true
 
 # Set config vars
 dokku config:set --no-restart happycows-dev-yourGithubUsername PRODUCTION=true
-dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_ID=get-value-from-google-developer-console # modify this
-dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
 
 # Set SOURCE_REPO to the project repo (modify the url)
 
@@ -95,6 +93,8 @@ dokku letsencrypt:enable happycows-dev-yourGithubUsername
 # rebuild again
 dokku ps:rebuild happycows-dev-yourGithubUsername
 ```
+
+{% include keycloak_directions.md %}
 
 Your app should now be running at <tt>https://happycows-dev-<i>yourGithubUsername</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
 
