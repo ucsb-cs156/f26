@@ -73,8 +73,6 @@ dokku git:set happycows-dev-yourGithubUsername keep-git-dir true
 
 # Set config vars
 dokku config:set --no-restart happycows-dev-yourGithubUsername PRODUCTION=true
-dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_ID=get-value-from-google-developer-console # modify this
-dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
 
 # Set SOURCE_REPO to the project repo (modify the url)
 
@@ -91,8 +89,12 @@ dokku ps:rebuild happycows-dev-yourGithubUsername
 # Enable https
 dokku letsencrypt:set happycows-dev-yourGithubUsername email yourEmail@ucsb.edu # modify email
 dokku letsencrypt:enable happycows-dev-yourGithubUsername
+```
 
-# rebuild again
+{% include keycloak_directions.md %}
+
+Then, rebuild again:
+```bash
 dokku ps:rebuild happycows-dev-yourGithubUsername
 ```
 
